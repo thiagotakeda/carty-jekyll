@@ -1,3 +1,107 @@
 footer {
-    background: green;
+    .footer-brand {
+        background: $dark-blue;
+        height: 90px;
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            position: relative;
+            &:after {
+                display: none;
+            }
+            .fb-logo {
+                width: 10px;
+            }
+            .fb-text {
+                position: relative;
+                .fbt-text {
+                    color: $white;
+                    font-size: 1.4rem;
+                    text-align: right;
+                    margin: 0;
+                    padding-right: 170px;
+                }
+                .fbt-image {
+                    height: 185px;
+                    width: 150px;
+                    background: $xlight-gray;
+                    padding: 10px;
+                    position: absolute;
+                    right: 0;
+                    bottom: -40px;
+                    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+                }
+            }
+        }
+    }
+    .footer-links {
+        background: $white;
+        height: 300px;
+        display: table;
+        width: 100%;
+        ul {
+            margin: 0;
+            padding: 70px 0 0 0;
+            @include tablet {
+                padding: 30px 0 0 0;
+            }
+            @include lgmobile {
+                padding: 30px 0 0 0;
+            }
+            @include xsmobile {
+                padding: 30px 0 0 0;
+            }
+            @include xxsmobile {
+                padding: 30px 0 0 0;
+            }
+            li {
+                list-style: none;
+                padding: 2.5px 0;
+                &.fl-title {
+                    font-size: 1.2rem;
+                    color: $gray;
+                    padding-bottom: 10px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+                a.fl-link {
+                    color: $gray;
+                    opacity: .5;
+                    font-size: 1rem;
+                }
+            }
+        }
+        address {
+            color: $gray;
+            opacity: .5;
+        }
+        .pull-right {
+            @include tablet {
+                float: left !important;
+                .text-right {
+                    text-align: left;
+                }
+            }
+            @include lgmobile {
+                float: left !important;
+                .text-right {
+                    text-align: left;
+                }
+            }
+            @include xsmobile {
+                float: left !important;
+                .text-right {
+                    text-align: left;
+                }
+            }
+            @include xxsmobile {
+                float: left !important;
+                .text-right {
+                    text-align: left;
+                }
+            }
+        }
+    }
 }
