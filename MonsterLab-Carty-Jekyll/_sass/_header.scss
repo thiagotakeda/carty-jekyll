@@ -1,0 +1,96 @@
+#header-carty {
+    background: rgba(255, 255, 255, .5);
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    top: 40px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.36);
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        position: relative;
+        &:after {
+            display: none;
+        }
+        a.hc-logo {
+            display: inline-block;
+        }
+        nav.site-nav-sub {
+            position: absolute;
+            right: 140px;
+            top: -33px;
+            .page-link-sub {
+                display: inline-block;
+                margin-left: 20px;
+                color: $white;
+                &.dropdown {
+                    button#pl-dropdown-sub {
+                        border: 0;
+                        background: transparent;
+                        span.glyphicon.glyphicon-menu-down {
+                            font-size: .6rem;
+                            top: 0px;
+                        }
+                    }
+                    &.open {
+                        &>.dropdown-menu {
+                            color: $gray;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        nav.site-nav {
+            float: inherit;
+            line-height: normal;
+            .nav-trigger-menu {
+                @include plus {
+                    display: none;
+                }
+            }
+            .trigger {
+                position: relative;
+                .page-link {
+                    color: $text-blue;
+                    font-size: 1.2rem;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                    &.dropdown {
+                        button#pl-dropdown {
+                            background: transparent;
+                            border: 0;
+                            span.glyphicon.glyphicon-menu-down {
+                                font-size: .7rem;
+                                top: -1px;
+                            }
+                        }
+                        &.open {
+                            &>.dropdown-menu {
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    &.pl-before-last-link {
+                        padding-right: 90px;
+                    }
+                    &.pl-last-link {
+                        background: $blue;
+                        position: absolute;
+                        right: 0;
+                        top: -60px;
+                        height: 106px;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: flex-end;
+                        padding: 20px;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

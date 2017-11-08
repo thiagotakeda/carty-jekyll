@@ -1,14 +1,22 @@
+html {
+    font-size: 14px;
+}
+
 body {
-    background: $gray;
+    background: $light-gray;
+    position: relative;
+    font-size: 14px;
 }
 
-ul {
-    text-align: center;
-    li.teste2 {
-        display: inline;
-    }
+a:hover {
+    text-decoration: none;
 }
 
-p {
-    text-align: center;
+.wrapper {
+    max-width: -webkit-calc(1190px - (30px * 2));
+    max-width: calc(1190px - (30px * 2));
+}
+
+main.page-content {
+    min-height: 800px;
 }
