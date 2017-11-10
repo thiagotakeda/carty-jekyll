@@ -12,7 +12,7 @@ footer {
                 display: none;
             }
             .fb-logo {
-                width: 10px;
+                width: 150px;
             }
             .fb-text {
                 position: relative;
@@ -24,7 +24,7 @@ footer {
                     padding-right: 170px;
                 }
                 .fbt-image {
-                    height: 185px;
+                    height: 205px;
                     width: 150px;
                     background: $xlight-gray;
                     padding: 10px;
@@ -124,6 +124,7 @@ footer {
                     padding: 20px 0;
                     opacity: .5;
                     margin: 0;
+                    font-size: .8rem;
                 }
             }
             &:after {

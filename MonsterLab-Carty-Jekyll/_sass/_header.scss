@@ -16,6 +16,9 @@
         }
         a.hc-logo {
             display: inline-block;
+            width: 160px;
+            top: 5px;
+            position: relative;
         }
         nav.site-nav-sub {
             position: absolute;
@@ -78,6 +81,10 @@
                         padding-right: 90px;
                     }
                     &.pl-last-link {
+                        img {
+                            align-self: center;
+                            margin-bottom: 5px;
+                        }
                         background: $blue;
                         position: absolute;
                         right: 0;
@@ -88,6 +95,7 @@
                         align-items: flex-end;
                         padding: 20px;
                         color: $white;
+                        flex-flow: column;
                     }
                 }
             }
