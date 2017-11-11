@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: $light-gray;
+    background: $background;
     position: relative;
     font-size: 14px;
     font-family: 'Nunito', sans-serif;
@@ -20,4 +20,11 @@ a:hover {
 
 main.page-content {
     min-height: 800px;
+}
+
+.site-nav {
+    top: 12px;
+    label[for="nav-trigger"] {
+        margin: 0;
+    }
 }

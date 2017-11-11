@@ -1,3 +1,6 @@
 .page-content {
-    padding-top: 120px;
+    padding: 0;
+    &.has-top {
+        padding-top: 120px;
+    }
 }
