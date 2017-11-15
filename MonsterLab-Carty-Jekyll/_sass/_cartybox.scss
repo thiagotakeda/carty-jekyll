@@ -1,0 +1,156 @@
+#cartybox {
+    overflow: hidden;
+    .main-banner {
+        background: url("/images/product/cartybox-banner.jpg");
+        background-size: cover;
+        height: 760px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        z-index: 0;
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            mix-blend-mode: multiply;
+            background-image: linear-gradient(to bottom, #646498, rgba(71, 74, 102, 0.5));
+        }
+        .mb-text {
+            align-self: center;
+            text-align: center;
+            position: relative;
+            .mbt-h3 {
+                text-transform: uppercase;
+                font-size: 3.5rem;
+                color: $white;
+                text-align: center;
+            }
+            .mbt-p {
+                font-size: 2rem;
+                line-height: 2.5rem;
+                text-align: center;
+                max-width: 600px;
+                color: $white;
+                font-weight: 100;
+                padding-top: 0;
+                opacity: .9;
+            }
+        }
+    }
+    .hc-relative {
+        padding-bottom: 200px;
+        @include xs {
+            padding-bottom: 0;
+        }
+        @include sm {
+            padding-bottom: 0;
+        }
+    }
+    .carty-collumn {
+        padding: 5px;
+        background: $background;
+        position: absolute;
+        top: -150px;
+        box-shadow: 0 2px 4px 0 rgba(219, 212, 212, 0.5);
+        @include xs {
+            position: relative;
+            top: 0;
+        }
+        @include sm {
+            top: 0;
+            position: relative;
+        }
+        &>div {
+            padding: 7.5px;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 25px;
+            left: 50%;
+            margin-left: -200px;
+            top: -25px;
+            z-index: 1;
+            background: $blue;
+            border-radius: 5px 5px 0 0;
+        }
+        .cc-box-content {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            .ccbc-text {
+                text-align: center;
+                align-self: center;
+                .ccbct-img {
+                    min-height: 150px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                }
+                h3.ccbct-h3 {
+                    color: $blue;
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+                p.ccbct-p {
+                    color: $black;
+                    opacity: .6;
+                    padding: 5px 20px;
+                    font-size: 1rem;
+                    line-height: 1.3rem;
+                }
+            }
+        }
+    }
+    #product-color-simulator {
+        margin-top: 100px;
+        .pcs-aside {
+            .pcsa-h3 {
+                font-size: 2rem;
+                color: $blue;
+                font-weight: bold;
+                width: 100%;
+                text-align: center;
+            }
+            .pcsa-container {
+                background: $white;
+                padding: 10px;
+                box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+                margin-top: 30px;
+                .pcsac-h4 {
+                    color: $blue;
+                    text-align: left;
+                    margin: 20px 10px;
+                    font-weight: bold;
+                    font-size: 1.7rem;
+                }
+                .btn-pcsac {
+                    opacity: .5;
+                    &.active {
+                        opacity: 1;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                img {
+                    margin: auto;
+                    display: block;
+                }
+                .pcsac-p {
+                    color: $blue;
+                    text-align: center;
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
