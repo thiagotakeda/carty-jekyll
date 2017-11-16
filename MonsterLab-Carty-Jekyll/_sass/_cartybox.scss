@@ -1,7 +1,7 @@
 #cartybox {
     overflow: hidden;
     .main-banner {
-        background: url("/images/product/cartybox-banner.jpg");
+        background: url("/images/cartybox/cartybox-banner.jpg");
         background-size: cover;
         height: 760px;
         width: 100%;
@@ -111,6 +111,44 @@
     }
     #product-color-simulator {
         margin-top: 100px;
+        background: linear-gradient(to bottom, $white 20%, $xxlight-gray 20%);
+        position: relative;
+        &:before {
+            content: '';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 150px 0 0 700px;
+            border-color: transparent transparent transparent $xxlight-gray;
+            position: absolute;
+            top: 15px;
+            left: 0;
+            z-index: 0;
+            @include xl {
+                border-width: 150px 0 0 1000px;
+            }
+            @include md {
+                border-width: 150px 0 0 500px;
+            }
+        }
+        &:after {
+            content: '';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 150px 700px;
+            border-color: transparent transparent $xxlight-gray transparent;
+            position: absolute;
+            top: 15px;
+            right: 0;
+            z-index: 0;
+            @include xl {
+                border-width: 0 0 150px 1000px;
+            }
+            @include md {
+                border-width: 0 0 150px 500px;
+            }
+        }
         .pcs-aside {
             .pcsa-h3 {
                 font-size: 2rem;
@@ -149,6 +187,114 @@
                     text-align: center;
                     font-size: 1rem;
                     font-weight: 600;
+                }
+                .pcsac-input {
+                    border: solid 1px $soft-gray;
+                    border-radius: 5px;
+                    max-width: 120px;
+                    font-size: 1.5rem;
+                    min-height: 44px;
+                    font-weight: bold;
+                    padding: 10px;
+                    text-align: center;
+                }
+                .pcsac-span {
+                    font-size: 1.5rem;
+                    padding-left: 10px;
+                }
+                .btn-pcsac-unit {
+                    background: $blue;
+                    color: $white;
+                    text-align: center;
+                    padding: 15px 30px;
+                    width: 100%;
+                    border: 0;
+                    font-size: 1.2rem;
+                    margin-top: 20px;
+                    &:hover {
+                        background: lighten($blue, 5%);
+                        transition: background ease-out .5s;
+                    }
+                }
+            }
+        }
+        #products-container {
+            .carousel {
+                .carousel-control {
+                    &.left,
+                    &.right {
+                        background-image: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .carousel-inner {
+                    .item {
+                        img.cii-img {
+                            margin: auto;
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .products-slider-cover {
+                position: relative;
+                z-index: 1;
+            }
+            .products-slider-box {
+                position: relative;
+                top: -70px;
+                z-index: 0;
+            }
+            .product-cs {
+                min-height: 150px;
+            }
+            .product-big-description {
+                background: $mid-blue;
+                text-align: right;
+                padding: 20px 35px;
+                border-radius: 5px;
+                max-width: 470px;
+                margin-bottom: 100px;
+                margin-left: 50%;
+                position: relative;
+                z-index: 2;
+                .pbd-h3 {
+                    color: $white;
+                    margin-top: 10px;
+                    font-weight: 100;
+                    font-size: 1.1rem;
+                    line-height: 1.6rem;
+                    text-transform: uppercase;
+                }
+                .pbd-p {
+                    color: $white;
+                    font-weight: 100;
+                    font-size: 1.1rem;
+                    line-height: 1.6rem;
+                    opacity: .8;
+                }
+            }
+            .product-description {
+                h3.product-h3 {
+                    color: $blue;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    margin: 0 0 5px 0;
+                }
+                p.product-p {
+                    display: block;
+                    color: $black;
+                    opacity: .6;
+                    font-size: 1.2rem;
+                    small {
+                        display: block;
+                        color: $black;
+                        opacity: .8;
+                        font-size: 1rem;
+                        padding-top: 7px;
+                    }
                 }
             }
         }

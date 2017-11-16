@@ -3,7 +3,7 @@ $('.product-cs').carousel({
 });
 
 $('.btn-pcsac').click(function() {
-    $('#products-container .product-cs').hide();
+    $('#products-container .ps-slide').hide();
     var target = '#' + $(this).data('target');
     $(target).show();
     $('.btn-pcsac').removeClass("active");
