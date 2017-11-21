@@ -1,0 +1,53 @@
+.carousel-control {
+    &.right.right-mini {
+        bottom: 0;
+        top: inherit;
+        background-image: none;
+        width: 10%;
+        &.left {
+            left: 45px;
+            right: initial;
+        }
+    }
+    &.left.left-mini {
+        bottom: 0;
+        top: inherit;
+        background-image: none;
+        width: 10%;
+        &.right {
+            right: 45px;
+            left: initial;
+        }
+    }
+}
+
+.carousel {
+    position: relative;
+    &.carousel-image-square {
+        background: $blue;
+        &:before {
+            content: '';
+            width: 40px;
+            height: 200px;
+            background: $blue;
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            margin-top: -100px;
+        }
+        &.cis-left {
+            &:before {
+                content: '';
+                left: -40px;
+                border-radius: 5px 0 0 5px;
+            }
+        }
+        &.cis-right {
+            &:before {
+                content: '';
+                right: -40px;
+                border-radius: 0 5px 5px 0;
+            }
+        }
+    }
+}

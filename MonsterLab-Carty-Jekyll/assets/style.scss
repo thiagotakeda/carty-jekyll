@@ -7,6 +7,7 @@ $white: #ffffff;
 $light-gray: #f2f2f2;
 $xlight-gray: #F5F5F5;
 $xxlight-gray: #f8f8f8;
+$xxxlight-gray: #fcfcfc;
 $black: #000000;
 $soft-gray: #979797;
 $gray: #343434;
@@ -53,6 +54,7 @@ $xplus: 3200px;
 
 @import "bootstrap";
 @import "header";
+@import "carousel";
 @import "content";
 @import "footer";
 @import "layout";
