@@ -21,7 +21,7 @@
             top: 5px;
             position: relative;
         }
-        nav.site-nav-sub {
+        &>nav.site-nav-sub {
             position: absolute;
             right: 140px;
             top: -33px;
@@ -29,12 +29,16 @@
                 right: 0;
                 top: -30px;
             }
-            .page-link-sub {
+            &>.page-link-sub {
                 display: inline-block;
                 margin-left: 20px;
                 color: $white;
                 @include xs {
                     margin-left: 10px;
+                }
+                button {
+                    background: transparent;
+                    border: 0;
                 }
                 &.dropdown {
                     button#pl-dropdown-sub {
