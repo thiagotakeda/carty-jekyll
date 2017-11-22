@@ -1,7 +1,7 @@
 #home {
     overflow: hidden;
     .main-banner {
-        background: url("/images/index/banner-home.jpg");
+        background: url("/assets/images/index/banner-home.jpg");
         background-size: cover;
         height: 760px;
         width: 100%;
@@ -55,15 +55,15 @@
             justify-content: center;
             align-content: center;
             &.cb-box {
-                background: url("/images/index/img-cartybox.jpg");
+                background: url("/assets/images/index/img-cartybox.jpg");
                 background-size: cover;
             }
             &.pc-box {
-                background: url("/images/index/img-pots.jpg");
+                background: url("/assets/images/index/img-pots.jpg");
                 background-size: cover;
             }
             &.fc-box {
-                background: url("/images/index/img-flutes.jpg");
+                background: url("/assets/images/index/img-flutes.jpg");
                 background-size: cover;
             }
             .hcbc-text {
@@ -86,7 +86,7 @@
         position: relative;
         z-index: 1;
         .hcta-first {
-            background: url("/images/index/img-cartyboxs.png");
+            background: url("/assets/images/index/img-cartyboxs.png");
             height: 600px;
             width: 100%;
             background-position: left center;
