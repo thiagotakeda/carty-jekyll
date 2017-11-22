@@ -74,6 +74,11 @@
                 .page-link {
                     color: $text-blue;
                     font-size: 1.2rem;
+                    display: inline-block;
+                    button {
+                        background: transparent;
+                        border: 0;
+                    }
                     &:hover {
                         text-decoration: none;
                     }

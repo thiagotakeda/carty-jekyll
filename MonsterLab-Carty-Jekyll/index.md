@@ -9,7 +9,7 @@ layout: default
         <section class="container-fluid no-padding">
             <div class="main-banner">
                 <div class="mb-text">
-                    <img src="/assets/images/index/icon-diamond.svg">
+                    <img src="{{ site.url }}/assets/images/index/icon-diamond.svg">
                     <p class="mbt-p">
                     Producteur d’emballages
                     alimentaires de qualité
@@ -55,7 +55,7 @@ layout: default
                                 <p class="hctafb-p">Depuis près de 60 ans, Carty produit en France des emballages alimentaires de qualité et répond aux demandes spécifiques de ses Clients grâce à un service fiable et réactif.</p>
                                 <button class="hctafb-button" type="button">  En Savoir plus </button>   
                             </div> 
-                            <img class="hctafb-cucumber" src="/assets/images/index/cucumber.png">            <img class="hctafb-strawberry" src="/assets/images/index/strawberry.png">      
+                            <img class="hctafb-cucumber" src="{{ site.url }}/assets/images/index/cucumber.png">            <img class="hctafb-strawberry" src="{{ site.url }}/assets/images/index/strawberry.png">      
                         </div>
                     </div>
                 </div> 
@@ -81,15 +81,15 @@ layout: default
                         <h3 class="hcl-title">Nos clients</h3>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 hcl-box">
-                    <img class="hclb-img" src="/assets/images/index/icon_grossites.svg">
+                    <img class="hclb-img" src="{{ site.url }}/assets/images/index/icon_grossites.svg">
                     <p class="hclb-text">Grossistes pour les métiers de bouche </p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 hcl-box">
-                    <img class="hclb-img" src="/assets/images/index/icon_industriel.svg">
+                    <img class="hclb-img" src="{{ site.url }}/assets/images/index/icon_industriel.svg">
                     <p class="hclb-text">Industriels du domaine agro-alimentaire </p>   
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 hcl-box">
-                    <img class="hclb-img" src="/assets/images/index/icon-gms.svg">  
+                    <img class="hclb-img" src="{{ site.url }}/assets/images/index/icon-gms.svg">  
                     <p class="hclb-text">Distributeurs de GMS</p>
                     </div>                
                 </div>

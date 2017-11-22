@@ -2,15 +2,16 @@
 
 <header id="header-carty" role="banner">
     <div class="wrapper">
-        <a class="hc-logo" href="/"><img src="/assets/images/header/carty-logo.svg" alt="Carty"></a>
+
+        <a class="hc-logo" href="{{ site.url }}/index.html"><img src="{{ site.url }}/assets/images/header/carty-logo.svg" alt="Carty"></a>
         <nav class="site-nav-sub">
-            <a class="page-link-sub" href="/">L'entreprise</a>
-            <a class="page-link-sub" href="/">Contactez-nous</a>
+            <a class="page-link-sub" href="{{ site.url }}/index.html">L'entreprise</a>
+            <a class="page-link-sub" href="{{ site.url }}/index.html">Contactez-nous</a>
             <div class="page-link-sub dropdown">
                 <button type="button" data-toggle="dropdown">Dropdown Example
                 <span class="caret"></span></button>
                 <ul class="dropdown-menu">
-                    <li><a href="/potscarty-fermeture">Pots Fermeture</a></li>
+                    <li><a href="{{ site.url }}/potscarty-fermeture.html">Pots Fermeture</a></li>
                     <li><a href="#">CSS</a></li>
                     <li><a href="#">JavaScript</a></li>
                 </ul>
@@ -28,22 +29,19 @@
                   </span>
                 </label>
             <div class="trigger">
-                <a class="page-link" href="/cartybox">Cartybox</a>
-                <a class="page-link dropdown">
-                    <button id="pl-dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Pots Carty
-                        <span class="glyphicon glyphicon-menu-down"></span>
-                      </button>
-                    <ul class="dropdown-menu" aria-labelledby="pl-dropdown">
-                        <li>
-                            <div href="/potscarty-fermeture"></div>
-                        </li>
-                        <li>teste 2</li>
+                <a class="page-link" href="{{ site.url }}/cartybox.html">Cartybox</a>
+                <div class="page-link dropdown">
+                    <button type="button" data-toggle="dropdown">Pots Carty
+                                <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ site.url }}/potscarty-fermeture.html">Pots Fermeture</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
                     </ul>
-                </a>
-                <a class="page-link pl-before-last-link" href="/contact/">Flûtes Carty</a>
-                <a class="page-link pl-last-link" href="/contact/">
-                    <img src="/assets/images/header/icon-devis.svg" alt="Carty"> Devis
+                </div>
+                <a class="page-link pl-before-last-link" href="{{ site.url }}/contact.html">Flûtes Carty</a>
+                <a class="page-link pl-last-link" href="{{ site.url }}/contact.html">
+                    <img src="{{ site.url }}/assets/images/header/icon-devis.svg" alt="Carty"> Devis
                 </a>
             </div>
 

@@ -21,7 +21,7 @@ layout: default
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"><img src="{{site.baseurl}}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale"> </div>
+                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale"> </div>
                                 <h3 class="ccbct-h3"> Conservation optimale </h3>
                                 <p class="ccbct-p"> Étanche et hermétique, la boite CARTYBOX protège parfaitement les aliments pour une conservation optimale </p>
                             </div>
@@ -30,7 +30,7 @@ layout: default
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="{{ site.baseurl }}/assets/images/cartybox/congelateur.svg" alt="Micro-ondes et congélateur"></div>
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/congelateur.svg" alt="Micro-ondes et congélateur"></div>
                                 <h3 class="ccbct-h3"> Micro-ondes et congélateur </h3>
                                 <p class="ccbct-p"> Pratique, elle peut aller directement au micro-ondes en sortant du congélateur </p>
                             </div>
@@ -39,7 +39,7 @@ layout: default
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="/assets/images/cartybox/lave-vaiselle.svg" alt="Lave-vaisselle"></div>
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/lave-vaiselle.svg" alt="Lave-vaisselle"></div>
                                 <h3 class="ccbct-h3"> Lave-vaisselle </h3>
                                 <p class="ccbct-p"> Solide, elle est réutilisable de multiples fois et passe au lave-vaisselle</p>
                             </div>
@@ -48,7 +48,7 @@ layout: default
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="/assets/images/cartybox/empilable.svg" alt="Empilable"> </div>
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/empilable.svg" alt="Empilable"> </div>
                                 <h3 class="ccbct-h3">Empilable </h3>
                                 <p class="ccbct-p">Empilable, elle est facile à ranger</p>
                             </div>
@@ -61,32 +61,24 @@ layout: default
             <div class="wrapper">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
-                         {% include cartybox-aside.html %}
+                        {% include cartybox-aside.html %}
                     </div>
                     <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
                         <div id="cartybox-container">
-                            {% include cartybox-45.html %}
-                            {% include cartybox-75.html %}
-                            {% include cartybox-110.html %}
-                            {% include cartybox-115.html %}
-                            {% include cartybox-135.html %}
-                            {% include cartybox-135-2.html %}
-                            {% include cartybox-180.html %}
+                            {% include cartybox-45.html %} {% include cartybox-75.html %} {% include cartybox-110.html %} {% include cartybox-115.html %} {% include cartybox-135.html %} {% include cartybox-135-2.html %} {% include cartybox-180.html %}
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="cartybox-explanation">
-            <div class="wrapper">                
-                {% include cartybox-explanation-01.html %}
-                {% include cartybox-explanation-02.html %}  
-                {% include cartybox-explanation-03.html %}          
-            </div>    
+            <div class="wrapper">
+                {% include cartybox-explanation-01.html %} {% include cartybox-explanation-02.html %} {% include cartybox-explanation-03.html %}
+            </div>
         </section>
 
         <section id="cartybox-telechargements">
-            <div class="wrapper"> 
+            <div class="wrapper">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
                         <h3 class="ctelechargements-h3">Téléchargements</h3>
