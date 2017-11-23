@@ -6,9 +6,9 @@ layout: default
 
 
 <main class="page-content" aria-label="Content">
-    <div id="cartybox">
+    <div id="product-container">
         <section class="container-fluid no-padding">
-            <div class="main-banner">
+            <div class="main-banner banner-cartybox">
                 <div class="mb-text">
                     <h3 class="mbt-h3"> Cartybox </h3>
                     <p class="mbt-p">
@@ -17,7 +17,7 @@ layout: default
                 </div>
             </div>
             <div class="wrapper relative hc-relative">
-                <div class="row carty-collumn">
+                <div class="row product-collumn">
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
@@ -57,27 +57,33 @@ layout: default
                 </div>
             </div>
         </section>
-        <section id="cartybox-color-simulator">
+        <section id="product-color-simulator">
             <div class="wrapper">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         {% include cartybox-aside.html %}
                     </div>
                     <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
-                        <div id="cartybox-container">
-                            {% include cartybox-45.html %} {% include cartybox-75.html %} {% include cartybox-110.html %} {% include cartybox-115.html %} {% include cartybox-135.html %} {% include cartybox-135-2.html %} {% include cartybox-180.html %}
+                        <div id="products-container">
+                            {% include cartybox-45.html %} 
+                            {% include cartybox-75.html %} 
+                            {% include cartybox-110.html %} 
+                            {% include cartybox-115.html %} 
+                            {% include cartybox-135.html %} 
+                            {% include cartybox-135-2.html %} 
+                            {% include cartybox-180.html %}
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="cartybox-explanation">
+        <section id="product-explanation">
             <div class="wrapper">
                 {% include cartybox-explanation-01.html %} {% include cartybox-explanation-02.html %} {% include cartybox-explanation-03.html %}
             </div>
         </section>
 
-        <section id="cartybox-telechargements">
+        <section id="product-telechargements">
             <div class="wrapper">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">

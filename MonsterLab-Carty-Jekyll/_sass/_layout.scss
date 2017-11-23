@@ -13,6 +13,10 @@ a:hover {
     text-decoration: none;
 }
 
+button:focus {
+    outline: 0;
+}
+
 .wrapper {
     max-width: -webkit-calc(1190px - (30px * 2));
     max-width: calc(1190px - (30px * 2));

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Flag/Fr</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,12 C24,18.6272137 18.6272137,24 12,24 C5.3724933,24 0,18.6272137 0,12 C0,5.3724933 5.3724933,0 12,0 C18.6272137,0 24,5.3724933 24,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-Language/Dropdown" transform="translate(-20.000000, -11.000000)">
+            <g id="Language">
+                <g id="Flag/Fr" transform="translate(20.000000, 11.000000)">
+                    <g id="Flag-FR">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Fill-1" fill="#F3F3F3" xlink:href="#path-1"></use>
+                        <path d="M29,12.0000312 C29,6.49813472 23.5905276,1.80803645 16,0 L16,24 C23.5905276,22.192026 29,17.5016154 29,12.0000312 Z" id="Fill-3" fill="#D80027" mask="url(#mask-2)"></path>
+                        <path d="M-5,12.0000312 C-5,17.5016154 0.40941557,22.192026 8,24 L8,0 C0.40941557,1.80803645 -5,6.49813472 -5,12.0000312 Z" id="Fill-4" fill="#0052B4" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
