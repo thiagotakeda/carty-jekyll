@@ -10,6 +10,41 @@ $('.btn-pcsac').click(function() {
     $(this).addClass("active");
 })
 
+$('.btn-pcsac-first-radio').click(function() {
+    $('#products-container .ps-slide-first-radio').hide();
+    var targetronds = '#' + $(this).data('target');
+    $(targetronds).show();
+    $('.btn-pcsac-first-radio').removeClass("active");
+    $(this).addClass("active");
+})
+
+$('.btn-pcsac-second-radio').click(function() {
+    $('#products-container .ps-slide-second-radio').hide();
+    var targetcarres = '#' + $(this).data('target');
+    $(targetcarres).show();
+    $('.btn-pcsac-second-radio').removeClass("active");
+    $(this).addClass("active");
+})
+
+$('#second-radio-container-boxes').hide();
+
+$('.potscarty-fermeture-radio').click(function() {
+    $('#pcs-aside-id .container-select-radio-box').hide();
+    var targetradiobox = '#' + $(this).data('target');
+    $(targetradiobox).show();
+
+    if (targetradiobox == "#second-radio") {
+        $('#first-radio-container-boxes').hide();
+        $('#second-radio-container-boxes').show();
+    } else {
+        $('#first-radio-container-boxes').show();
+        $('#second-radio-container-boxes').hide();
+    }
+
+    $('.potscarty-fermeture-radio').removeClass("active");
+    $(this).addClass("active");
+})
+
 function CustomSelect() {
     var container = ".custom-select",
         selected_selector = ".custom-select-selected",

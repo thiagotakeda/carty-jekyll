@@ -1,8 +1,9 @@
 --- 
-title: Potscarty Fermeture 
-permalink: /potscarty-fermeture.html 
+title: Potscarty Autres 
+permalink: /potscarty-autres.html 
 layout: default 
 ---
+
 
 
 <main class="page-content" aria-label="Content">
@@ -142,7 +143,7 @@ layout: default
                     </div>
                     <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
                         <div id="products-container">
-                            <div id="ronds-container-boxes">
+                            <div id="first-radio-container-boxes">
                                     {% include potscarty-fermeture-21.html %} 
                                     {% include potscarty-fermeture-365.html %} 
                                     {% include potscarty-fermeture-52.html %} 
@@ -150,8 +151,12 @@ layout: default
                                     {% include potscarty-fermeture-87.html %} 
                                     {% include potscarty-fermeture-1025.html %} 
                             </div>
-                            <div id="carres-container-boxes">
-                                FDP
+                            <div id="second-radio-container-boxes" style="display:none;">
+                                    {% include potscarty-fermeture-125.html %} 
+                                    {% include potscarty-fermeture-15.html %} 
+                                    {% include potscarty-fermeture-225.html %} 
+                                    {% include potscarty-fermeture-28.html %} 
+                                    {% include potscarty-fermeture-365c.html %} 
                             </div>
                             
                         </div>

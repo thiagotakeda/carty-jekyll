@@ -1,5 +1,32 @@
 #product-container {
     overflow: hidden;
+    .double-slider-container {
+        position: relative;
+        .double-slider-container-first {
+            position: relative;
+            top: -110px;
+            z-index: 0;
+            .carousel-control {
+                &.left,
+                &.right {
+                    top: 85px;
+                    height: 100px;
+                }
+            }
+        }
+        .double-slider-container-second {
+            position: absolute;
+            top: 70px;
+            width: 100%;
+            .carousel-control {
+                &.left,
+                &.right {
+                    top: 20px;
+                    height: 100px;
+                }
+            }
+        }
+    }
     .main-banner {
         height: 760px;
         width: 100%;
@@ -121,6 +148,14 @@
             font-size: 2.5rem;
             font-weight: bold;
         }
+        .pspots-p {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            color: $black;
+            opacity: .6;
+            text-align: center;
+            padding: 30px 25%;
+        }
         .pspots-box {
             margin: 30px 0;
             .pspotsb-p {
@@ -149,12 +184,25 @@
                         font-size: .9rem;
                     }
                 }
+                .pspotsbc-table {
+                    text-align: center;
+                    padding: 10px 0;
+                    margin: 0;
+                    font-size: 1.3rem;
+                    color: lighten($black, 50%);
+                    &.pspotsbct-odd {
+                        background: $xxlight-gray;
+                    }
+                    &.pspotsbct-even {
+                        background: $white;
+                    }
+                }
             }
         }
     }
     #product-color-simulator {
         margin-top: 100px;
-        background: linear-gradient(to bottom, $white 20%, $xxlight-gray 20%);
+        background: linear-gradient(to bottom, $white 169px, $xxlight-gray 169px);
         position: relative;
         padding-bottom: 50px;
         &:before {
@@ -195,7 +243,8 @@
         }
         .pcs-aside {
             .pcsa-h3 {
-                font-size: 2rem;
+                font-size: 2.5rem;
+                line-height: 3rem;
                 color: $blue;
                 font-weight: bold;
                 width: 100%;
@@ -206,6 +255,39 @@
                 padding: 10px;
                 box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
                 margin-top: 30px;
+                .potscarty-fermeture-radio {
+                    display: block;
+                    width: 100%;
+                    font-weight: bold;
+                    padding-left: 35px;
+                    position: relative;
+                    margin: 10px 0;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    &:before {
+                        content: '';
+                        width: 15px;
+                        height: 15px;
+                        border: solid 1px $blue;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: 10px;
+                        top: 2px;
+                    }
+                    &.active {
+                        &:after {
+                            content: '';
+                            width: 9px;
+                            height: 9px;
+                            background: $blue;
+                            border-radius: 50%;
+                            position: absolute;
+                            left: 13px;
+                            top: 5px;
+                        }
+                    }
+                }
                 .pcsac-h4 {
                     color: $blue;
                     text-align: left;
@@ -222,7 +304,7 @@
                         cursor: pointer;
                     }
                 }
-                .btn-pcsac-ronds {
+                .btn-pcsac-first-radio {
                     opacity: .5;
                     &.active {
                         opacity: 1;
@@ -231,7 +313,7 @@
                         cursor: pointer;
                     }
                 }
-                .btn-pcsac-carres {
+                .btn-pcsac-second-radio {
                     opacity: .5;
                     &.active {
                         opacity: 1;
@@ -303,11 +385,11 @@
                     }
                 }
             }
-            .cartybox-slider-cover {
+            .first-class-slider-cover {
                 position: relative;
                 z-index: 1;
             }
-            .cartybox-slider-box {
+            .second-class-slider-cover {
                 position: relative;
                 top: -70px;
                 z-index: 0;
@@ -321,7 +403,7 @@
                 padding: 20px 25px;
                 border-radius: 5px;
                 max-width: 570px;
-                margin-bottom: 100px;
+                margin-bottom: 50px;
                 margin-left: 50%;
                 position: relative;
                 z-index: 2;
