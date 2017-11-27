@@ -28,7 +28,7 @@ $('.btn-pcsac-second-radio').click(function() {
 
 $('#second-radio-container-boxes').hide();
 
-$('.potscarty-fermeture-radio').click(function() {
+$('.product-radio-click').click(function() {
     $('#pcs-aside-id .container-select-radio-box').hide();
     var targetradiobox = '#' + $(this).data('target');
     $(targetradiobox).show();
@@ -41,7 +41,7 @@ $('.potscarty-fermeture-radio').click(function() {
         $('#second-radio-container-boxes').hide();
     }
 
-    $('.potscarty-fermeture-radio').removeClass("active");
+    $('.product-radio-click').removeClass("active");
     $(this).addClass("active");
 })
 

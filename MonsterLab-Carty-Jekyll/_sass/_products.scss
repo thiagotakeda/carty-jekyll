@@ -43,6 +43,10 @@
             background: url("images/potscarty-fermeture/banner-potsfermeture.JPG");
             background-size: cover;
         }
+        &.banner-potsautres {
+            background: url("images/potscarty-fermeture/banner-potsfermeture.JPG");
+            background-size: cover;
+        }
         &:before {
             content: '';
             position: absolute;
@@ -76,6 +80,9 @@
     }
     .hc-relative {
         padding-bottom: 200px;
+        &.hc-relative-large {
+            padding-bottom: 580px;
+        }
         @include xs {
             padding-bottom: 0;
         }
@@ -88,6 +95,8 @@
         background: $background;
         position: absolute;
         top: -150px;
+        width: 100%;
+        left: 15px;
         box-shadow: 0 2px 4px 0 rgba(219, 212, 212, 0.5);
         @include xs {
             position: relative;
@@ -125,11 +134,19 @@
                     display: flex;
                     justify-content: center;
                     align-content: center;
+                    &.ccbct-img-small {
+                        padding-top: 20px;
+                        min-height: 100px;
+                    }
                 }
                 h3.ccbct-h3 {
                     color: $blue;
                     font-size: 2rem;
                     font-weight: bold;
+                    &.ccbct-h3-small {
+                        font-weight: normal;
+                        font-size: 1.5rem;
+                    }
                 }
                 p.ccbct-p {
                     color: $black;
@@ -137,6 +154,28 @@
                     padding: 5px 20px;
                     font-size: 1rem;
                     line-height: 1.3rem;
+                    &.ccbct-p-small {
+                        padding: 5px 80px;
+                    }
+                }
+                button.ccbct-button-action {
+                    background: $blue;
+                    color: $white;
+                    padding: 15px 35px;
+                    border: 0;
+                    margin-top: 25px;
+                    font-size: 1.2rem;
+                    display: block;
+                    margin: 20px auto;
+                }
+                a.ccbct-link-action {
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    padding: 10px 0 20px;
+                    opacity: .5;
+                    color: $blue;
+                    text-align: center;
+                    display: block;
                 }
             }
         }
@@ -205,6 +244,9 @@
         background: linear-gradient(to bottom, $white 169px, $xxlight-gray 169px);
         position: relative;
         padding-bottom: 50px;
+        &.pcs-big-padding-bottom {
+            padding-bottom: 150px;
+        }
         &:before {
             content: '';
             width: 0;
@@ -255,7 +297,7 @@
                 padding: 10px;
                 box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
                 margin-top: 30px;
-                .potscarty-fermeture-radio {
+                .product-radio-click {
                     display: block;
                     width: 100%;
                     font-weight: bold;

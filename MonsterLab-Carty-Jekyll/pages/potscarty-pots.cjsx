@@ -122,7 +122,8 @@ layout: default
         </section>
         <section id="product-explanation">
             <div class="wrapper">
-                {% include cartybox-explanation-01.html %} {% include cartybox-explanation-02.html %} {% include cartybox-explanation-03.html %}
+                {% include potscarty-explanation-01.html %} 
+                {% include potscarty-explanation-02.html %} 
             </div>
         </section>
 
