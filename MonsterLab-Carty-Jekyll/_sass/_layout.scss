@@ -32,3 +32,73 @@ main.page-content {
         margin: 0;
     }
 }
+
+#other-pages {
+    .main-banner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        z-index: 0;
+        &.banner-mentions-legales {
+            height: 310px;
+            background: url("images/mentions-legales/banner-mention.jpg");
+            background-size: cover;
+        }
+        &:after {
+            content: '';
+            width: 350px;
+            height: 60px;
+            border-radius: 5px;
+            position: absolute;
+            background: $blue;
+            bottom: -30px;
+            left: 50%;
+            margin-left: -175px;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            mix-blend-mode: multiply;
+            background-image: linear-gradient(to bottom, #2e2e4e, rgba(10, 17, 84, 0.75));
+        }
+        .mb-text {
+            align-self: center;
+            text-align: center;
+            position: relative;
+            .mbt-h3 {
+                font-size: 3.5rem;
+                color: $white;
+                text-align: center;
+                padding-top: 60px;
+                text-transform: uppercase;
+            }
+            .mbt-p {
+                font-size: 2rem;
+                line-height: 2.5rem;
+                text-align: center;
+                max-width: 600px;
+                color: $white;
+                font-weight: 100;
+                padding-top: 0;
+                opacity: .9;
+            }
+        }
+    }
+}
+
+#other-pages-content {
+    padding: 100px 0 150px 0;
+    .opc-text {
+        text-align: left;
+        color: $black;
+        opacity: .6;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}

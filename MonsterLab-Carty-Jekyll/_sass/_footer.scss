@@ -131,6 +131,10 @@ footer {
                     opacity: .5;
                     margin: 0;
                     font-size: .8rem;
+                    a {
+                        color: $gray;
+                        text-decoration: none;
+                    }
                 }
             }
             &:after {
