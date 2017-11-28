@@ -47,6 +47,10 @@
             background: url("images/potscarty-fermeture/banner-potsfermeture.JPG");
             background-size: cover;
         }
+        &.banner-flutes-carty {
+            background: url("images/flutes-carty/banner-flutes.jpg");
+            background-size: cover;
+        }
         &:before {
             content: '';
             position: absolute;
@@ -490,6 +494,7 @@
                 }
             }
             .product-description {
+                padding-top: 15px;
                 .product-p {
                     font-weight: bold;
                     opacity: .6;
