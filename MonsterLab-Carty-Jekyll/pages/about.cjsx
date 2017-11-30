@@ -1,58 +1,76 @@
 ---
-title: About
+title: Lentreprise
 permalink: /about.html
 layout: default
 ---
 
-<div>
-<h1>{{page.title}}</h1>
-<p> lorem ipsum ABOUT2
+<main class="page-content" aria-label="Content">
+    <div id="other-pages">
+        <section class="container-fluid no-padding">
+            <div class="main-banner banner-documents">
+                <div class="mb-text">
+                    <h3 class="mbt-h3"> {{page.title}} </h3>
+                </div>
+            </div>
+        </section>
 
- </p>
+        <section id="about-apresentation">
+            <div class="wrapper">
+                <p class="abouta-p"> Depuis près de 60 ans, Carty produit en France des emballages alimentaires de qualité et
+                répond aux demandes spécifiques de ses Clients grâce à un service fiable et réactif.</p>
+                <div class="row">
+                    
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <div class="about-card-effect">
+                          <img src="{{ site.url }}/assets/images/all/icon-diamond-logo.svg" alt="carty logo">   
+                          <h3> Nos valeurs </h3>
 
- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div>
+                          <div class="ace-box">
+                            <p class="aceb-p">HONNÊTETÉ</p>
+                          </div>
 
-</div>
+                          <div class="ace-box">
+                            <p class="aceb-p">CONFIANCE</p>
+                          </div>
+
+                          <div class="ace-box">
+                            <p class="aceb-p">CONFIANCE</p>
+                          </div>
+
+                          <div class="ace-box">
+                            <p class="aceb-p">DÉVELOPPEMENT</p>
+                          </div>
+
+                          <div class="ace-box">
+                            <p class="aceb-p">SATISFACTION CLIENTS</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-text-company">
+                      <h3 class="atc-h3">L’équipe Carty</h3>
+                      <p class="atc-p"> Portée par des valeurs d’honnêteté, de confiance  et de respect, l’équipe CARTY met tout en œuvre pour fournir à ses Clients des produits et services de qualité, et ainsi assurer le développement durable de l’entreprise. </p>
+
+                      <h3 class="atc-h3">Les produits Carty</h3>
+                      <p class="atc-p"> Dans toutes nos gammes de produits, vous retrouverez l’engagement CARTY de vous apporter entière satisfaction.  </p>
+                    
+                      <ul class="atc-ul">
+                        	<li class="atcu-li"> 	QUALITÉ </li> 
+                          <li class="atcu-li">  	FONCTIONNALITÉS</li>
+                          <li class="atcu-li">  	RÉACTIVITÉ</li>
+                          <li class="atcu-li">  	PERSONNALISATION</li>
+                          <li class="atcu-li">  	SERVICE</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-text-company-timeline">
+                      <h2 class="atct-h2">L’INNOVATION AU CŒUR DU DÉVELOPPEMENT</h2>
+                      timeline
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+    </div>
+</main>

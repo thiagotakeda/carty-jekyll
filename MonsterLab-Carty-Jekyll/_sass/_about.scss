@@ -1,0 +1,67 @@
+#about-apresentation {
+    .abouta-p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: $black;
+        opacity: .6;
+        text-align: center;
+        padding: 100px 30px 0 30px;
+    }
+    .about-card-effect {
+        box-shadow: 0 0 10px 0 rgba(217, 217, 217, 0.5);
+        width: 100%;
+        text-align: center;
+        margin: 50px 0;
+        .ace-box {
+            width: calc(100% / 5 - 10px);
+            display: inline-block;
+            vertical-align: top;
+            .aceb-p {
+                color: $blue;
+                text-transform: uppercase;
+                padding: 50px 0;
+                font-size: 1.4rem;
+                height: 45px;
+            }
+        }
+    }
+    .about-text-company {
+        .atc-h3 {
+            font-size: 2.4rem;
+            color: $blue;
+            font-weight: bold;
+            padding: 0 0 30px 0;
+        }
+        .atc-p {
+            font-size: 1.4rem;
+            line-height: 2rem;
+            color: $black;
+            opacity: .8;
+            padding: 0 0 30px 0;
+        }
+        .atc-ul {
+            padding-left: 30px;
+            .atcu-li {
+                font-size: 1.3rem;
+                line-height: 2rem;
+                padding: 2.5px 0;
+                color: $blue;
+                font-weight: bold;
+                opacity: .6;
+            }
+        }
+    }
+    .about-text-company-timeline {
+        background: rgba(13, 56, 87, 0.9);
+        padding: 30px;
+        .atct-h2 {
+            font-size: 2.7rem;
+            line-height: 3.5rem;
+            opacity: .9;
+            text-align: center;
+            color: $white;
+            margin: 0;
+            padding: 0 0 50px 0;
+        }
+    }
+}
