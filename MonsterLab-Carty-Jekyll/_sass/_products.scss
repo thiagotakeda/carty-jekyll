@@ -40,15 +40,19 @@
             background-size: cover;
         }
         &.banner-potsfermeture {
-            background: url("images/potscarty-fermeture/banner-potsfermeture.JPG");
+            background: url("images/potscarty-fermeture/banner-potsfermeture.jpg");
             background-size: cover;
         }
         &.banner-potsautres {
-            background: url("images/potscarty-fermeture/banner-potsfermeture.JPG");
+            background: url("images/potscarty-autres/banner-pots-autres.jpg");
             background-size: cover;
         }
         &.banner-flutes-carty {
             background: url("images/flutes-carty/banner-flutes.jpg");
+            background-size: cover;
+        }
+        &.banner-potscarty-pots {
+            background: url("images/potscarty-pots/banner-pots.jpg");
             background-size: cover;
         }
         &:before {

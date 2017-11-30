@@ -8,7 +8,7 @@ layout: default
 <main class="page-content" aria-label="Content">
     <div id="product-container">
         <section class="container-fluid no-padding">
-            <div class="main-banner banner-cartybox">
+            <div class="main-banner banner-potscarty-pots">
                 <div class="mb-text">
                     <h3 class="mbt-h3"> Pots Carty</h3>
                     <p class="mbt-p">

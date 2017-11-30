@@ -46,6 +46,11 @@ main.page-content {
             background: url("images/mentions-legales/banner-mention.jpg");
             background-size: cover;
         }
+        &.banner-documents {
+            height: 310px;
+            background: url("images/documents/banner-documents.jpg");
+            background-size: cover;
+        }
         &:after {
             content: '';
             width: 350px;
@@ -56,6 +61,10 @@ main.page-content {
             bottom: -30px;
             left: 50%;
             margin-left: -175px;
+            @include xs {
+                width: 150px;
+                margin-left: -75px;
+            }
         }
         &:before {
             content: '';

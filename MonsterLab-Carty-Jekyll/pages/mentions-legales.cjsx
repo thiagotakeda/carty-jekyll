@@ -1,5 +1,5 @@
 --- 
-title: Mentions Legales 
+title: Mentions Légales 
 permalink: /mentions-legales.html 
 layout: default 
 ---
@@ -10,7 +10,7 @@ layout: default
         <section class="container-fluid no-padding">
             <div class="main-banner banner-mentions-legales">
                 <div class="mb-text">
-                    <h3 class="mbt-h3"> Mentions Légales </h3>
+                    <h3 class="mbt-h3"> {{page.title}} </h3>
                 </div>
             </div>
         </section>
