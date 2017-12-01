@@ -81,13 +81,14 @@ layout: default
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                       <img class="dac-image" src="{{ site.url }}/assets/images/documents/cartybox-photos.png" alt="cartybox photos">
+                        
+                       <img class="dac-image" src="{{ site.url }}/assets/images/documents/documents-carty.png" alt="cartybox photos">
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                       <img class="dac-image" src="{{ site.url }}/assets/images/documents/cartybox-photos.png" alt="cartybox photos">
+                       <img class="dac-image" src="{{ site.url }}/assets/images/documents/documents-pots.png" alt="pots photos">
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                       <img class="dac-image" src="{{ site.url }}/assets/images/documents/cartybox-photos.png" alt="cartybox photos">
+                       <img class="dac-image" src="{{ site.url }}/assets/images/documents/documents-flutes.png" alt="flutes photos">
                     </div>
                    
                 </div>

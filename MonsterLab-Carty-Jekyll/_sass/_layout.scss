@@ -45,11 +45,19 @@ main.page-content {
             height: 310px;
             background: url("images/mentions-legales/banner-mention.jpg");
             background-size: cover;
+            background-position: center;
         }
         &.banner-documents {
             height: 310px;
             background: url("images/documents/banner-documents.jpg");
             background-size: cover;
+            background-position: center;
+        }
+        &.banner-contact {
+            height: 310px;
+            background: url("images/contact/banner-contact.jpg");
+            background-size: cover;
+            background-position: center;
         }
         &:after {
             content: '';

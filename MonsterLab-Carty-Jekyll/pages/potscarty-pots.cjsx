@@ -107,14 +107,13 @@ layout: default
                             <div id="first-radio-container-boxes">
                                     {% include potscarty-pots-125.html %} 
                                     {% include potscarty-pots-25.html %} 
-                                    {% include potscarty-pots-50.html %} 
-                                 
+                                    {% include potscarty-pots-50.html %}                                  
                             </div>
                             <div id="second-radio-container-boxes" style="display:none;">
-                                     {% include potscarty-pots-fake.html %} 
-                               
-                            </div>
-                            
+                                    {% include potscarty-potstradition-125.html %} 
+                                    {% include potscarty-potstradition-25.html %} 
+                                    {% include potscarty-potstradition-50.html %}                                
+                            </div>                            
                         </div>
                     </div>
                 </div>

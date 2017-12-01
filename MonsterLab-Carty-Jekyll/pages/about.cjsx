@@ -22,8 +22,10 @@ layout: default
                     
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <div class="about-card-effect">
-                          <img src="{{ site.url }}/assets/images/all/icon-diamond-logo.svg" alt="carty logo">   
-                          <h3> Nos valeurs </h3>
+                          <div class="ace-image">
+                             <img src="{{ site.url }}/assets/images/all/icon-diamond-logo.svg" alt="carty logo">   
+                            <h3 class="ace-h3"> Nos valeurs </h3>
+                          </div>
 
                           <div class="ace-box">
                             <p class="aceb-p">HONNÊTETÉ</p>
@@ -64,7 +66,7 @@ layout: default
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-text-company-timeline">
                       <h2 class="atct-h2">L’INNOVATION AU CŒUR DU DÉVELOPPEMENT</h2>
-                      timeline
+                      <img class="timeline-svg" src="{{ site.url }}/assets/images/about/about-timeline.svg" alt="About">   
                     </div>
                 </div>
             </div>

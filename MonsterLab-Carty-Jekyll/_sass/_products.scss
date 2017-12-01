@@ -428,8 +428,16 @@
                         img.cii-img {
                             margin: auto;
                             display: block;
+                            width: 50%;
                             &.cii-img-solo {
                                 width: 50%;
+                            }
+                        }
+                    }
+                    &.cii-img-small {
+                        .item {
+                            img.cii-img {
+                                width: 30%;
                             }
                         }
                     }

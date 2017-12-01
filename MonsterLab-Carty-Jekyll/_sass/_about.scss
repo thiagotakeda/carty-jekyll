@@ -12,6 +12,16 @@
         width: 100%;
         text-align: center;
         margin: 50px 0;
+        .ace-image {
+            position: relative;
+            top: -15px;
+            .ace-h3 {
+                color: $blue;
+                font-weight: bold;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+            }
+        }
         .ace-box {
             width: calc(100% / 5 - 10px);
             display: inline-block;
@@ -37,7 +47,7 @@
             line-height: 2rem;
             color: $black;
             opacity: .8;
-            padding: 0 0 30px 0;
+            padding: 0 0 20px 0;
         }
         .atc-ul {
             padding-left: 30px;
@@ -54,6 +64,7 @@
     .about-text-company-timeline {
         background: rgba(13, 56, 87, 0.9);
         padding: 30px;
+        margin-bottom: 150px;
         .atct-h2 {
             font-size: 2.7rem;
             line-height: 3.5rem;
@@ -62,6 +73,9 @@
             color: $white;
             margin: 0;
             padding: 0 0 50px 0;
+        }
+        .timeline-svg {
+            opacity: .6;
         }
     }
 }
