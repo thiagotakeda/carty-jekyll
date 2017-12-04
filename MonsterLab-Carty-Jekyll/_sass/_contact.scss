@@ -85,13 +85,25 @@
 }
 
 #contact-map {
-    padding: 50px 0 150px 0;
+    #cm-google-maps {
+        height: 500px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    padding: 0;
+    height: 500px;
+    margin-top: 100px;
+    position: relative;
     .contact-map-description {
         background: $mid-blue;
         text-align: left;
         padding: 20px 160px 20px 45px;
         border-radius: 5px;
         position: relative;
+        top: -40px;
+        left: -20px;
         z-index: 2;
         display: inline-block;
         .cmd-h3 {

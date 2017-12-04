@@ -66,6 +66,7 @@ layout: default
         <section id="contact-map">
             <div class="wrapper">
                 <div class="row contactf-container">
+                    
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="contact-map-description">
                             <h3 class="cmd-h3"> ADRESSE</h3>
@@ -77,7 +78,7 @@ layout: default
                     </div>
                 </div>
             </div>        
-           
+           <div id="cm-google-maps"> </div>
         </section>
 
     </div>
