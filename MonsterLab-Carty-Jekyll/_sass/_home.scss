@@ -56,15 +56,33 @@
             align-content: center;
             &.cb-box {
                 background: url("images/index/img-cartybox.jpg");
-                background-size: cover;
+                background-position: center;
+                transition: all .3s ease-in-out;
+                background-size: 100%;
+                &:hover {
+                    background-size: 110%;
+                    background-position: center;
+                }
             }
             &.pc-box {
                 background: url("images/index/img-pots.jpg");
-                background-size: cover;
+                background-position: center;
+                transition: all .3s ease-in-out;
+                background-size: 100%;
+                &:hover {
+                    background-size: 110%;
+                    background-position: center;
+                }
             }
             &.fc-box {
                 background: url("images/index/img-flutes.jpg");
-                background-size: cover;
+                background-position: center;
+                transition: all .3s ease-in-out;
+                background-size: 100%;
+                &:hover {
+                    background-size: 110%;
+                    background-position: center;
+                }
             }
             .hcbc-text {
                 text-align: center;

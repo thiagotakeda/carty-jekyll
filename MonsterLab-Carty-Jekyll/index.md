@@ -19,28 +19,28 @@ layout: default
              <div class="wrapper relative hc-relative">
                 <div class="row home-collumn">
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                        <div class="hc-box-content cb-box">
+                        <a href="{{ site.url }}/cartybox.html" class="hc-box-content cb-box">
                             <div class="hcbc-text">
                                 <h3 class="hcbct-h3"> Carty Box </h3>
                                 <p class="hcbct-p"> Avec les boîtes CARTYBOX, mettez vos produits en valeur </p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                        <div class="hc-box-content pc-box">
+                        <a href="{{ site.url }}/potscarty-pots.html" class="hc-box-content pc-box">
                             <div class="hcbc-text">
                                 <h3 class="hcbct-h3"> Pots Carty </h3>
                                 <p class="hcbct-p"> Avec les pots CARTY, conditionnez et conservez vos produits </p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                        <div class="hc-box-content fc-box">
+                        <a href="{{ site.url }}/flutes-carty.html" class="hc-box-content fc-box">
                             <div class="hcbc-text">
                                 <h3 class="hcbct-h3"> Flûtes Carty </h3>
                                 <p class="hcbct-p"> Des flûtes haut de gamme pour les moments de fête</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

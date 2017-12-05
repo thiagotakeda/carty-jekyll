@@ -9,7 +9,7 @@ layout: default
         <section class="container-fluid no-padding">
             <div class="main-banner banner-documents">
                 <div class="mb-text">
-                    <h3 class="mbt-h3"> {{page.title}} </h3>
+                    <h3 class="mbt-h3"> L’entreprise </h3>
                 </div>
             </div>
         </section>
