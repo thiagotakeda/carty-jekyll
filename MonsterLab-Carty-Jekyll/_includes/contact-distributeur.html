@@ -1,1 +1,15 @@
-distri
+<form id="send-contact-distributeur" method="POST" action="https://formspree.io/thommy+carty@monsterlab.cc">
+
+    <fieldset>
+        <input type="hidden" name="_subject" value="Carty Contact - Distributeur" />
+        <input type="text" id="nomcomplet" name="nomcomplet" required class="form-control contact-input" placeholder="* Nom complet">
+        <input type="text" id="societe" name="societe" class="form-control contact-input" placeholder="Societé">
+        <input type="email" name="email" id="email" required class="form-control contact-input" placeholder="* E-mail">
+        <input type="tel" name="telephone" id="telephone" required class="form-control contact-input" placeholder="* Telephone">
+        <input type="text" id="objet" name="objet" required class="form-control contact-input" placeholder="* Objet">
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="* Entrez le message"></textarea>
+        <div class="btn-form-wrap">
+            <input type="submit" id="envia" value="Envoyer" class="btn btn-submit btn-primary btn-lg pull-right">
+        </div>
+    </fieldset>
+</form>

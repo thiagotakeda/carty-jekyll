@@ -63,7 +63,8 @@ layout: default
             </div>
         </section>
 
-        <section id="contact-map">
+        <section id="contact-map" >
+         <a target="_blank" href="https://www.google.fr/maps/place/29+Rue+Joseph+Cugnot,+37300+Jou%C3%A9-l%C3%A8s-Tours/@47.3417368,0.6296892,17z/data=!4m5!3m4!1s0x47fd29b8fa1a1c23:0xa72af9e80f41014a!8m2!3d47.3423511!4d0.6302739">
             <div class="wrapper">
                 <div class="row contactf-container">
                     
@@ -79,6 +80,7 @@ layout: default
                 </div>
             </div>        
            <div id="cm-google-maps"> </div>
+           </a>
         </section>
 
     </div>
