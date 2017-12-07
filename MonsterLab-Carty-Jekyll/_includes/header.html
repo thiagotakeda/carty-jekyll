@@ -41,7 +41,7 @@
                 <a class="page-link" href="{{ site.url }}/cartybox.html">Cartybox</a>
                 <div class="page-link dropdown">
                     <button type="button" data-toggle="dropdown">Pots Carty
-                                <span class="caret"></span></button>
+                    <span class="caret"></span></button>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="{{ site.url }}/potscarty-pots.html">
@@ -59,8 +59,26 @@
                     </ul>
                 </div>
                 <a class="page-link pl-before-last-link" href="{{ site.url }}/flutes-carty.html">Flûtes Carty</a>
-                <a class="page-link pl-last-link" href="{{ site.url }}/devis.html">
-                    <img src="{{ site.url }}/assets/images/header/icon-devis.svg" alt="Carty"> Devis
+
+                <div class="page-link pl-last-link dropdown dropdown-devis">
+                    <button class="plll" type="button" data-toggle="dropdown"><img src="{{ site.url }}/assets/images/header/icon-devis.svg" alt="Carty"> Devis
+                        </button>
+                    <ul class="dropdown-menu dropdown-menu-devis">
+                        <li class="devis-container-itens">
+                            <div class="devis-list-product">
+                                {% include header-devis-list.html %} {% include header-devis-list.html %} {% include header-devis-list.html %}
+
+                                <p class="dlp-count-produits">Plus 10 produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg"></p>
+                                <button class="btn-dlp-submit" type="button">DEMANDER UN DEVIS</button>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <a class="page-link " href="{{ site.url }}/devis.html">
+
                 </a>
             </div>
 

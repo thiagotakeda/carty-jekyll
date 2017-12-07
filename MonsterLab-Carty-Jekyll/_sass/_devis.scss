@@ -28,79 +28,6 @@
             z-index: 2;
             top: -30px;
         }
-        .devis-container-itens {
-            background: $xxlight-gray;
-            min-height: 300px;
-            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-            position: relative;
-            z-index: 1;
-            .devis-list-product {
-                padding: 10px 0 0 0;
-                .dlp-card {
-                    width: 100%;
-                    height: 30px;
-                    display: table;
-                    background: $white;
-                    margin-bottom: 10px;
-                    .clpc-image {
-                        display: flex;
-                        width: 100%;
-                        height: 115px;
-                        justify-content: center;
-                        img {
-                            width: 70%;
-                        }
-                    }
-                    .clpc-content {
-                        display: flex;
-                        height: 115px;
-                        width: 100%;
-                        justify-content: flex-start;
-                        align-items: center;
-                        flex-flow: wrap;
-                        .clpc-h3 {
-                            margin: 0;
-                            margin: 0;
-                            font-size: 1.2rem;
-                            font-weight: bold;
-                        }
-                        .clpc-p {
-                            margin: 0;
-                            font-size: 1rem;
-                            color: $soft-gray;
-                            padding-top: 3px;
-                        }
-                        .clpc-span {
-                            display: block;
-                            font-size: 1rem;
-                            color: $blue;
-                            width: 100%;
-                            padding-top: 10px;
-                        }
-                    }
-                    .clpc-count {
-                        text-align: center;
-                        display: flex;
-                        height: 115px;
-                        width: 100%;
-                        justify-content: center;
-                        align-items: center;
-                        .clpcc-p {
-                            font-size: 1.5rem;
-                            font-weight: bold;
-                            margin-bottom: 0;
-                            line-height: 1.5rem;
-                            small {
-                                display: block;
-                                color: $soft-gray;
-                                font-weight: 100;
-                                font-size: 1rem;
-                            }
-                        }
-                    }
-                }
-            }
-        }
         .cfc-padding-50 {
             padding: 50px;
         }
@@ -159,6 +86,105 @@
                 width: 100%;
                 padding: 10px;
                 border-radius: 5px;
+            }
+        }
+    }
+}
+
+.devis-container-itens {
+    background: $xxlight-gray;
+    min-height: 300px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    .devis-list-product {
+        padding: 10px 0 0 0;
+        .dlp-count-produits {
+            color: $soft-gray;
+            padding-left: 10px;
+            img {
+                width: 50px;
+                float: right;
+                padding: 5px 15px;
+            }
+        }
+        .btn-dlp-submit {
+            width: calc(100% - 20px);
+            padding: 20px;
+            border: solid 1px $blue !important;
+            color: $blue;
+            margin: 10px 10px 20px 10px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            &:hover {
+                background: $blue !important;
+                color: $white;
+                transition: all ease-out .1s;
+            }
+        }
+        .dlp-card {
+            width: 100%;
+            height: 30px;
+            display: table;
+            background: $white;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04);
+            .clpc-image {
+                display: flex;
+                width: 100%;
+                height: 115px;
+                justify-content: center;
+                img {
+                    width: 70%;
+                }
+            }
+            .clpc-content {
+                display: flex;
+                height: 115px;
+                width: 100%;
+                justify-content: flex-start;
+                align-items: center;
+                flex-flow: wrap;
+                .clpc-h3 {
+                    margin: 0;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    color: $black;
+                }
+                .clpc-p {
+                    margin: 0;
+                    font-size: 1rem;
+                    color: $soft-gray;
+                    padding-top: 3px;
+                }
+                .clpc-span {
+                    display: block;
+                    font-size: 1rem;
+                    color: $blue;
+                    width: 100%;
+                    padding-top: 10px;
+                }
+            }
+            .clpc-count {
+                text-align: center;
+                display: flex;
+                height: 115px;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                .clpcc-p {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    line-height: 1.5rem;
+                    color: $black;
+                    small {
+                        display: block;
+                        color: $soft-gray;
+                        font-weight: 100;
+                        font-size: 1rem;
+                    }
+                }
             }
         }
     }
