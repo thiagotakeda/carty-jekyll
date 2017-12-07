@@ -338,10 +338,11 @@
                                 &:before {
                                     content: '';
                                     position: absolute;
-                                    width: 386px;
+                                    width: 250px;
                                     top: 30px;
                                     height: 123px;
-                                    left: -130%;
+                                    right: 0;
+                                    left: inherit;
                                     background: transparent;
                                 }
                             }
