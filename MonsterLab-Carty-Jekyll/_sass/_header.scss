@@ -5,7 +5,7 @@
     height: 65px;
     top: 40px;
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.36);
-    z-index: 2;
+    z-index: 5;
     .custom-select {
         display: inline-block;
         z-index: 999;
@@ -339,7 +339,7 @@
                                     content: '';
                                     position: absolute;
                                     width: 250px;
-                                    top: 30px;
+                                    top: 95px;
                                     height: 123px;
                                     right: 0;
                                     left: inherit;
