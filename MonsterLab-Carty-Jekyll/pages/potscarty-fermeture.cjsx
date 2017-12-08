@@ -174,8 +174,8 @@ layout: default
                         <p class="ctelechargements-p">Découvrez la gamme complète</p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 text-right">
-                        <button class="btn-ctele-telecharger" type="button">Télécharger la plaquette</button>
-                        <button class="btn-ctele-fiche" type="button">Fiche technique</button>
+                        <a href="{{ site.url }}/assets/documents/potsfermeture/fr/potsfermeture_plaquette.pdf" class="btn-ctele-telecharger" type="button" target="_blank">Télécharger la plaquette</a>
+                        <a href="{{ site.url }}/assets/documents/potsfermeture/fr/potsfermeture_fichetechnique.pdf" class="btn-ctele-fiche" type="button" target="_blank">Fiche technique</a>
                     </div>
                 </div>
             </div>
