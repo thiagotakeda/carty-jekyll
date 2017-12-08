@@ -27,7 +27,7 @@ layout: default
                                 <p class="ccbct-p ccbct-p-small"> <strong> Pour les soupes et la crème fraîche ! Il passe au Micro-ondes et Lave-vaiselle . </strong> </p>
 
                                 <h3 class="ccbct-h3 ccbct-h3-small"> 1 L</h3>
-                                <p class="ccbct-p ccbct-p-small"> <small>Φ115 x 138 mm </small></p>
+                                <p class="ccbct-p ccbct-p-small"> <small>Φ115 x H138 mm </small></p>
 
                                 <button class="ccbct-button-action" type="button"> Télécharger la plaquette </button>
                                 <a class="ccbct-link-action"> Fiche technique </a>
@@ -42,7 +42,7 @@ layout: default
                                 <p class="ccbct-p ccbct-p-small"> <strong>Pour approvisionner et stocker vos produits liquides ou solides ! </strong></p>
 
                                 <h3 class="ccbct-h3 ccbct-h3-small"> 21 L </h3>
-                                <p class="ccbct-p ccbct-p-small"> <small>328 x 273 x 350 mm</small></p>
+                                <p class="ccbct-p ccbct-p-small"> <small>Φ328 x 274 x H52 mm</small></p>
 
                                 <button class="ccbct-button-action" type="button"> Télécharger la plaquette </button>
                                 <a class="ccbct-link-action"> Fiche technique </a>
