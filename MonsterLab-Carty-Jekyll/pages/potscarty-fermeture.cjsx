@@ -69,32 +69,32 @@ layout: default
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 pspotsb-container">
                                   <img class="pspotsbc-image" src="{{ site.url }}/assets/images/potscarty-fermeture/ronds/21.svg" alt="21">   
-                                  <h3 class="pspotsbc-h3" >21 cl <small> D95 x H52 mm </small> </h3> 
+                                  <h3 class="pspotsbc-h3" >21 cl <small> Ø95 x H52 mm </small> </h3> 
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 pspotsb-container">
                                   <img class="pspotsbc-image" src="{{ site.url }}/assets/images/potscarty-fermeture/ronds/365.svg" alt="365">   
-                                  <h3 class="pspotsbc-h3" >36,5 cl <small> D95 x H84 mm </small> </h3> 
+                                  <h3 class="pspotsbc-h3" >36,5 cl <small> Ø95 x H84 mm </small> </h3> 
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 pspotsb-container">
                                   <img class="pspotsbc-image" src="{{ site.url }}/assets/images/potscarty-fermeture/ronds/52.svg" alt="52">   
-                                  <h3 class="pspotsbc-h3" >52 cl <small> D95 x H117 mm </small> </h3> 
+                                  <h3 class="pspotsbc-h3" >52 cl <small> Ø95 x H117 mm </small> </h3> 
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 pspotsb-container">
                                   <img class="pspotsbc-image" src="{{ site.url }}/assets/images/potscarty-fermeture/ronds/565.svg" alt="565">   
-                                  <h3 class="pspotsbc-h3" >56,5 cl <small> D118 x H87 mm </small> </h3> 
+                                  <h3 class="pspotsbc-h3" >56,5 cl <small> Ø118 x H87 mm </small> </h3> 
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 pspotsb-container">
                                   <img class="pspotsbc-image" src="{{ site.url }}/assets/images/potscarty-fermeture/ronds/87.svg" alt="87">   
-                                  <h3 class="pspotsbc-h3" >87 cl <small> D118 xH128 mm</small> </h3> 
+                                  <h3 class="pspotsbc-h3" >87 cl <small> Ø118 xH128 mm</small> </h3> 
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 pspotsb-container">
                                   <img class="pspotsbc-image" src="{{ site.url }}/assets/images/potscarty-fermeture/ronds/1025.svg" alt="1025">   
-                                  <h3 class="pspotsbc-h3" >102,5 cl <small>D118 mm x H143 mm </small> </h3> 
+                                  <h3 class="pspotsbc-h3" >102,5 cl <small>Ø118 mm x H143 mm </small> </h3> 
                             </div>
                         </div>
                     </div>
