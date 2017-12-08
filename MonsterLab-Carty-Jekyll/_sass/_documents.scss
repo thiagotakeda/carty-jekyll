@@ -50,8 +50,18 @@
             display: block;
             width: 100%;
             padding: 5px 0;
+            &:hover {
+                cursor: pointer;
+                opacity: .5;
+                transition: all ease-out .3s;
+            }
             &.dac-link-small {
                 font-size: 1.2em;
+                &:hover {
+                    cursor: pointer;
+                    opacity: .5;
+                    transition: all ease-out .3s;
+                }
             }
         }
     }
@@ -102,6 +112,50 @@
             border-width: 0 0 150px 500px;
         }
     }
+    .link-documents-download {
+        .dp-description {
+            position: relative;
+            background: $white;
+            right: -2px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            flex-flow: wrap;
+            width: 60px;
+            height: 280px;
+            float: left;
+            border: solid 1px $white;
+            &:before {
+                content: '';
+                width: 2px;
+                height: 25px;
+                background: lighten($soft-gray, 20%);
+                position: absolute;
+                top: 12px;
+            }
+            .dpd-p {
+                transform: rotate(90deg);
+                padding: 10px;
+                margin: 0;
+                position: absolute;
+                top: 85px;
+                font-size: 1.3rem;
+                color: $blue;
+                width: 135px;
+                font-weight: bold;
+            }
+        }
+        &:hover {
+            .dp-description {
+                background: $light-gray;
+                transition: all ease-out .2s;
+                border: solid 1px darken($xlight-gray, 10%);
+                .dpd-p {
+                    color: $gray;
+                }
+            }
+        }
+    }
     .dp-blue-box-margin-top {
         margin-top: 150px;
         position: relative;
@@ -109,7 +163,7 @@
             background: $dark-blue;
             padding: 25px 25px 100px 25px;
             position: absolute;
-            bottom: -95px;
+            bottom: -80px;
             left: 0;
             max-width: 250px;
             border-radius: 5px;

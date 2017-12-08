@@ -7,7 +7,7 @@ layout: default
 <main class="page-content" aria-label="Content">
     <div id="other-pages">
         <section class="container-fluid no-padding">
-            <div class="main-banner banner-documents">
+            <div class="main-banner banner-about">
                 <div class="mb-text">
                     <h3 class="mbt-h3"> L’entreprise </h3>
                 </div>
