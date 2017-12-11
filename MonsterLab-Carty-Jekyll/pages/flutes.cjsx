@@ -1,7 +1,7 @@
 --- 
 title: Flûtes Carty 
 permalink: /flutes-carty.html 
-layout: default 
+layout: flutes 
 ---
 
 

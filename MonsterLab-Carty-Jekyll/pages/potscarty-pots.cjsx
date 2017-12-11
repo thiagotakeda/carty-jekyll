@@ -1,7 +1,7 @@
 --- 
 title: Potscarty Pots 
 permalink: /potscarty-pots.html 
-layout: default 
+layout: pots 
 ---
 
 

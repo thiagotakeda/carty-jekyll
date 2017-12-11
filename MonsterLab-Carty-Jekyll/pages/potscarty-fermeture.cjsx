@@ -1,7 +1,7 @@
 --- 
 title: Potscarty Fermeture 
 permalink: /potscarty-fermeture.html 
-layout: default 
+layout: fermeture 
 ---
 
 
