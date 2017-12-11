@@ -69,6 +69,22 @@ function CustomSelect() {
     }
 }
 
+$('input.nav-devis:checkbox').change(function() {
+    if ($(this).is(":checked")) {
+        $('body').addClass("overflow-body");
+    } else {
+        $('body').removeClass("overflow-body");
+    }
+});
+
+$('input.nav-trigger').change(function() {
+    if ($(this).is(":checked")) {
+        $('body').addClass("overflow-body");
+    } else {
+        $('body').removeClass("overflow-body");
+    }
+});
+
 $().ready(function() {
     CustomSelect();
 });

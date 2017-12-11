@@ -6,6 +6,9 @@
     top: 40px;
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.36);
     z-index: 5;
+    @include xs {
+        top: 0;
+    }
     .custom-select {
         display: inline-block;
         z-index: 999;
@@ -84,14 +87,18 @@
             width: 160px;
             top: 11px;
             position: relative;
+            @include xs {
+                width: 140px;
+                top: 9px;
+                margin: auto;
+            }
         }
         &>nav.site-nav-sub {
             position: absolute;
             right: 140px;
             top: -31px;
             @include xs {
-                right: 0;
-                top: -30px;
+                display: none;
             }
             &>.page-link-sub {
                 display: inline-block;
@@ -125,6 +132,18 @@
         nav.site-nav {
             float: inherit;
             line-height: normal;
+            @include xs {
+                border: 0;
+                background: transparent;
+                left: 10px;
+                right: inherit;
+                label[for="nav-trigger"] {
+                    float: left;
+                }
+            }
+            .menu-icon>svg path {
+                fill: $blue;
+            }
             .nav-trigger-menu {
                 @include lg {
                     display: none;
@@ -135,10 +154,41 @@
             }
             .trigger {
                 position: relative;
+                .nav-trigger-close {
+                    display: none;
+                }
+                @include xs {
+                    .nav-trigger-close {
+                        color: $white;
+                        display: table;
+                        width: 100%;
+                        padding: 10px 0 0 10px;
+                        font-size: 3rem;
+                        text-align: left;
+                    }
+                    position: fixed;
+                    background: $blue;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
                 .page-link {
                     color: $text-blue;
                     font-size: 1.4rem;
                     display: inline-block;
+                    @include xs {
+                        display: block;
+                        width: 100%;
+                        color: $white;
+                        text-align: center;
+                        margin: 0;
+                        padding: 10px 0;
+                        font-size: 2rem;
+                        &.pl-last-link {
+                            display: none !important;
+                        }
+                    }
                     button {
                         background: transparent;
                         border: 0;
@@ -208,9 +258,12 @@
                         button#pl-dropdown {
                             background: transparent;
                             border: 0;
-                            span.glyphicon.glyphicon-menu-down {
+                            i.glyphicon.glyphicon-menu-down {
                                 font-size: .7rem;
                                 top: -1px;
+                                @include xs {
+                                    top: -3px;
+                                }
                             }
                         }
                         &.open {
@@ -224,6 +277,15 @@
                                 width: 385px;
                                 display: flex;
                                 align-items: flex-start;
+                                @include xs {
+                                    left: 0;
+                                    width: 100%;
+                                    position: relative;
+                                    top: 0;
+                                    box-shadow: none;
+                                    background: $blue;
+                                    display: block;
+                                }
                                 &:before {
                                     content: '';
                                     width: 100%;
@@ -232,13 +294,22 @@
                                     position: absolute;
                                     top: 0;
                                     box-shadow: 0px 0px 23px 2px rgba(0, 0, 0, .6);
+                                    @include xs {
+                                        display: none;
+                                    }
                                 }
                                 li {
                                     display: inline-block;
+                                    @include xs {
+                                        display: block;
+                                    }
                                     a {
                                         color: $blue;
                                         text-align: center;
                                         margin: 10px auto;
+                                        @include xs {
+                                            color: $white;
+                                        }
                                         small {
                                             display: block;
                                             width: 100%;
@@ -247,6 +318,9 @@
                                         img {
                                             display: block;
                                             margin: 10px auto;
+                                            @include xs {
+                                                display: none;
+                                            }
                                         }
                                         &:hover {
                                             background: transparent;
@@ -258,6 +332,9 @@
                     }
                     &.pl-before-last-link {
                         padding-right: 90px;
+                        @include xs {
+                            padding-right: inherit;
+                        }
                     }
                     &.pl-last-link {
                         button.plll {
@@ -348,6 +425,68 @@
                             }
                         }
                     }
+                }
+                .mobile-hr {
+                    display: none;
+                    @include xs {
+                        display: block;
+                        opacity: .4;
+                        width: 90%;
+                        margin: 20px auto;
+                    }
+                }
+                .mobile-links-dropdown-menu {
+                    display: none;
+                    @include xs {
+                        &:first-of-type {
+                            border-top: solid 1px rgba(255, 255, 255, .2);
+                        }
+                        display: block;
+                        width: 100%;
+                        margin: auto;
+                        text-align: center;
+                        color: $white;
+                        font-size: 1.2rem;
+                        opacity: .8;
+                        padding: 6px;
+                    }
+                }
+            }
+        }
+        nav.nav-devis {
+            display: none;
+            @include xs {
+                display: block;
+            }
+            input.nav-devis {
+                display: none;
+                &~.trigger-devis {
+                    clear: both;
+                    display: none;
+                }
+                &:checked~.trigger-devis {
+                    display: block;
+                }
+            }
+            label.nav-devis-menu {
+                img.ndm-image {
+                    width: 20px;
+                }
+            }
+            .trigger-devis {
+                background: $light-gray;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                .nav-devis-close {
+                    color: $blue;
+                    display: table;
+                    width: 100%;
+                    padding: 10px 0 0 10px;
+                    font-size: 3rem;
+                    text-align: left;
                 }
             }
         }

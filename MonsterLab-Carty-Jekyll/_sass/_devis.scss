@@ -97,8 +97,19 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 1;
+    @include xs {
+        background: $light-gray;
+        overflow-x: scroll;
+        height: calc(100% - 35px);
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
     .devis-list-product {
         padding: 10px 0 0 0;
+        @include xs {
+            padding: 10px;
+        }
         .dlp-count-produits {
             color: $soft-gray;
             padding-left: 10px;
@@ -117,6 +128,7 @@
             font-size: 1.3rem;
             font-weight: bold;
             display: block;
+            text-align: center;
             &:hover {
                 background: $blue !important;
                 color: $white !important;
@@ -137,6 +149,11 @@
                 justify-content: center;
                 img {
                     width: 70%;
+                }
+                &.clpc-image-mobile {
+                    @include xs {
+                        display: none;
+                    }
                 }
             }
             .clpc-content {

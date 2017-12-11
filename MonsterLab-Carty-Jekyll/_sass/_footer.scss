@@ -16,20 +16,20 @@ footer {
                 position: relative;
                 top: 10px;
                 @include xs {
-                    width: 50%;
+                    display: none;
                 }
             }
             .fb-text {
                 position: relative;
-                @include xs {
-                    display: none;
-                }
                 .fbt-text {
                     color: $white;
                     font-size: 1.4rem;
                     text-align: right;
                     margin: 0;
                     padding-right: 170px;
+                    @include xs {
+                        padding-right: 120px;
+                    }
                 }
                 .fbt-image {
                     height: 205px;
@@ -40,6 +40,11 @@ footer {
                     right: 0;
                     bottom: -40px;
                     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+                    @include xs {
+                        height: 135px;
+                        width: 100px;
+                        bottom: -25px;
+                    }
                 }
             }
         }
@@ -49,6 +54,9 @@ footer {
         height: 250px;
         display: table;
         width: 100%;
+        @include xs {
+            height: auto;
+        }
         ul {
             margin: 0;
             padding: 70px 0 0 0;
@@ -110,14 +118,30 @@ footer {
             }
             @include xs {
                 float: left !important;
+                width: 100%;
                 .text-right {
                     text-align: left;
                 }
             }
         }
+        .address-footer {
+            .fl-title {
+                text-align: center;
+                font-size: 1.5rem !important;
+                font-weight: 100;
+                padding-top: 30px;
+            }
+            .text-right {
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
     }
     .footer-copyright {
         background: $white;
+        @include xs {
+            padding-bottom: 20px;
+        }
         .wrapper {
             &>div {
                 border-top: solid 1px $light-gray;
@@ -127,6 +151,9 @@ footer {
                 align-items: center;
                 height: 100%;
                 position: relative;
+                @include xs {
+                    flex-flow: wrap;
+                }
                 p.fc-text {
                     color: $gray;
                     padding: 20px 0;
@@ -135,6 +162,12 @@ footer {
                     }
                     margin: 0;
                     font-size: .8rem;
+                    @include xs {
+                        padding: 25px 0 0 0;
+                        font-size: 1rem;
+                        text-align: center;
+                        width: 100%;
+                    }
                     a {
                         opacity: .5;
                         color: $gray;

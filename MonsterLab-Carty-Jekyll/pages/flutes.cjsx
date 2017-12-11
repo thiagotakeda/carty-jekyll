@@ -105,11 +105,11 @@ layout: default
         <section id="product-telechargements">
             <div class="wrapper">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                         <h3 class="ctelechargements-h3">Téléchargements</h3>
                         <p class="ctelechargements-p">Découvrez la gamme complète</p>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 text-right">
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm12 text-right">
                         <button class="btn-ctele-telecharger" type="button">Télécharger la plaquette</button>
                         <button class="btn-ctele-fiche" type="button">Fiche technique</button>
                     </div>
