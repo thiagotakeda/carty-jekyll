@@ -36,7 +36,7 @@ layout: default
                           </div>
 
                           <div class="ace-box">
-                            <p class="aceb-p">CONFIANCE</p>
+                            <p class="aceb-p">RESPECT</p>
                           </div>
 
                           <div class="ace-box">
