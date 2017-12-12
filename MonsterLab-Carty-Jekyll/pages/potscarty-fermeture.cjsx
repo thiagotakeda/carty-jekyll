@@ -173,15 +173,11 @@ layout: fermeture
                         <h3 class="ctelechargements-h3">Téléchargements</h3>
                         <p class="ctelechargements-p">Découvrez la gamme complète</p>
                     </div>
-<<<<<<< HEAD
+
                     <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 text-right">
-                        <a href="{{ site.url }}/assets/documents/potsfermeture/fr/potsfermeture_plaquette.pdf" class="btn-ctele-telecharger" type="button" target="_blank">Télécharger la plaquette</a>
-                        <a href="{{ site.url }}/assets/documents/potsfermeture/fr/potsfermeture_fichetechnique.pdf" class="btn-ctele-fiche" type="button" target="_blank">Fiche technique</a>
-=======
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-right">
-                        <button class="btn-ctele-telecharger" type="button">Télécharger la plaquette</button>
-                        <button class="btn-ctele-fiche" type="button">Fiche technique</button>
->>>>>>> 0712bddaff2380f2dfd78cfa1a6171aa499dda8c
+                        <a href="{{ site.url }}/assets/documents/potsfermeture/fr/potsfermeture_plaquette.pdf" class="btn-ctele-telecharger" target="_blank">Télécharger la plaquette</a>
+                        <a href="{{ site.url }}/assets/documents/potsfermeture/fr/potsfermeture_fichetechnique.pdf" class="btn-ctele-fiche" target="_blank">Fiche technique</a>
+
                     </div>
                 </div>
             </div>
