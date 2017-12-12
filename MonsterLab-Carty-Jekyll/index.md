@@ -21,7 +21,7 @@ layout: default
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                         <a href="{{ site.url }}/cartybox.html" class="hc-box-content cb-box">
                             <div class="hcbc-text">
-                                <h3 class="hcbct-h3"> Carty Box </h3>
+                                <h3 class="hcbct-h3"> Cartybox </h3>
                                 <p class="hcbct-p"> Avec les boîtes CARTYBOX, mettez vos produits en valeur </p>
                             </div>
                         </a>
@@ -61,7 +61,7 @@ layout: default
                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                     <a href="{{ site.url }}/cartybox.html" class="hc-box-content cb-box">
                                         <div class="hcbc-text">
-                                            <h3 class="hcbct-h3"> Carty Box </h3>
+                                            <h3 class="hcbct-h3"> Cartybox </h3>
                                             <p class="hcbct-p"> Avec les boîtes CARTYBOX, mettez vos produits en valeur </p>
                                         </div>
                                     </a>
@@ -130,7 +130,7 @@ layout: default
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="hcta-second">
                         <div class="hctas-box">
-                            <h3 class="hctasb-title">30 <small>millions d'emballages par an</small></h3>
+                            <h3 class="hctasb-title">30 <small>d’emballages par an (capacité de production)</small></h3>
                         </div>
                         <div class="hctas-box">
                             <h3 class="hctasb-title">07 <small>lignes de production</small></h3>

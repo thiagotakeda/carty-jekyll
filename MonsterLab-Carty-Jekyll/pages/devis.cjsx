@@ -21,8 +21,8 @@ layout: devis
               <div class="row devisfc-container">
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 devis-container-form">
                     <div class="cfc-padding-50">
-                      <h3 class="devisfc-h3"> <strong class="cfc-block">Vous souhaitez nous deviser ? </strong>
-                      Pouvez-vous nous dire si vous êtes : </h3>
+                      <h3 class="devisfc-h3"> <strong class="cfc-block">Pour établir votre devis, </strong>
+                      pouvez-vous nous dire si vous êtes : </h3>
                     </div>
                     <div>
                       <!-- Nav tabs -->
