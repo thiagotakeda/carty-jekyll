@@ -1,5 +1,8 @@
 #devis-form {
     padding-bottom: 250px;
+    @include xs {
+        padding-bottom: 50px;
+    }
     .devisfc-container {
         position: relative;
         top: 15px;
@@ -30,6 +33,9 @@
         }
         .cfc-padding-50 {
             padding: 50px;
+            @include xs {
+                padding: 10px;
+            }
         }
         .cfc-padding-10 {
             padding: 20px 0 0 0;
@@ -44,12 +50,18 @@
             left: -40px;
             li.devisfc-li {
                 width: calc(100% / 4);
+                @include xs {
+                    width: 100%;
+                }
                 a {
                     color: $white;
                     border: 0;
                     font-size: 1.2rem;
                     text-align: center;
                     margin: 0;
+                    @include sm {
+                        font-size: .9rem;
+                    }
                     &:hover {
                         background: transparent;
                         border-color: transparent;
@@ -70,6 +82,15 @@
                             margin-left: -50px;
                             border-radius: 3px;
                             background: #14486e;
+                            @include xs {
+                                bottom: inherit;
+                                left: inherit;
+                                margin-left: inherit;
+                                width: 10px;
+                                height: 30px;
+                                right: -23px;
+                                top: 5px;
+                            }
                         }
                     }
                 }
@@ -93,7 +114,7 @@
 
 .devis-container-itens {
     background: $xxlight-gray;
-    min-height: 300px;
+    // min-height: 300px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 1;
@@ -137,7 +158,7 @@
         }
         .dlp-card {
             width: 100%;
-            height: 30px;
+            padding: 20px 0;
             display: table;
             background: $white;
             margin-bottom: 10px;
@@ -168,10 +189,11 @@
                     font-size: 1.2rem;
                     font-weight: bold;
                     color: $black;
+                    text-transform: capitalize;
                 }
                 .clpc-p {
                     margin: 0;
-                    font-size: 1rem;
+                    font-size: .9rem;
                     color: $soft-gray;
                     padding-top: 3px;
                 }

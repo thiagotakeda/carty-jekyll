@@ -26,6 +26,9 @@
             width: calc(100% / 5 - 10px);
             display: inline-block;
             vertical-align: top;
+            @include xs {
+                width: 100%;
+            }
             .aceb-p {
                 color: $blue;
                 text-transform: uppercase;
@@ -35,6 +38,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                @include xs {
+                    padding: 10px 0;
+                }
             }
         }
     }
@@ -68,6 +74,9 @@
         background: rgba(13, 56, 87, 0.9);
         padding: 30px;
         margin-bottom: 150px;
+        @include xs {
+            margin-bottom: 0;
+        }
         .atct-h2 {
             font-size: 2.7rem;
             line-height: 3.5rem;
@@ -76,6 +85,10 @@
             color: $white;
             margin: 0;
             padding: 0 0 50px 0;
+            @include xs {
+                font-size: 1.7rem;
+                line-height: 2.5rem;
+            }
         }
         .timeline-svg {
             opacity: .6;

@@ -64,7 +64,7 @@ layout: pots
                 <p class="pspots-p"> Pour vos rillettes, crème fraiche,
                 coulis et sauces, miel, saindoux, et bien d’autres... </p>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center pspots-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center pspots-box">
                         <img  src="{{ site.url }}/assets/images/potscarty-pots/potStandard.jpg" alt="Pots Standard"> 
                         <p class="pspotsb-p"> Pots Standard</p>
 
@@ -78,7 +78,7 @@ layout: pots
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center  pspots-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center  pspots-box">
                         <img  src="{{ site.url }}/assets/images/potscarty-pots/potTradition.jpg" alt="Pots Tradition"> 
                         <p class="pspotsb-p">Pots Tradition</p>
 

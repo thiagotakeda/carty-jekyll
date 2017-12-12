@@ -177,6 +177,10 @@
                     color: $text-blue;
                     font-size: 1.4rem;
                     display: inline-block;
+                    @include sm {
+                        position: relative;
+                        top: -10px;
+                    }
                     @include xs {
                         display: block;
                         width: 100%;
@@ -356,6 +360,9 @@
                         padding: 15px 10px;
                         color: $white;
                         flex-flow: column;
+                        @include sm {
+                            top: -67px;
+                        }
                         &:hover {
                             background: darken($blue, 5%);
                             transition: all ease-out .3s;

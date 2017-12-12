@@ -139,6 +139,10 @@
                     top: 0;
                     padding: 25px 25px 45px 25px;
                 }
+                @include sm {
+                    float: inherit;
+                    margin: auto;
+                }
                 .hctafb-h3 {
                     color: $white;
                     font-size: 2rem;
@@ -222,6 +226,9 @@
             @include md {
                 border-width: 150px 0 0 500px;
             }
+            @include sm {
+                border-width: 150px 0 0 390px;
+            }
         }
         &:after {
             content: '';
@@ -238,6 +245,9 @@
             }
             @include md {
                 border-width: 0 0 150px 500px;
+            }
+            @include sm {
+                border-width: 0 0 150px 390px;
             }
         }
         .hcl-title {

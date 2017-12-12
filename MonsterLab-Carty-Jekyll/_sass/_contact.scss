@@ -23,6 +23,9 @@
         }
         .cfc-padding-50 {
             padding: 50px;
+            @include xs {
+                padding: 10px;
+            }
         }
         .cfc-padding-10 {
             padding: 20px 0 0 0;
@@ -37,6 +40,9 @@
             left: -40px;
             li.contactfc-li {
                 width: calc(100% / 4);
+                @include xs {
+                    width: 100%;
+                }
                 a {
                     color: $white;
                     border: 0;
@@ -63,6 +69,15 @@
                             margin-left: -50px;
                             border-radius: 3px;
                             background: #14486e;
+                            @include xs {
+                                bottom: inherit;
+                                left: inherit;
+                                margin-left: inherit;
+                                width: 10px;
+                                height: 30px;
+                                right: -23px;
+                                top: 5px;
+                            }
                         }
                     }
                 }
@@ -106,6 +121,9 @@
         left: -20px;
         z-index: 2;
         display: inline-block;
+        @include xs {
+            padding: 20px 70px 20px 45px;
+        }
         .cmd-h3 {
             color: $white;
             margin-top: 10px;

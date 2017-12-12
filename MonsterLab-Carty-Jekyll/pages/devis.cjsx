@@ -57,7 +57,7 @@ layout: devis
                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                         <div class="devis-list-product">
                             <div id="mon-devi-2">  
-
+a
                             </div>
                         </div>
                     </div>

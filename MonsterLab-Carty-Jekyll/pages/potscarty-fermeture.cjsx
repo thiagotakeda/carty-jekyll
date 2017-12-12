@@ -62,7 +62,7 @@ layout: fermeture
             <div class="wrapper">
                 <h3 class="pspots-h3">Deux options de pots </h3>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center pspots-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center pspots-box">
                         <img  src="{{ site.url }}/assets/images/potscarty-fermeture/pots-ronds.png" alt="pots ronds"> 
                         <p class="pspotsb-p"> Pots Ronds</p>
 
@@ -98,7 +98,7 @@ layout: fermeture
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center  pspots-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center  pspots-box">
                         <img  src="{{ site.url }}/assets/images/potscarty-fermeture/pots-carres.png" alt="pots carres"> 
                         <p class="pspotsb-p">Pots Carrés</p>
 
