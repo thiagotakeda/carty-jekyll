@@ -1,7 +1,7 @@
 ---
 title: Devis
 permalink: /devis.html
-layout: default
+layout: devis
 ---
 
 
@@ -56,15 +56,9 @@ layout: default
                   <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                         <div class="devis-list-product">
-                          {% include devis-list-product.html %}
-                          {% include devis-list-product.html %}
-                          {% include devis-list-product.html %}
-                          {% include devis-list-product.html %}
-                          {% include devis-list-product.html %}
-                          {% include devis-list-product.html %}
-                          {% include devis-list-product.html %}
-                          {% include devis-list-product.html %}
-                          {% include devis-list-product.html %}
+                            <div id="mon-devi-2">  
+
+                            </div>
                         </div>
                     </div>
                   </div>

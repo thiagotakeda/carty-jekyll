@@ -1,7 +1,7 @@
 --- 
 title: Cartybox 
 permalink: /cartybox.html 
-layout: default 
+layout: cartybox 
 ---
 
 

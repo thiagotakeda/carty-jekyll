@@ -1,7 +1,7 @@
 --- 
 title: Potscarty Autres 
 permalink: /potscarty-autres.html 
-layout: default 
+layout: autres 
 ---
 
 
