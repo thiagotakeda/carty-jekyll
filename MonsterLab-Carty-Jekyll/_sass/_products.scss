@@ -3,6 +3,9 @@
     .double-slider-container {
         position: relative;
         padding-bottom: 150px;
+        @include xs {
+            padding-bottom: 70px;
+        }
         .double-slider-container-first {
             position: relative;
             top: 30px;
@@ -12,6 +15,9 @@
                 &.right {
                     top: -25px;
                     height: 100px;
+                    @include xs {
+                        top: 5px;
+                    }
                 }
             }
         }
@@ -25,7 +31,13 @@
                 &.right {
                     top: 270px;
                     height: 100px;
+                    @include xs {
+                        top: 10px;
+                    }
                 }
+            }
+            @include xs {
+                top: -35px;
             }
         }
     }
@@ -37,6 +49,9 @@
         align-content: center;
         position: relative;
         z-index: 0;
+        @include xs {
+            height: 360px;
+        }
         &.banner-cartybox {
             background: url("images/cartybox/cartybox-banner.jpg");
             background-size: cover;
@@ -87,6 +102,9 @@
                 font-size: 3.5rem;
                 color: $white;
                 text-align: center;
+                @include xs {
+                    font-size: 2rem;
+                }
             }
             .mbt-p {
                 font-size: 2rem;
@@ -97,6 +115,10 @@
                 font-weight: 100;
                 padding-top: 0;
                 opacity: .9;
+                @include xs {
+                    font-size: 1.2rem;
+                    line-height: 1.7rem;
+                }
             }
         }
     }
@@ -104,6 +126,9 @@
         padding-bottom: 200px;
         &.hc-relative-large {
             padding-bottom: 580px;
+            @include xs {
+                padding-bottom: 0;
+            }
         }
         @include xs {
             padding-bottom: 0;
@@ -142,6 +167,10 @@
             z-index: 1;
             background: $blue;
             border-radius: 5px 5px 0 0;
+            @include xs {
+                height: 5px;
+                top: -5px;
+            }
         }
         .cc-box-content {
             width: 100%;
@@ -210,6 +239,10 @@
             text-align: center;
             font-size: 2.5rem;
             font-weight: bold;
+            @include xs {
+                padding-top: 30px;
+                font-size: 2rem;
+            }
         }
         .pspots-p {
             font-size: 1.5rem;
@@ -218,6 +251,10 @@
             opacity: .6;
             text-align: center;
             padding: 30px 25%;
+            @include xs {
+                font-size: 1.2rem;
+                padding: 20px;
+            }
         }
         .pspots-box {
             margin: 30px 0;
@@ -268,8 +305,17 @@
         background: linear-gradient(to bottom, $white 169px, $xxlight-gray 169px);
         position: relative;
         padding-bottom: 50px;
+        @include xs {
+            margin-top: 10px;
+        }
         &.pcs-big-padding-bottom {
             padding-bottom: 150px;
+        }
+        .wrapper>.row {
+            @include xs {
+                display: flex;
+                flex-flow: wrap;
+            }
         }
         &:before {
             content: '';
@@ -288,6 +334,9 @@
             @include md {
                 border-width: 150px 0 0 500px;
             }
+            @include xs {
+                display: none;
+            }
         }
         &:after {
             content: '';
@@ -305,6 +354,9 @@
             }
             @include md {
                 border-width: 0 0 150px 500px;
+            }
+            @include xs {
+                display: none;
             }
         }
         .pcs-aside {
@@ -468,6 +520,9 @@
                 position: relative;
                 top: -70px;
                 z-index: 0;
+                @include xs {
+                    top: -20px;
+                }
             }
             .cartybox-cs {
                 min-height: 150px;
@@ -482,6 +537,13 @@
                 margin-left: 50%;
                 position: relative;
                 z-index: 2;
+                @include xs {
+                    width: 100%;
+                    max-width: 100%;
+                    margin-top: 20px;
+                    text-align: center;
+                    margin-left: 0;
+                }
                 .pbd-h3 {
                     color: $white;
                     margin-top: 10px;
@@ -528,10 +590,16 @@
                     font-weight: bold;
                     opacity: .8;
                     margin-top: 10px;
+                    @include xs {
+                        padding: 0 20px;
+                    }
                     small {
-                        font-weight: bold;
                         display: block;
+                        font-weight: 100;
                         font-size: 100%;
+                        @include xs {
+                            font-size: .9rem;
+                        }
                     }
                 }
             }
@@ -590,7 +658,7 @@
         }
     }
     #product-telechargements {
-        background: $xxxlight-gray;
+        background: $xxlight-gray;
         padding: 30px 0 120px 0;
         .ctelechargements-h3 {
             color: $blue;
@@ -619,6 +687,14 @@
             font-size: 1.2rem;
             opacity: .6;
             font-weight: bold;
+            @include xs {
+                padding: 15px 0 15px 0;
+            }
+        }
+        .text-right {
+            @include xs {
+                text-align: left;
+            }
         }
     }
 }

@@ -16,7 +16,7 @@ layout: default
                     </p>
                 </div>
             </div>
-             <div class="wrapper relative hc-relative">
+            <div class="wrapper relative hc-relative hide-all-xs">
                 <div class="row home-collumn">
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                         <a href="{{ site.url }}/cartybox.html" class="hc-box-content cb-box">
@@ -44,6 +44,74 @@ layout: default
                     </div>
                 </div>
             </div>
+            
+            <div id="homeSliderProducts"  class="carousel slide show-only-mobile" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#homeSliderProducts" data-slide-to="0" class="active"></li>
+                <li data-target="#homeSliderProducts" data-slide-to="1"></li>
+                <li data-target="#homeSliderProducts" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                <div class="wrapper relative hc-relative">
+                            <div class="row home-collumn">
+                                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                    <a href="{{ site.url }}/cartybox.html" class="hc-box-content cb-box">
+                                        <div class="hcbc-text">
+                                            <h3 class="hcbct-h3"> Carty Box </h3>
+                                            <p class="hcbct-p"> Avec les boîtes CARTYBOX, mettez vos produits en valeur </p>
+                                        </div>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="wrapper relative hc-relative">
+                            <div class="row home-collumn">
+                                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                <a href="{{ site.url }}/potscarty-pots.html" class="hc-box-content pc-box">
+                                        <div class="hcbc-text">
+                                            <h3 class="hcbct-h3"> Pots Carty </h3>
+                                            <p class="hcbct-p"> Avec les pots CARTY, conditionnez et conservez vos produits </p>
+                                        </div>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="wrapper relative hc-relative">
+                        <div class="row home-collumn">
+                            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                    <a href="{{ site.url }}/flutes-carty.html" class="hc-box-content fc-box">
+                                        <div class="hcbc-text">
+                                            <h3 class="hcbct-h3"> Flûtes Carty </h3>
+                                            <p class="hcbct-p"> Des flûtes haut de gamme pour les moments de fête</p>
+                                        </div>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls 
+            <a class="left carousel-control" href="#homeSliderProducts" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#homeSliderProducts" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>-->
+            </div>
+
         </section>
         <section id="home-call-to-action" class="wrapper">
             <div class="row">
@@ -80,19 +148,58 @@ layout: default
                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                         <h3 class="hcl-title">Nos clients</h3>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 hcl-box">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 hcl-box  hide-all-xs">
                     <img class="hclb-img" src="{{ site.url }}/assets/images/index/icon_grossites.svg">
                     <p class="hclb-text">Grossistes pour les métiers de bouche </p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 hcl-box">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 hcl-box  hide-all-xs">
                     <img class="hclb-img" src="{{ site.url }}/assets/images/index/icon_industriel.svg">
                     <p class="hclb-text">Industriels du domaine agro-alimentaire </p>   
                     </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 hcl-box">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 hcl-box  hide-all-xs">
                     <img class="hclb-img" src="{{ site.url }}/assets/images/index/icon-gms.svg">  
                     <p class="hclb-text">Distributeurs de GMS</p>
                     </div>                
                 </div>
+
+            <div id="homeSliderClients"  class="carousel slide show-only-mobile" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#homeSliderClients" data-slide-to="0" class="active"></li>
+                <li data-target="#homeSliderClients" data-slide-to="1"></li>
+                <li data-target="#homeSliderClients" data-slide-to="2"></li>
+            </ol>
+            
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="hclb-img" src="{{ site.url }}/assets/images/index/icon_grossites.svg">
+                    <p class="hclb-text">Grossistes pour les métiers de bouche </p>
+                </div>
+
+                <div class="item">
+                    <img class="hclb-img" src="{{ site.url }}/assets/images/index/icon_industriel.svg">
+                    <p class="hclb-text">Industriels du domaine agro-alimentaire </p>   
+                </div>
+
+                <div class="item">
+                   <img class="hclb-img" src="{{ site.url }}/assets/images/index/icon-gms.svg">  
+                    <p class="hclb-text">Distributeurs de GMS</p>
+                </div>
+            </div>
+
+            <!-- Left and right controls 
+            <a class="left carousel-control" href="#homeSliderClients" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#homeSliderClients" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>-->
+            </div>
+
             </div>
         </section>
     </div>

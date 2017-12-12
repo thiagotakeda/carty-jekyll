@@ -86,13 +86,15 @@ layout: cartybox
         <section id="product-telechargements">
             <div class="wrapper">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                         <h3 class="ctelechargements-h3">Téléchargements</h3>
                         <p class="ctelechargements-p">Découvrez la gamme complète</p>
                     </div>
+
                     <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 text-right">
-                        <a href="{{ site.url }}/assets/documents/cartybox/fr/cartybox_plaquette.pdf" class="btn-ctele-telecharger" type="button" target="_blank">Télécharger la plaquette</a>
-                        <a href="{{ site.url }}/assets/documents/cartybox/fr/cartybox_fichetechnique.pdf" class="btn-ctele-fiche" type="button" target="_blank">Fiche technique</a>
+                        <a href="{{ site.url }}/assets/documents/cartybox/fr/cartybox_plaquette.pdf" class="btn-ctele-telecharger" target="_blank">Télécharger la plaquette</a>
+                        <a href="{{ site.url }}/assets/documents/cartybox/fr/cartybox_fichetechnique.pdf" class="btn-ctele-fiche" target="_blank">Fiche technique</a>
+
                     </div>
                 </div>
             </div>

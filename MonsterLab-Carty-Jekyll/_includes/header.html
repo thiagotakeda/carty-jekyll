@@ -36,12 +36,17 @@
                       <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
                     </svg>
                   </span>
-                </label>
+            </label>
+
+
             <div class="trigger">
-                <a class="page-link" href="{{ site.url }}/cartybox.html">Cartybox</a>
+                <label class="nav-trigger-close" for="nav-trigger">
+                            <i class="glyphicon glyphicon-remove"></i>
+                </label>
+                <a class="page-link" href="{{ site.url }}/cartybox.html">Cartyboxs</a>
                 <div class="page-link dropdown">
-                    <button type="button" data-toggle="dropdown">Pots Carty
-                    <span class="caret"></span></button>
+                    <button id="pl-dropdown" type="button" data-toggle="dropdown">Pots Carty
+                    <i class="glyphicon glyphicon-menu-down"></i></button>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="{{ site.url }}/potscarty-pots.html">
@@ -55,6 +60,7 @@
                             <a href="{{ site.url }}/potscarty-autres.html">
                                 <img src="{{ site.url }}/assets/images/header/icon-seau.svg">Autres</a>
                         </li>
+
 
                     </ul>
                 </div>
@@ -75,14 +81,47 @@
                                 <a href="{{ site.url }}/devis.html" class="btn-dlp-submit">DEMANDER UN DEVIS</a>
                             </div>
                         </li>
-
-
                     </ul>
                 </div>
 
+                <hr class="mobile-hr">
+                <a class="mobile-links-dropdown-menu" href="{{ site.url }}/about.html">L'entreprise</a>
+                <a class="mobile-links-dropdown-menu" href="{{ site.url }}/contact.html">Contactez-nous</a>
+                <a class="mobile-links-dropdown-menu" href="{{ site.url }}/contact.html">English Version</a>
 
             </div>
+            <!-- trigger -->
 
+        </nav>
+
+        <nav class="nav-devis">
+            <input type="checkbox" id="nav-devis" class="nav-devis" />
+            <label class="nav-devis-menu" for="nav-devis">
+                    <img class="ndm-image" src="{{ site.url }}/assets/images/header/icon-devis-mobile.svg" alt="Carty">
+            </label>
+            <div class="trigger-devis">
+                <label class="nav-devis-close" for="nav-devis">
+                           <i class="glyphicon glyphicon-remove"></i>
+                </label>
+
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 devis-container-itens">
+
+
+                    <ul class="dropdown-menu-devis">
+                        <li class="devis-container-itens">
+                            <div class="devis-list-product">
+                                {% include header-devis-list.html %} {% include header-devis-list.html %} {% include header-devis-list.html %}
+
+                                <p class="dlp-count-produits">Plus 10 produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg"></p>
+                                <a href="{{ site.url }}/devis.html" class="btn-dlp-submit">DEMANDER UN DEVIS</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
         </nav>
     </div>
 </header>

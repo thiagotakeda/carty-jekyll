@@ -19,7 +19,7 @@ layout: autres
             </div>
             <div class="wrapper relative hc-relative hc-relative-large">
                 <div class="row product-collumn">
-                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-12">
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
                                 <div class="ccbct-img ccbct-img-small"><img src="{{ site.url }}/assets/images/potscarty-autres/pot-1-l.png" alt="pot-1-l"> </div>
@@ -34,7 +34,7 @@ layout: autres
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-12">
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
                                 <div class="ccbct-img ccbct-img-small"> <img src="{{ site.url }}/assets/images/potscarty-autres/seau-21-l.png" alt="seau-21-l"></div>

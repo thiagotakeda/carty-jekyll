@@ -39,6 +39,10 @@ main.page-content {
     }
 }
 
+.overflow-body {
+    overflow: hidden;
+}
+
 #other-pages {
     .main-banner {
         width: 100%;
@@ -138,6 +142,9 @@ main.page-content {
                 text-align: center;
                 padding-top: 60px;
                 text-transform: uppercase;
+                @include xs {
+                    font-size: 2rem;
+                }
             }
             .mbt-p {
                 font-size: 2rem;
@@ -148,6 +155,10 @@ main.page-content {
                 font-weight: 100;
                 padding-top: 0;
                 opacity: .9;
+                @include xs {
+                    font-size: 1.2rem;
+                    line-height: 1.7rem;
+                }
             }
         }
     }
@@ -161,5 +172,49 @@ main.page-content {
         opacity: .6;
         font-size: 1rem;
         line-height: 1.5rem;
+    }
+}
+
+.hide-all-xs {
+    @include xl {
+        display: block !important;
+    }
+    @include lg {
+        display: block !important;
+    }
+    @include md {
+        display: block !important;
+    }
+    @include sm {
+        display: block !important;
+    }
+    @include xs {
+        display: none !important;
+    }
+}
+
+.show-only-mobile {
+    @include xl {
+        display: none !important;
+    }
+    @include lg {
+        display: none !important;
+    }
+    @include md {
+        display: none !important;
+    }
+    @include sm {
+        display: none !important;
+    }
+    @include xs {
+        display: block !important;
+    }
+}
+
+.reverse-xs {
+    @include xs {
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column-reverse;
     }
 }
