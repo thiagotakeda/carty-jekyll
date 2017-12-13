@@ -22,7 +22,7 @@ layout: default
                             <img class="dac-image" src="{{ site.url }}/assets/images/documents/pots.svg" alt="pots">
                             <h3 class="dac-h3"> Pots Carty </h3>
                             <a href="{{ site.url }}/assets/documents/potscarty/fr/potscarty_fichetechnique.pdf" class="dac-link" target="_blank"> Fiche Technique  </a>
-                            <a href="{{ site.url }}/aassets/documents/potscarty/fr/potscarty_plaquette.pdf" class="dac-link" target="_blank"> Plaquette </a>
+                            <a href="{{ site.url }}/assets/documents/potscarty/fr/potscarty_plaquette.pdf" class="dac-link" target="_blank"> Plaquette </a>
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ layout: default
                             <img class="dac-image" src="{{ site.url }}/assets/images/documents/cartybox.svg" alt="carty box">
                             <h3 class="dac-h3"> Cartybox </h3>
                             <a href="{{ site.url }}/assets/documents/cartybox/fr/cartybox_fichetechnique.pdf" class="dac-link" target="_blank"> Fiche Technique  </a>
-                            <a href="{{ site.url }}/aassets/documents/cartybox/fr/cartybox_plaquette.pdf" class="dac-link" target="_blank"> Plaquette </a>
+                            <a href="{{ site.url }}/assets/documents/cartybox/fr/cartybox_plaquette.pdf" class="dac-link" target="_blank"> Plaquette </a>
                         </div>
                     </div>
 
@@ -40,7 +40,7 @@ layout: default
                             <img class="dac-image" src="{{ site.url }}/assets/images/documents/glass.svg" alt="glass">
                             <h3 class="dac-h3"> Flûtes Carty </h3>
                             <a href="{{ site.url }}/assets/documents/flutes/fr/flutescarty_fichetechnique.pdf" class="dac-link" target="_blank"> Fiche Technique  </a>
-                            <a href="{{ site.url }}/aassets/documents/flutes/fr/flutescarty_plaquette.pdf" class="dac-link" target="_blank"> Plaquette </a>
+                            <a href="{{ site.url }}/assets/documents/flutes/fr/flutescarty_plaquette.pdf" class="dac-link" target="_blank"> Plaquette </a>
                         </div>
                     </div>
                 </div>
@@ -52,17 +52,17 @@ layout: default
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
                         <p class="dac-p"> Pots avec fermeture de securité </p>
                         <a href="{{ site.url }}/assets/documents/potsfermeture/fr/potsfermeture_fichetechnique.pdf" class="dac-link dac-link-small" target="_blank"> Fiche Technique  </a>
-                        <a href="{{ site.url }}/aassets/documents/potsfermeture/fr/potsfermeture_plaquette.pdf" class="dac-link dac-link-small" target="_blank"> Plaquette  </a>
+                        <a href="{{ site.url }}/assets/documents/potsfermeture/fr/potsfermeture_plaquette.pdf" class="dac-link dac-link-small" target="_blank"> Plaquette  </a>
                     </div>
                      <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
                         <p class="dac-p"> Pot 1 L</p>
                         <a href="{{ site.url }}/assets/documents/pot1l/fr/pot1l_fichetechnique.pdf" class="dac-link dac-link-small" target="_blank"> Fiche Technique  </a>
-                        <a href="{{ site.url }}/aassets/documents/pot1l/fr/pot1l_plaquette.pdf" class="dac-link dac-link-small" target="_blank"> Plaquette  </a>
+                        <a href="{{ site.url }}/assets/documents/pot1l/fr/pot1l_plaquette.pdf" class="dac-link dac-link-small" target="_blank"> Plaquette  </a>
                     </div>
                      <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
                         <p class="dac-p"> Seau 21 L </p>
                         <a href="{{ site.url }}/assets/documents/seau21l/fr/seau21l_fichetechnique.pdf" class="dac-link dac-link-small" target="_blank"> Fiche Technique  </a>
-                        <a href="{{ site.url }}/aassets/documents/seau21l/fr/seau21l_plaquette.pdf" class="dac-link dac-link-small" target="_blank"> Plaquette  </a>
+                        <a href="{{ site.url }}/assets/documents/seau21l/fr/seau21l_plaquette.pdf" class="dac-link dac-link-small" target="_blank"> Plaquette  </a>
                     </div>
                 </div>
 
@@ -81,19 +81,19 @@ layout: default
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 relative">
-                       <a class="link-documents-download" href="{{ site.url }}/assets/download/cartybox_photos.zip"> 
+                       <a class="link-documents-download" href="{{ site.url }}/assets/documents/photos/cartybox_photos.zip"> 
                             <div class="dp-description"> <p class="dpd-p">Cartybox</p> <img src="{{ site.url }}/assets/images/documents/icon-download.svg"> </div>
                             <img src="{{ site.url }}/assets/images/documents/documents-carty.png" alt="cartybox photos">
                        </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                        <a class="link-documents-download" href="{{ site.url }}/assets/download/potscarty_photos.zip"> 
+                        <a class="link-documents-download" href="{{ site.url }}/assets/documents/photos/potscarty_photos.zip"> 
                             <div class="dp-description"> <p class="dpd-p">Pots Carty</p> <img src="{{ site.url }}/assets/images/documents/icon-download.svg"> </div>
                             <img  src="{{ site.url }}/assets/images/documents/documents-pots.png" alt="pots photos">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                        <a class="link-documents-download" href="{{ site.url }}/assets/download/flutes_photos.zip"> 
+                        <a class="link-documents-download" href="{{ site.url }}/assets/documents/photos/flutes_photos.zip"> 
                             <div class="dp-description"> <p class="dpd-p">Flûtes Carty</p> <img src="{{ site.url }}/assets/images/documents/icon-download.svg"> </div>
                             <img  src="{{ site.url }}/assets/images/documents/documents-flutes.png" alt="flutes photos">
                         </a>
