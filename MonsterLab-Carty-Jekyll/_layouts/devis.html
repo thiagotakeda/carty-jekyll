@@ -21,13 +21,16 @@
 
         function load() {
             var devis = [];
-            var articles = "";
-
+            var articles_devi = "";
+            var articles_all = "";
+            
             if (localStorage.getItem("devis")) {
                 devis = JSON.parse(localStorage.getItem("devis"));
 
-                devis.forEach(function (article, i) {
-                    articles += `
+                for (var i= 0; i < devis.length; i++) {
+
+                    if (i < 4) {
+                        articles_devi += `
                     <div class="dlp-card">
                         <div class="col-lg-3">
                             <div class="clpc-image">
@@ -37,8 +40,8 @@
                         <div class="col-lg-6">
                             <div class="clpc-content">
                                 <div>
-                                    <h3 class="clpc-h3">${ article.type}</h3>
-                                    <p class="clpc-p">${ article.description}</p>
+                                    <h3 class="clpc-h3">${ devis[i].type}</h3>
+                                    <p class="clpc-p">${ devis[i].description}</p>
 
                                     <span class="clpc-span" onClick="supprimer(${ i})">Supprimer</span>
                                 </div>
@@ -46,15 +49,49 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="clpc-count">
-                                <p class="clpcc-p">${ article.quantite}<small>unités</small></p>
+                                <p class="clpcc-p">${ devis[i].quantite}<small>unités</small></p>
                             </div>
                         </div>
                     </div>
                     `
-                })
+                    };
 
-                document.getElementById("mon-devi").innerHTML = articles;
-                document.getElementById("mon-devi-2 ").innerHTML = articles;
+                    articles_all += `
+                    <div class="dlp-card">
+                        <div class="col-lg-3">
+                            <div class="clpc-image">
+                                <img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="clpc-content">
+                                <div>
+                                    <h3 class="clpc-h3">${ devis[i].type}</h3>
+                                    <p class="clpc-p">${ devis[i].description}</p>
+
+                                    <span class="clpc-span" onClick="supprimer(${ i})">Supprimer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="clpc-count">
+                                <p class="clpcc-p">${ devis[i].quantite}<small>unités</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+
+                if (devis.length > 4){
+                    document.getElementById("devis-quantite").innerHTML = `Plus ${ devis.length } produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">`
+                }
+
+                if (devis.length <= 4){
+                    document.getElementById("devis-quantite").innerHTML = ""
+                }
+
+                document.getElementById("mon-devi").innerHTML = articles_devi;
+                document.getElementById("mon-devi-2").innerHTML = articles_all;
             }
         }
 
@@ -73,12 +110,12 @@
             var aux = "first";
             var texture = "Ronds";
 
-            if (int == 2){
-                texture= "Carrés"
+            if (int == 2) {
+                texture = "Carrés"
                 aux = "second";
             }
 
-            var contenance = document.getElementById(`${ aux }-radio`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
+            var contenance = document.getElementById(`${aux}-radio`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
 
             var devis = [];
 
