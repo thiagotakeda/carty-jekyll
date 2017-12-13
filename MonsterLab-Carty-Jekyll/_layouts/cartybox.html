@@ -13,6 +13,7 @@
     <script src="{{ " js/jquery-3.2.1.min.js " | prepend: site.baseurl }}"></script>
     <script src="{{ " js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
     <script src="{{ " js/javascript.js " | prepend: site.baseurl }}"></script>
+    <script src="{{ " js/notify.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA1P4kU_qChojvk54OX6IVL6pySE_vBylo"></script>
 
     <script type="text/javascript">
@@ -21,13 +22,16 @@
 
         function load() {
             var devis = [];
-            var articles = "";
+            var articles_devi = "";
+            var articles_all = "";
 
             if (localStorage.getItem("devis")) {
                 devis = JSON.parse(localStorage.getItem("devis"));
 
-                devis.forEach(function(article, i) {
-                    articles += `
+                for (var i = 0; i < devis.length; i++) {
+
+                    if (i < 4) {
+                        articles_devi += `
                     <div class="dlp-card">
                         <div class="col-lg-3">
                             <div class="clpc-image">
@@ -37,23 +41,57 @@
                         <div class="col-lg-6">
                             <div class="clpc-content">
                                 <div>
-                                    <h3 class="clpc-h3">${ article.type }</h3>
-                                    <p class="clpc-p">${ article.description }</p>
+                                    <h3 class="clpc-h3">${ devis[i].type}</h3>
+                                    <p class="clpc-p">${ devis[i].description}</p>
 
-                                    <span class="clpc-span" onClick="supprimer(${ i })">Supprimer</span>
+                                    <span class="clpc-span" onClick="supprimer(${ i})">Supprimer</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="clpc-count">
-                                <p class="clpcc-p">${ article.quantite }<small>unités</small></p>
+                                <p class="clpcc-p">${ devis[i].quantite}<small>unités</small></p>
                             </div>
                         </div>
                     </div>
                     `
-                })
+                    };
 
-                document.getElementById("mon-devi").innerHTML = articles;
+                    articles_all += `
+                    <div class="dlp-card">
+                        <div class="col-lg-3">
+                            <div class="clpc-image">
+                                <img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="clpc-content">
+                                <div>
+                                    <h3 class="clpc-h3">${ devis[i].type}</h3>
+                                    <p class="clpc-p">${ devis[i].description}</p>
+
+                                    <span class="clpc-span" onClick="supprimer(${ i})">Supprimer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="clpc-count">
+                                <p class="clpcc-p">${ devis[i].quantite}<small>unités</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+
+                if (devis.length > 4) {
+                    document.getElementById("devis-quantite").innerHTML = `Plus ${devis.length - 4} produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">`
+                }
+
+                if (devis.length <= 4) {
+                    document.getElementById("devis-quantite").innerHTML = ""
+                }
+
+                document.getElementById("mon-devi").innerHTML = articles_devi;
             }
         }
 
@@ -63,6 +101,8 @@
             devis.splice(i, 1);
 
             localStorage.setItem("devis", JSON.stringify(devis));
+
+            $.notify("Élément supprimé", "success");
 
             load();
         }
@@ -89,6 +129,8 @@
             localStorage.setItem("devis", JSON.stringify(devis));
 
             document.getElementById("quantite").value = 0;
+
+            $.notify("Élément ajouté", "success");
 
             load();
         }
