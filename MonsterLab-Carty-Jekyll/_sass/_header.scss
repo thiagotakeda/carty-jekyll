@@ -206,7 +206,7 @@
                             .dropdown-menu {
                                 display: block;
                                 padding: 0 20px;
-                                top: 46px;
+                                top: 45px;
                                 border-radius: 0;
                                 left: -130%;
                                 border: 0;
@@ -259,7 +259,7 @@
                                 background: transparent;
                             }
                         }
-                        button#pl-dropdown {
+                        a#pl-dropdown {
                             background: transparent;
                             border: 0;
                             i.glyphicon.glyphicon-menu-down {
@@ -273,7 +273,7 @@
                         &.open {
                             &>.dropdown-menu {
                                 padding: 0 20px;
-                                top: 46px;
+                                top: 45px;
                                 border-radius: 0;
                                 left: -130%;
                                 border: 0;
@@ -335,15 +335,19 @@
                         }
                     }
                     &.pl-before-last-link {
-                        padding-right: 90px;
+                        padding-right: 105px;
                         @include xs {
                             padding-right: inherit;
                         }
                     }
                     &.pl-last-link {
-                        button.plll {
+                        a.plll {
                             display: flex;
                             flex-flow: column;
+                            color: $white;
+                            &:hover {
+                                color: $white;
+                            }
                             img {
                                 align-self: center;
                                 margin-bottom: 5px;
@@ -352,7 +356,7 @@
                         background: $blue;
                         position: absolute;
                         right: 0;
-                        top: -57px;
+                        top: -58px;
                         height: 105px;
                         display: flex;
                         justify-content: flex-end;
@@ -373,7 +377,7 @@
                                 .dropdown-menu-devis {
                                     display: block;
                                     padding: 0;
-                                    top: 103px;
+                                    top: 102px;
                                     border-radius: 0;
                                     right: 0;
                                     left: inherit;

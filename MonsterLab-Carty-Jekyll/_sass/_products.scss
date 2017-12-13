@@ -211,14 +211,14 @@
                         padding: 5px 80px;
                     }
                 }
-                button.ccbct-button-action {
+                a.ccbct-button-action {
                     background: $blue;
                     color: $white;
                     padding: 15px 35px;
                     border: 0;
                     margin-top: 25px;
                     font-size: 1.2rem;
-                    display: block;
+                    display: table;
                     margin: 20px auto;
                 }
                 a.ccbct-link-action {
@@ -675,7 +675,8 @@
             color: $white;
             padding: 15px 35px;
             border: 0;
-            margin-top: 25px;
+            position: relative;
+            top: 45px;
             font-size: 1.2rem;
         }
         .btn-ctele-fiche {
@@ -683,7 +684,8 @@
             color: $blue;
             padding: 15px 0 15px 35px;
             border: 0;
-            margin-top: 25px;
+            position: relative;
+            top: 45px;
             font-size: 1.2rem;
             opacity: .6;
             font-weight: bold;
@@ -696,5 +698,18 @@
                 text-align: left;
             }
         }
+    }
+}
+
+#potscarty-autres-1,
+#potscarty-autres-21 {
+    .cii-img.cii-img-solo {
+        width: 30% !important;
+    }
+}
+
+#flute {
+    .cii-img {
+        width: 30% !important;
     }
 }

@@ -29,8 +29,8 @@ layout: autres
                                 <h3 class="ccbct-h3 ccbct-h3-small"> 1 L</h3>
                                 <p class="ccbct-p ccbct-p-small"> <small>Φ115 x H138 mm </small></p>
 
-                                <button class="ccbct-button-action" type="button"> Télécharger la plaquette </button>
-                                <a href="{{ site.url }}/assets/documents/pot1l/fr/pot1l_fichetechnique.pdf" target="_blank" class="ccbct-link-action"> Fiche technique </a>
+                                <a href="{{ site.url }}/assets/documents/pot1l/fr/potetseaucarty_plaquette.pdf" target="_blank" class="ccbct-button-action"> Télécharger la plaquette </a>
+                                <a target="_blank" href="{{ site.url }}/assets/documents/pot1l/fr/potseau_fichetechnique.pdf" class="ccbct-link-action"> Fiche technique </a>
                             </div>
                         </div>
                     </div>
@@ -44,8 +44,8 @@ layout: autres
                                 <h3 class="ccbct-h3 ccbct-h3-small"> 21 L </h3>
                                 <p class="ccbct-p ccbct-p-small"> <small>Φ328 x 274 x H52 mm</small></p>
 
-                                <button class="ccbct-button-action" type="button"> Télécharger la plaquette </button>
-                                <a href="{{ site.url }}/assets/documents/seau21l/fr/seau21l_fichetechnique.pdf" target="_blank" class="ccbct-link-action"> Fiche technique </a>
+                                <a href="{{ site.url }}/assets/documents/seau21l/fr/seau21l_plaquette.pdf" target="_blank" class="ccbct-button-action" > Télécharger la plaquette </a>
+                                <a target="_blank" href="{{ site.url }}/assets/documents/seau21l/fr/seau21l_fichetechnique.pdf"  class="ccbct-link-action"> Fiche technique </a>
                             </div>
                         </div>
                     </div>

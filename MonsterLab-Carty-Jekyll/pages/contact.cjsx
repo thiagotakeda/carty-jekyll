@@ -55,8 +55,8 @@ layout: default
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                       <div class="cfc-padding-50">
                          <h3 class="contactfc-h3 min-width"> Nous sommes à votre disposition </h3>
-                         <h3 class="contactfc-h3 cfc-padding-10"> <img  src="{{ site.url }}/assets/images/contact/icon-mail.svg"> serviceplus@carty.fr  </h3>
-                         <h3 class="contactfc-h3 cfc-padding-10"> <img  src="{{ site.url }}/assets/images/contact/icon-phone.svg">   +33 (0) 2 47 53 84 11 </h3>
+                         <a href="mailto:serviceplus@carty.fr ?Subject=Contact%20Carty" target="_top" class="contactfc-h3 cfc-padding-10"> <img  src="{{ site.url }}/assets/images/contact/icon-mail.svg"> serviceplus@carty.fr  </a>
+                         <a href="tel:+330247538411" class="contactfc-h3 cfc-padding-10"> <img  src="{{ site.url }}/assets/images/contact/icon-phone.svg">   +33 (0) 2 47 53 84 11 </a>
                        </div>
                 </div> 
               </div>
@@ -64,23 +64,23 @@ layout: default
         </section>
 
         <section id="contact-map" >
-         <a target="_blank" href="https://www.google.fr/maps/place/29+Rue+Joseph+Cugnot,+37300+Jou%C3%A9-l%C3%A8s-Tours/@47.3417368,0.6296892,17z/data=!4m5!3m4!1s0x47fd29b8fa1a1c23:0xa72af9e80f41014a!8m2!3d47.3423511!4d0.6302739">
+       
             <div class="wrapper">
                 <div class="row contactf-container">
                     
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="contact-map-description">
+                        <a target="_blank" href="https://www.google.fr/maps/place/29+Rue+Joseph+Cugnot,+37300+Jou%C3%A9-l%C3%A8s-Tours/@47.3417368,0.6296892,17z/data=!4m5!3m4!1s0x47fd29b8fa1a1c23:0xa72af9e80f41014a!8m2!3d47.3423511!4d0.6302739" class="contact-map-description">
                             <h3 class="cmd-h3"> ADRESSE</h3>
                             <p class="cmd-p">27-29 Rue Joseph Cugnot <br>
                             37300 Joué-lès-Tours <br>
                             France </p>
                             <img class="cmd-arrow" src="{{ site.url }}/assets/images/all/icon-arrow.svg"> 
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>        
            <div id="cm-google-maps"> </div>
-           </a>
+          
         </section>
 
     </div>

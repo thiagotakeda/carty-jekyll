@@ -26,7 +26,7 @@
             if (localStorage.getItem("devis")) {
                 devis = JSON.parse(localStorage.getItem("devis"));
 
-                devis.forEach(function(article, i){
+                devis.forEach(function(article, i) {
                     articles += `
                     <div class="dlp-card">
                         <div class="col-lg-3">
@@ -74,10 +74,10 @@
             var casserole = document.getElementById("casserole").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
             var devis = [];
 
-             if (quantite < 1)
+            if (quantite < 1)
                 return alert("choisissez la quantité")
-            
-            if(localStorage.getItem("devis"))
+
+            if (localStorage.getItem("devis"))
                 devis = JSON.parse(localStorage.getItem("devis"));
 
             devis.push({
@@ -365,6 +365,8 @@
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(40.6700, -73.9400),
+                animation: google.maps.Animation.BOUNCE,
+                icon: 'https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/location-24-128.png',
                 map: map,
                 title: 'Snazzy!'
             });

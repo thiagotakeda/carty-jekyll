@@ -26,7 +26,7 @@
             if (localStorage.getItem("devis")) {
                 devis = JSON.parse(localStorage.getItem("devis"));
 
-                devis.forEach(function (article, i) {
+                devis.forEach(function(article, i) {
                     articles += `
                     <div class="dlp-card">
                         <div class="col-lg-3">
@@ -367,6 +367,8 @@
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(40.6700, -73.9400),
+                animation: google.maps.Animation.BOUNCE,
+                icon: 'https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/location-24-128.png',
                 map: map,
                 title: 'Snazzy!'
             });

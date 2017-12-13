@@ -15,7 +15,7 @@ layout: default
         </section>
 
         <section id="about-apresentation">
-            <div class="wrapper">
+            <div class="wrapper" style="position:relative; z-index:1;">
                 <p class="abouta-p"> Depuis près de 60 ans, Carty produit en France des emballages alimentaires de qualité et
                 répond aux demandes spécifiques de ses Clients grâce à un service fiable et réactif.</p>
                 <div class="row">
@@ -48,7 +48,15 @@ layout: default
                           </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
+            <div class="container-fluid about-big-background">
+            <img class="abb-image" src="{{ site.url }}/assets/images/about/banner-about.jpg" alt="about">   
+            </div>
+
+            <div class="wrapper">
+                <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-text-company">
                       <h3 class="atc-h3">L’équipe Carty</h3>
                       <p class="atc-p"> Portée par des valeurs d’honnêteté, de confiance  et de respect, l’équipe CARTY met tout en œuvre pour fournir à ses Clients des produits et services de qualité, et ainsi assurer le développement durable de l’entreprise. </p>
