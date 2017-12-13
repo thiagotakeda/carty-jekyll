@@ -13,6 +13,7 @@
     <script src="{{ " js/jquery-3.2.1.min.js " | prepend: site.baseurl }}"></script>
     <script src="{{ " js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
     <script src="{{ " js/javascript.js " | prepend: site.baseurl }}"></script>
+    <script src="{{ " js/notify.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA1P4kU_qChojvk54OX6IVL6pySE_vBylo"></script>
 
     <script type="text/javascript">
@@ -23,11 +24,11 @@
             var devis = [];
             var articles_devi = "";
             var articles_all = "";
-            
+
             if (localStorage.getItem("devis")) {
                 devis = JSON.parse(localStorage.getItem("devis"));
 
-                for (var i= 0; i < devis.length; i++) {
+                for (var i = 0; i < devis.length; i++) {
 
                     if (i < 4) {
                         articles_devi += `
@@ -82,11 +83,11 @@
                     `
                 }
 
-                if (devis.length > 4){
-                    document.getElementById("devis-quantite").innerHTML = `Plus ${ devis.length - 4 } produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">`
+                if (devis.length > 4) {
+                    document.getElementById("devis-quantite").innerHTML = `Plus ${devis.length - 4} produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">`
                 }
 
-                if (devis.length <= 4){
+                if (devis.length <= 4) {
                     document.getElementById("devis-quantite").innerHTML = ""
                 }
 
@@ -101,6 +102,8 @@
 
             localStorage.setItem("devis", JSON.stringify(devis));
 
+            $.notify("Élément supprimé", "success");              
+
             load();
         }
 
@@ -111,10 +114,10 @@
             var casserole = document.getElementById("casserole").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
             var devis = [];
 
-             if (quantite < 1)
+            if (quantite < 1)
                 return alert("choisissez la quantité")
-            
-            if(localStorage.getItem("devis"))
+
+            if (localStorage.getItem("devis"))
                 devis = JSON.parse(localStorage.getItem("devis"));
 
             devis.push({
@@ -126,6 +129,8 @@
             localStorage.setItem("devis", JSON.stringify(devis));
 
             document.getElementById("quantite").value = 0;
+
+            $.notify("Élément ajouté", "success");  
 
             load();
         }

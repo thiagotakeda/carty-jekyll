@@ -13,6 +13,7 @@
     <script src="{{ " js/jquery-3.2.1.min.js " | prepend: site.baseurl }}"></script>
     <script src="{{ " js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
     <script src="{{ " js/javascript.js " | prepend: site.baseurl }}"></script>
+    <script src="{{ " js/notify.min.js " | prepend: site.baseurl }}"></script>    
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA1P4kU_qChojvk54OX6IVL6pySE_vBylo"></script>
 
     <script type="text/javascript">
@@ -101,6 +102,8 @@
 
             localStorage.setItem("devis", JSON.stringify(devis));
 
+            $.notify("Élément supprimé", "success");
+
             load();
         }
 
@@ -128,6 +131,8 @@
             localStorage.setItem("devis", JSON.stringify(devis));
 
             document.getElementById(`quantite_${int}`).value = 0;
+
+            $.notify("Élément ajouté", "success");  
 
             load();
         }
