@@ -21,6 +21,12 @@ footer {
             }
             .fb-text {
                 position: relative;
+                @include sm {
+                    margin: auto;
+                }
+                @include xs {
+                    margin: auto;
+                }
                 .fbt-text {
                     color: $white;
                     font-size: 1.4rem;

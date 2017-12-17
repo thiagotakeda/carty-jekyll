@@ -18,7 +18,7 @@ layout: default
 
         <section id="contact-form">
             <div class="wrapper">
-              <div class="row contactf-container">
+              <div class="row contactf-container reverse-xs">
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                     <div class="cfc-padding-50">
                       <h3 class="contactfc-h3"> <strong class="cfc-block">Vous souhaitez nous contacter ? </strong>

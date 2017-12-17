@@ -34,12 +34,20 @@
             z-index: 2;
             top: 50%;
             margin-top: -100px;
+            @include xs {
+                height: 100px;
+                width: 20px;
+                margin-top: -50px;
+            }
         }
         &.cis-left {
             &:before {
                 content: '';
                 left: -40px;
                 border-radius: 5px 0 0 5px;
+                @include xs {
+                    left: -20px;
+                }
             }
         }
         &.cis-right {
@@ -47,6 +55,9 @@
                 content: '';
                 right: -40px;
                 border-radius: 0 5px 5px 0;
+                @include xs {
+                    right: -20px;
+                }
             }
         }
     }

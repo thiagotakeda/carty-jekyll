@@ -148,6 +148,7 @@
         @include xs {
             position: relative;
             top: 0;
+            min-height: 320px;
         }
         @include sm {
             top: 0;
@@ -360,6 +361,9 @@
             }
         }
         .pcs-aside {
+            @include xs {
+                padding-top: 50px;
+            }
             .pcsa-h3 {
                 font-size: 2.5rem;
                 line-height: 3rem;
@@ -607,6 +611,9 @@
     }
     #product-explanation {
         padding: 50px 0;
+        @include xs {
+            padding: 10px 0;
+        }
         .wrapper>.row {
             padding: 30px 0;
         }
@@ -617,16 +624,34 @@
             flex-flow: wrap;
             height: 100%;
             max-height: 100%;
+            @include xs {
+                min-height: 250px;
+            }
             &.padding-left {
                 padding-left: 50px;
+                @include xs {
+                    padding-left: 15px;
+                }
             }
             &.padding-right {
                 padding-right: 50px;
+                @include xs {
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+                &.text-right {
+                    @include xs {
+                        text-align: left !important;
+                    }
+                }
             }
             .cexplation-h3 {
                 color: $blue;
                 position: relative;
                 width: 100%;
+                @include xs {
+                    margin-top: 0;
+                }
                 &.left {
                     &:before {
                         content: '';
@@ -636,6 +661,9 @@
                         background: $blue;
                         left: -25px;
                         top: -10px;
+                        @include xs {
+                            display: none;
+                        }
                     }
                 }
                 &.right {
@@ -647,6 +675,9 @@
                         background: $blue;
                         right: -25px;
                         top: -10px;
+                        @include xs {
+                            display: none;
+                        }
                     }
                 }
             }
@@ -678,6 +709,10 @@
             position: relative;
             top: 45px;
             font-size: 1.2rem;
+            @include xs {
+                display: inline-block;
+                margin: 10px 0;
+            }
         }
         .btn-ctele-fiche {
             background: transparent;
@@ -711,5 +746,31 @@
 #flute {
     .cii-img {
         width: 30% !important;
+    }
+}
+
+#CartyboxSliderProducts {
+    margin: auto;
+    .carousel-indicators {
+        bottom: -40px;
+        li {
+            border: 1px solid #fff;
+            background: lighten($soft-gray, 20%);
+            &.active {
+                background: $blue;
+            }
+        }
+    }
+    .carousel-inner {
+        .item {
+            img {
+                margin: auto;
+            }
+            .hclb-text {
+                text-align: center;
+                padding: 20px;
+                font-size: 1.4rem;
+            }
+        }
     }
 }

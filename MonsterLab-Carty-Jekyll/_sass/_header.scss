@@ -162,9 +162,12 @@
                         color: $white;
                         display: table;
                         width: 100%;
-                        padding: 10px 0 0 10px;
+                        padding: 0 0 0 10px;
                         font-size: 3rem;
                         text-align: left;
+                        img {
+                            width: 40px;
+                        }
                     }
                     position: fixed;
                     background: $blue;
@@ -177,6 +180,9 @@
                     color: $text-blue;
                     font-size: 1.4rem;
                     display: inline-block;
+                    &:visited {
+                        color: $text-blue;
+                    }
                     @include sm {
                         position: relative;
                         top: -10px;
@@ -191,6 +197,9 @@
                         font-size: 2rem;
                         &.pl-last-link {
                             display: none !important;
+                        }
+                        &:visited {
+                            color: $white;
                         }
                     }
                     button {
@@ -262,11 +271,21 @@
                         a#pl-dropdown {
                             background: transparent;
                             border: 0;
+                            color: $text-blue;
                             i.glyphicon.glyphicon-menu-down {
                                 font-size: .7rem;
                                 top: -1px;
                                 @include xs {
                                     top: -3px;
+                                }
+                            }
+                            &:visited {
+                                color: $text-blue;
+                            }
+                            @include xs {
+                                color: $white;
+                                &:visited {
+                                    color: $white;
                                 }
                             }
                         }

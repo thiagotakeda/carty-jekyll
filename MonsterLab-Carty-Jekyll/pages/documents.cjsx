@@ -80,19 +80,19 @@ layout: default
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 relative">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4 relative">
                        <a class="link-documents-download" href="{{ site.url }}/assets/documents/photos/cartybox_photos.zip"> 
                             <div class="dp-description"> <p class="dpd-p">Cartybox</p> <img src="{{ site.url }}/assets/images/documents/icon-download.svg"> </div>
                             <img src="{{ site.url }}/assets/images/documents/documents-carty.png" alt="cartybox photos">
                        </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
                         <a class="link-documents-download" href="{{ site.url }}/assets/documents/photos/potscarty_photos.zip"> 
                             <div class="dp-description"> <p class="dpd-p">Pots Carty</p> <img src="{{ site.url }}/assets/images/documents/icon-download.svg"> </div>
                             <img  src="{{ site.url }}/assets/images/documents/documents-pots.png" alt="pots photos">
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
                         <a class="link-documents-download" href="{{ site.url }}/assets/documents/photos/flutes_photos.zip"> 
                             <div class="dp-description"> <p class="dpd-p">Flûtes Carty</p> <img src="{{ site.url }}/assets/images/documents/icon-download.svg"> </div>
                             <img  src="{{ site.url }}/assets/images/documents/documents-flutes.png" alt="flutes photos">

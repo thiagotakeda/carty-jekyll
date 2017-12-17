@@ -125,6 +125,20 @@
             height: 280px;
             float: left;
             border: solid 1px $white;
+            @include sm {
+                height: 187px;
+                margin: 20px 0;
+            }
+            @include xs {
+                height: 260px;
+                margin: 10px 0;
+            }
+            @include i7 {
+                height: 322px;
+            }
+            @include i7plus {
+                height: 365px;
+            }
             &:before {
                 content: '';
                 width: 2px;
@@ -153,6 +167,16 @@
                 .dpd-p {
                     color: $gray;
                 }
+            }
+        }
+        img {
+            @include sm {
+                width: calc(100% - 60px);
+                margin: 20px 0;
+            }
+            @include xs {
+                width: calc(100% - 60px);
+                margin: 10px 0;
             }
         }
     }

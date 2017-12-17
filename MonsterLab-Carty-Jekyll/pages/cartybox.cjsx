@@ -16,7 +16,7 @@ layout: cartybox
                     </p>
                 </div>
             </div>
-            <div class="wrapper relative hc-relative">
+            <div class="wrapper relative hc-relative  hide-all-xs">
                 <div class="row product-collumn">
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
@@ -56,6 +56,94 @@ layout: cartybox
                     </div>
                 </div>
             </div>
+
+            <div id="CartyboxSliderProducts"  class="carousel slide show-only-mobile" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#CartyboxSliderProducts" data-slide-to="0" class="active"></li>
+                    <li data-target="#CartyboxSliderProducts" data-slide-to="1"></li>
+                    <li data-target="#CartyboxSliderProducts" data-slide-to="2"></li>
+                    <li data-target="#CartyboxSliderProducts" data-slide-to="3"></li>
+                </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="wrapper relative hc-relative">
+                            <div class="row product-collumn">
+                                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                   <div class="cc-box-content">
+                                    <div class="ccbc-text">
+                                        <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale"> </div>
+                                        <h3 class="ccbct-h3"> Conservation optimale </h3>
+                                        <p class="ccbct-p"> Étanche et hermétique, la boite CARTYBOX protège parfaitement les aliments pour une conservation optimale </p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="wrapper relative hc-relative">
+                            <div class="row product-collumn">
+                                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                 <div class="cc-box-content">
+                                    <div class="ccbc-text">
+                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/congelateur.svg" alt="Micro-ondes et congélateur"></div>
+                                        <h3 class="ccbct-h3"> Micro-ondes et congélateur </h3>
+                                        <p class="ccbct-p"> Pratique, elle peut aller directement au micro-ondes en sortant du congélateur </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="wrapper relative hc-relative">
+                        <div class="row product-collumn">
+                            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                <div class="cc-box-content">
+                            <div class="ccbc-text">
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/lave-vaiselle.svg" alt="Lave-vaisselle"></div>
+                                <h3 class="ccbct-h3"> Lave-vaisselle </h3>
+                                <p class="ccbct-p"> Solide, elle est réutilisable de multiples fois et passe au lave-vaisselle</p>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="item">
+                    <div class="wrapper relative hc-relative">
+                        <div class="row product-collumn">
+                            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                <div class="cc-box-content">
+                                    <div class="ccbc-text">
+                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/empilable.svg" alt="Empilable"> </div>
+                                        <h3 class="ccbct-h3">Empilable </h3>
+                                        <p class="ccbct-p">Empilable, elle est facile à ranger</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls 
+            <a class="left carousel-control" href="#CartyboxSliderProducts" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#CartyboxSliderProducts" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>-->
+            </div>
+
         </section>
         <section id="product-color-simulator">
             <div class="wrapper">
@@ -91,7 +179,7 @@ layout: cartybox
                         <p class="ctelechargements-p">Découvrez la gamme complète</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 text-right">
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-right">
                         <a href="{{ site.url }}/assets/documents/cartybox/fr/cartybox_plaquette.pdf" class="btn-ctele-telecharger" target="_blank">Télécharger la plaquette</a>
                         <a href="{{ site.url }}/assets/documents/cartybox/fr/cartybox_fichetechnique.pdf" class="btn-ctele-fiche" target="_blank">Fiche technique</a>
 

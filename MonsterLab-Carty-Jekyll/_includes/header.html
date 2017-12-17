@@ -41,13 +41,13 @@
 
             <div class="trigger">
                 <label class="nav-trigger-close" for="nav-trigger">
-                            <i class="glyphicon glyphicon-remove"></i>
+                          <img src="{{ site.url }}/assets/images/all/icon-close.svg">
                 </label>
                 <a class="page-link" href="{{ site.url }}/cartybox.html">Cartybox</a>
                 <div class="page-link dropdown">
-                    <a href="{{ site.url }}/potscarty-pots.html" id="pl-dropdown">Pots Carty
+                    <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="pl-dropdown">Pots Carty
                     <i class="glyphicon glyphicon-menu-down"></i></a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" aria-labelledby="pl-dropdown">
                         <li>
                             <a href="{{ site.url }}/potscarty-pots.html">
                                 <img src="{{ site.url }}/assets/images/header/icon-pots.svg"> Pots Carty</a>
@@ -85,6 +85,7 @@
                 </div>
 
                 <hr class="mobile-hr">
+                <a class="mobile-links-dropdown-menu" href="{{ site.url }}/documents.html">Documents</a>
                 <a class="mobile-links-dropdown-menu" href="{{ site.url }}/about.html">L'entreprise</a>
                 <a class="mobile-links-dropdown-menu" href="{{ site.url }}/contact.html">Contactez-nous</a>
                 <a class="mobile-links-dropdown-menu" href="{{ site.url }}/contact.html">English Version</a>
