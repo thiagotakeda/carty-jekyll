@@ -1,5 +1,5 @@
 --- 
-title: Potscarty Pots 
+title: Pots Carty 
 permalink: /potscarty-pots.html 
 layout: pots 
 ---

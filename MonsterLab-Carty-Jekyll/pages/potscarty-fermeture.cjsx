@@ -1,5 +1,5 @@
 --- 
-title: Potscarty Fermeture 
+title: Pots avec Fermeture de Securité 
 permalink: /potscarty-fermeture.html 
 layout: fermeture 
 ---

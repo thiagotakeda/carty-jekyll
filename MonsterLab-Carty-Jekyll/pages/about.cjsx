@@ -1,5 +1,5 @@
 ---
-title: Lentreprise
+title: L'entreprise
 permalink: /about.html
 layout: default
 ---
