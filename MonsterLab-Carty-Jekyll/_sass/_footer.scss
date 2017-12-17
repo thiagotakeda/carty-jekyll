@@ -1,4 +1,6 @@
 footer {
+    z-index: 5;
+    position: relative;
     .footer-brand {
         background: $dark-blue;
         height: 90px;

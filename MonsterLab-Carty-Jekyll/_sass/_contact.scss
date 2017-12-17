@@ -101,6 +101,16 @@
     }
 }
 
+#float-map {
+    position: absolute;
+    right: 0;
+    top: -70px;
+    z-index: 2;
+    @include xs {
+        display: none;
+    }
+}
+
 #contact-map {
     #cm-google-maps {
         height: 500px;

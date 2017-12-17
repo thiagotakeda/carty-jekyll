@@ -76,10 +76,15 @@ layout: default
                             France </p>
                             <img class="cmd-arrow" src="{{ site.url }}/assets/images/all/icon-arrow.svg"> 
                         </a>
+
+                        <div id="float-map"> 
+                         <img  src="{{ site.url }}/assets/images/all/map.svg"> 
+                        </div>
                     </div>
                 </div>
             </div>        
-           <div id="cm-google-maps"> </div>
+          <!-- <div id="cm-google-maps"> </div> -->
+          <iframe src="https://snazzymaps.com/embed/35194" width="100%" height="600px" style="border:none; position:relative; top:-120px;"></iframe>
           
         </section>
 
@@ -87,28 +92,4 @@ layout: default
 </main>
 
 
-
-<!-- 
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modalss
-</button>
-
-
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div> -->
 
