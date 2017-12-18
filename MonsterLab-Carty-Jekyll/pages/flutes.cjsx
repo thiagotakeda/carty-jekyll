@@ -2,6 +2,8 @@
 title: Flûtes Carty 
 permalink: /flutes-carty.html 
 layout: flutes 
+description: Des flûtes haut de gamme pour les moments de fête !
+keywords: Flûtes PS, Flûtes à champagne, Flûtes plastiques, Flûte de couleur, Flûtes PS de couleur, Flûtes à champagne de couleur, Flûtes plastiques de couleur
 ---
 
 

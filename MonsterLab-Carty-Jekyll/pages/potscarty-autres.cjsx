@@ -1,7 +1,9 @@
 --- 
 title: Autres Pots 
 permalink: /potscarty-autres.html 
-layout: autres 
+layout: autres
+description: Pot 1L et Seau 21L
+keywords: Pot 1L, Seau 21L
 ---
 
 

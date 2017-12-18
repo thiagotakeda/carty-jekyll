@@ -3,6 +3,10 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
+title: 
+description: Depuis près de 60 ans, Carty produit en France des emballages alimentaires de qualité et répond aux demandes spécifiques de ses Clients grâce à un service fiable et réactif.
+keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable, Barquette alimentaire, Barquette plastique, Barquette réutilisable, Barquette polypropylène, Caissette plastique, Caissette alimentaire, Caissette micro-ondable, Caissette avec couvercle, Boîte alimentaire, Boîte micro-ondable, Boîte plastique, Boîte avec couvercle, Emballage alimentaire, Emballage plastqiue, Emballage réutilisable, Emballage micro-ondable, Emballage avec couvercle, Pots plastqiues, Ports à rillettes, Pots à miel, Pots à crème fraîche, Pots à fromage frais, Pots alimentaires, Pots polypropylène, Pots PP, Pots PS, Flûtes PS, Flûtes à champagne, Flûtes plastiques
+    
 ---
 <main class="page-content" aria-label="Content">
     <div id="home">
@@ -121,7 +125,7 @@ layout: default
                             <div>
                                 <h3 class="hctafb-h3">CARTY</h3>
                                 <p class="hctafb-p">Depuis près de 60 ans, Carty produit en France des emballages alimentaires de qualité et répond aux demandes spécifiques de ses Clients grâce à un service fiable et réactif.</p>
-                                <a href="{{ site.url }}/about.html class="hctafb-button">  En Savoir plus </a>   
+                                <br><br><a href="{{ site.url }}/about.html" class="hctafb-button">  En Savoir plus </a>   
                             </div> 
                             <img class="hctafb-cucumber" src="{{ site.url }}/assets/images/index/cucumber.png">            <img class="hctafb-strawberry" src="{{ site.url }}/assets/images/index/strawberry.png">      
                         </div>

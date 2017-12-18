@@ -2,6 +2,8 @@
 title: Pots avec Fermeture de Securité 
 permalink: /potscarty-fermeture.html 
 layout: fermeture 
+description: Pour conserver et transporter vos préparations en toute sécurité !
+keywords: Pots avec fermeture de securité, Pots ronds avec fermeture de securité, Pots carrés avec fermeture de securité
 ---
 
 
@@ -10,7 +12,7 @@ layout: fermeture
         <section class="container-fluid no-padding">
             <div class="main-banner banner-potsfermeture">
                 <div class="mb-text">
-                    <h3 class="mbt-h3"> Pots avec fermeture de Sécurité </h3>
+                    <h3 class="mbt-h3">Pots avec Fermeture de Sécurité</h3>
                     <p class="mbt-p">
                         Pour conserver et transporter vos préparations en toute sécurité !
                     </p>

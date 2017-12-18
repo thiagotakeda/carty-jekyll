@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Carty</title>
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+    <title>{{ page.title }} - Carty | Producteur d’emballages alimentaires de qualité</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 
     <link rel="stylesheet" href="{{ " assets/main.css " | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ " assets/style.css " | prepend: site.baseurl }}">
     <link rel="canonical" href="http://localhost:4000/">
     <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="/feed.xml">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/images/all/favicon.png"/>
 </head>
 <!-- @end include head -->

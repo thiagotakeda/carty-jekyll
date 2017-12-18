@@ -2,6 +2,8 @@
 title: Cartybox 
 permalink: /cartybox.html 
 layout: cartybox 
+description: Avec les boîtes CARTYBOX, mettez vos produits en valeur.
+keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable, Barquette alimentaire, Barquette plastique, Barquette réutilisable, Barquette polypropylène, Caissette plastique , Caissette alimentaire, Caissette micro-ondable, Caissette avec couvercle, Boîte alimentaire, Boîte micro-ondable, Boîte plastique, Boîte avec couvercle, Emballage alimentaire, Emballage plastique, Emballage réutilisable, Emballage micro-ondable, Emballage avec couvercle
 ---
 
 
