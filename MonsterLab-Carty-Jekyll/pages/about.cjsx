@@ -1,6 +1,6 @@
 ---
 title: L'entreprise
-permalink: /about.html
+permalink: /entreprise.html
 layout: default
 ---
 

@@ -31,7 +31,7 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-                        <a href="{{ site.url }}/potscarty-pots.html" class="hc-box-content pc-box">
+                        <a href="{{ site.url }}/pots-carty.html" class="hc-box-content pc-box">
                             <div class="hcbc-text">
                                 <h3 class="hcbct-h3"> Pots Carty </h3>
                                 <p class="hcbct-p"> Avec les pots CARTY, conditionnez et conservez vos produits </p>
@@ -78,7 +78,7 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                     <div class="wrapper relative hc-relative">
                             <div class="row home-collumn">
                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                                <a href="{{ site.url }}/potscarty-pots.html" class="hc-box-content pc-box">
+                                <a href="{{ site.url }}/pots-carty.html" class="hc-box-content pc-box">
                                         <div class="hcbc-text">
                                             <h3 class="hcbct-h3"> Pots Carty </h3>
                                             <p class="hcbct-p"> Avec les pots CARTY, conditionnez et conservez vos produits </p>
@@ -125,7 +125,7 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                             <div>
                                 <h3 class="hctafb-h3">CARTY</h3>
                                 <p class="hctafb-p">Depuis près de 60 ans, Carty produit en France des emballages alimentaires de qualité et répond aux demandes spécifiques de ses Clients grâce à un service fiable et réactif.</p>
-                                <br><br><a href="{{ site.url }}/about.html" class="hctafb-button">  En Savoir plus </a>   
+                                <br><br><a href="{{ site.url }}/entreprise.html" class="hctafb-button">  En Savoir plus </a>   
                             </div> 
                             <img class="hctafb-cucumber" src="{{ site.url }}/assets/images/index/cucumber.png">            <img class="hctafb-strawberry" src="{{ site.url }}/assets/images/index/strawberry.png">      
                         </div>

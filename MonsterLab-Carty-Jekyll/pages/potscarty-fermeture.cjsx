@@ -1,6 +1,6 @@
 --- 
 title: Pots avec Fermeture de Securité 
-permalink: /potscarty-fermeture.html 
+permalink: /pots-fermeture-securite.html 
 layout: fermeture 
 description: Pour conserver et transporter vos préparations en toute sécurité !
 keywords: Pots avec fermeture de securité, Pots ronds avec fermeture de securité, Pots carrés avec fermeture de securité

@@ -1,6 +1,6 @@
 ---
 title: Contactez-nous
-permalink: /contact.html
+permalink: /contactez-nous.html
 layout: default
 ---
 

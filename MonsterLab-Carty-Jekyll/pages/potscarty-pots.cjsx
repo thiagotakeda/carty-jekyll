@@ -1,6 +1,6 @@
 --- 
 title: Pots Carty 
-permalink: /potscarty-pots.html 
+permalink: /pots-carty.html 
 layout: pots 
 description: Avec les POTS CARTY, conditionnez et conservez vos produits !
 keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraîche, Pots à fromage frais, Pots alimentaires, Pots polypropylène, Pots polystyrène, Pots PP, Pots PS, Pots plastiques de couleur, Pots à rillettes de couleur, Pots à miel de couleur, Pots à crème fraîche de couleur, Pots à fromage frais de couleur, Pots alimentaires de couleur, Pots polypropylène de couleur, Pots polystyrène de couleur, Pots PP de couleur, Pots PS de couleur, Pots plastiques personnalisés, Pots à rillettes personnalisés, Pots à miel personnalisés, Pots à crème fraîche personnalisés, Pots à fromage frais personnalisés, Pots alimentaires personnalisés, Pots polypropylène personnalisés, Pots polystyrène personnalisés, Pots PP personnalisés, Pots PS personnalisés, Pots plastiques imprimés, Pots à rillettes imprimés, Pots à miel imprimés, Pots à crème fraîche imprimés, Pots à fromage frais imprimés, Pots alimentaires imprimés, Pots polypropylène imprimés, Pots polystyrène imprimés, Pots PP imprimés, Pots PS imprimés, Pots plastiques décorés, Pots à rillettes décorés, Pots à miel décorés, Pots à crème fraîche décorés, Pots à fromage frais décorés, Pots alimentaires décorés, Pots polypropylène décorés, Pots polystyrène décorés, Pots PP décorés, Pots PS décorés
