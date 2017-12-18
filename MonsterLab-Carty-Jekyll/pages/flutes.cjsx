@@ -50,7 +50,7 @@ layout: flutes
                         <div class="cc-box-content">
                             <div class="ccbc-text">
                                 <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/flutes-carty/lave-vaiselle.svg" alt="lave-vaiselle"> </div>
-                                <h3 class="ccbct-h3">Réutilisable </h3>
+                                <h3 class="ccbct-h3">Réutilisables </h3>
                                 <p class="ccbct-p">Pratiques, elles passent au lave-vaisselle</p>
                             </div>
                         </div>
@@ -126,7 +126,7 @@ layout: flutes
                                 <div class="cc-box-content">
                                     <div class="ccbc-text">
                                         <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/flutes-carty/lave-vaiselle.svg" alt="lave-vaiselle"> </div>
-                                        <h3 class="ccbct-h3">Réutilisable </h3>
+                                        <h3 class="ccbct-h3">Réutilisables </h3>
                                         <p class="ccbct-p">Pratiques, elles passent au lave-vaisselle</p>
                                     </div>
                                 </div>

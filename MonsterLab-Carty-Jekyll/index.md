@@ -121,7 +121,7 @@ layout: default
                             <div>
                                 <h3 class="hctafb-h3">CARTY</h3>
                                 <p class="hctafb-p">Depuis près de 60 ans, Carty produit en France des emballages alimentaires de qualité et répond aux demandes spécifiques de ses Clients grâce à un service fiable et réactif.</p>
-                                <button class="hctafb-button" type="button">  En Savoir plus </button>   
+                                <a href="{{ site.url }}/about.html class="hctafb-button">  En Savoir plus </a>   
                             </div> 
                             <img class="hctafb-cucumber" src="{{ site.url }}/assets/images/index/cucumber.png">            <img class="hctafb-strawberry" src="{{ site.url }}/assets/images/index/strawberry.png">      
                         </div>
@@ -130,7 +130,7 @@ layout: default
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="hcta-second">
                         <div class="hctas-box">
-                            <h3 class="hctasb-title">30 <small>d’emballages par an (capacité de production)</small></h3>
+                            <h3 class="hctasb-title">30 <small>millions d’emballages par an (capacité de production)</small></h3>
                         </div>
                         <div class="hctas-box">
                             <h3 class="hctasb-title">07 <small>lignes de production</small></h3>
