@@ -710,7 +710,7 @@
             top: 45px;
             font-size: 1.2rem;
             @include xs {
-                display: inline-block;
+                display: table;
                 margin: 10px 0;
             }
         }
