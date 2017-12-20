@@ -228,3 +228,18 @@ main.page-content {
         flex-direction: column-reverse;
     }
 }
+
+.aside-mobile {
+    @include sm {
+        position: absolute;
+        bottom: -780px;
+        z-index: 5;
+        left: 0;
+    }
+    @include xs {
+        position: absolute;
+        bottom: -780px;
+        z-index: 5;
+        left: 0;
+    }
+}
