@@ -24,26 +24,40 @@
             var devis = [];
             var articles_devi = "";
             var articles_all = "";
+            var article = "";
 
             if (localStorage.getItem("devis")) {
                 devis = JSON.parse(localStorage.getItem("devis"));
 
                 for (var i = 0; i < devis.length; i++) {
 
-                    if (i < 4) {
-                        articles_devi += `
+                    article = `
                     <div class="dlp-card">
                         <div class="col-lg-3">
-                            <div class="clpc-image">
-                                <img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale">
-                            </div>
+                            <div class="clpc-image">`
+
+                    if (devis[i].type == "pots autres")
+                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-seau.svg" alt="Pots">`
+
+                    if (devis[i].type == "cartybox")
+                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-cartybox.svg" alt="Cartybox">`
+
+                    if (devis[i].type == "pots fermeture")
+                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-potsFermeture.svg" alt="Pots Fermeture">`
+
+                    if (devis[i].type == "flutes carty")
+                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-glass.svg" alt="Glass">`
+
+                    if (devis[i].type == "postcarty pots")
+                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-pots.svg" alt="Pots">`
+
+                    article += `</div>
                         </div>
                         <div class="col-lg-6">
                             <div class="clpc-content">
                                 <div>
                                     <h3 class="clpc-h3">${ devis[i].type}</h3>
                                     <p class="clpc-p">${ devis[i].description}</p>
-
                                     <span class="clpc-span" onClick="supprimer(${ i})">Supprimer</span>
                                 </div>
                             </div>
@@ -55,36 +69,14 @@
                         </div>
                     </div>
                     `
-                    };
+                    if (i < 4)
+                        articles_devi += article
 
-                    articles_all += `
-                    <div class="dlp-card">
-                        <div class="col-lg-3">
-                            <div class="clpc-image">
-                                <img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="clpc-content">
-                                <div>
-                                    <h3 class="clpc-h3">${ devis[i].type}</h3>
-                                    <p class="clpc-p">${ devis[i].description}</p>
-
-                                    <span class="clpc-span" onClick="supprimer(${ i})">Supprimer</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="clpc-count">
-                                <p class="clpcc-p">${ devis[i].quantite}<small>unités</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    `
+                    articles_all += article
                 }
 
                 if (devis.length > 4) {
-                    document.getElementById("devis-quantite").innerHTML = `Plus ${ devis.length - 4 } produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">`
+                    document.getElementById("devis-quantite").innerHTML = `Plus ${devis.length - 4} produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">`
                 }
 
                 if (devis.length <= 4) {
@@ -117,7 +109,7 @@
                 aux = "second";
             }
 
-            var contenance = document.getElementById(`${ aux }-radio`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
+            var contenance = document.getElementById(`${aux}-radio`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
             var casquette = document.getElementById("casquette").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
             var autocollant = document.getElementById("autocollant").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
             var casserole = document.getElementById("casserole").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
@@ -140,7 +132,11 @@
 
             document.getElementById(`quantite_${int}`).value = 0;
 
-            $.notify("Élément ajouté", "success");
+            $(`#quantite_${int}`).notify(
+                "Élément ajouté", {
+                    position: "right",
+                    className: "success"
+            });
 
             load();
         }
