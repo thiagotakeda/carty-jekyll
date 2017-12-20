@@ -121,8 +121,12 @@
             localStorage.setItem("devis", JSON.stringify(devis));
 
             document.getElementById("quantite").value = 0;
-
-            $.notify("Élément ajouté", "success");
+            
+            $("#quantite").notify(
+                "Élément ajouté", {
+                    position: "right",
+                    className: "success"
+            });
 
             load();
         }
