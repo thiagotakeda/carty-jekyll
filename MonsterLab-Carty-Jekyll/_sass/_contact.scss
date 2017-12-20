@@ -39,10 +39,19 @@
             margin: 0;
             position: relative;
             left: -40px;
+            @include xs {
+                padding: 5px;
+                left: 0;
+                white-space: nowrap;
+                overflow-x: scroll;
+                width: 100%;
+                display: flex;
+            }
             li.contactfc-li {
                 width: calc(100% / 4);
                 @include xs {
                     width: 100%;
+                    display: inline-block;
                 }
                 a {
                     color: $white;
@@ -71,13 +80,8 @@
                             border-radius: 3px;
                             background: #14486e;
                             @include xs {
-                                bottom: inherit;
-                                left: inherit;
-                                margin-left: inherit;
-                                width: 10px;
-                                height: 30px;
-                                right: -23px;
-                                top: 5px;
+                                bottom: -5px;
+                                border-radius: 3px 3px 0 0;
                             }
                         }
                     }
