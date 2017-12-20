@@ -36,19 +36,19 @@
             <div class="col-lg-3">
                 <div class="clpc-image">`
 
-                    if (devis[i].type == "pots autres")
+                    if (devis[i].type == "autres pots")
                         article += `<img src="{{ site.url }}/assets/images/all/icon-list-seau.svg" alt="Pots">`
 
                     if (devis[i].type == "cartybox")
                         article += `<img src="{{ site.url }}/assets/images/all/icon-list-cartybox.svg" alt="Cartybox">`
 
-                    if (devis[i].type == "pots fermeture")
-                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-potsFermeture.svg" alt="Pots Fermeture">`
+                    if (devis[i].type == "pots fermeture de securité")
+                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-potsFermeture.svg" alt="pots fermeture de securité">`
 
-                    if (devis[i].type == "flutes carty")
+                    if (devis[i].type == "flûtes carty")
                         article += `<img src="{{ site.url }}/assets/images/all/icon-list-glass.svg" alt="Glass">`
 
-                    if (devis[i].type == "postcarty pots")
+                    if (devis[i].type == "pots carty")
                         article += `<img src="{{ site.url }}/assets/images/all/icon-list-pots.svg" alt="Pots">`
 
                     article += `</div>
@@ -117,7 +117,7 @@
                 devis = JSON.parse(localStorage.getItem("devis"));
 
             devis.push({
-                type: "flutes carty",
+                type: "flûtes carty",
                 description: texture + ", " + flute,
                 quantite: parseInt(quantite)
             });
