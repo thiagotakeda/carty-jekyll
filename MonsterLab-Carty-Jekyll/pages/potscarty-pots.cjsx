@@ -151,7 +151,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
         <section id="product-show-pots">
             <div class="wrapper">
                 <h3 class="pspots-h3">Deux gammes de pots</h3>
-                <p class="pspots-p"> Pour vos rillettes, crème fraiche,
+                <p class="pspots-p"> Pour vos rillettes, crème fraîche,
                 coulis et sauces, miel, saindoux, et bien d’autres... </p>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center pspots-box">
