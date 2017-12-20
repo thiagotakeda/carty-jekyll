@@ -232,7 +232,7 @@ main.page-content {
 .aside-mobile {
     @include sm {
         position: absolute;
-        bottom: -780px;
+        bottom: -900px;
         z-index: 5;
         left: 0;
     }
