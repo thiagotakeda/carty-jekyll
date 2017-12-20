@@ -103,11 +103,13 @@
         function ajouterDevis(int) {
             var quantite = document.getElementById(`quantite_${int}`).value;
             var texture = "Opaque";
+            var flute = document.getElementById("flute_opaque").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
 
-            if (int == 2)
+            if (int == 2){
+                flute = document.getElementById("flute_cristal").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
                 texture = "Cristal";
+            }
 
-            var flute = document.getElementById("flute").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
             var devis = [];
 
             if (quantite < 1)
@@ -115,6 +117,8 @@
 
             if (localStorage.getItem("devis"))
                 devis = JSON.parse(localStorage.getItem("devis"));
+
+            console.log(texture + ", " + flute)
 
             devis.push({
                 type: "flûtes carty",
