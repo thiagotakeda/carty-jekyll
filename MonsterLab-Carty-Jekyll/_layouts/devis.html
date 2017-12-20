@@ -20,7 +20,26 @@
         // When the window has finished loading create our google map below
         google.maps.event.addDomListener(window, 'load', init);
 
+        function setContent() {
+            var devis = [];
+            var text = "";
+
+            if (localStorage.getItem("devis")) {
+                devis = JSON.parse(localStorage.getItem("devis"))
+
+                devis.forEach(function (element) {
+                    text += `${element.quantite}x - ${element.type.toUpperCase()} - ${element.description} \n`
+                });
+
+                document.getElementById("message_comm").value = text;
+                document.getElementById("message_cons").value = text;
+                document.getElementById("message_dist").value = text;
+                document.getElementById("message_prod").value = text;
+            }
+        }
+
         function load() {
+            setContent();
             var devis = [];
             var articles_devi = "";
             var articles_all = "";
@@ -77,7 +96,7 @@
 
 
                 if (devis.length > 4) {
-                    document.getElementById("devis-quantite").innerHTML = `Plus ${ devis.length } produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">`
+                    document.getElementById("devis-quantite").innerHTML = `Plus ${devis.length} produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">`
                 }
 
                 if (devis.length <= 4) {
