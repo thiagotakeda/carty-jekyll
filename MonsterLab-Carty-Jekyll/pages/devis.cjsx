@@ -18,7 +18,7 @@ layout: devis
 
         <section id="devis-form">
             <div class="wrapper">
-              <div class="row devisfc-container">
+              <div class="row devisfc-container reverse-xs">
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 devis-container-form">
                     <div class="cfc-padding-50">
                       <h3 class="devisfc-h3"> <strong class="cfc-block">Pour établir votre devis, </strong>

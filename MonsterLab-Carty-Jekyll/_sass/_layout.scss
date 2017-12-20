@@ -178,35 +178,45 @@ main.page-content {
 .hide-all-xs {
     @include xl {
         display: block !important;
+        visibility: visible !important;
     }
     @include lg {
         display: block !important;
+        visibility: visible !important;
     }
     @include md {
         display: block !important;
+        visibility: visible !important;
     }
     @include sm {
         display: block !important;
+        visibility: visible !important;
     }
     @include xs {
         display: none !important;
+        visibility: hidden !important;
     }
 }
 
 .show-only-mobile {
     @include xl {
         display: none !important;
+        visibility: hidden !important;
     }
     @include lg {
+        visibility: hidden !important;
         display: none !important;
     }
     @include md {
+        visibility: hidden !important;
         display: none !important;
     }
     @include sm {
+        visibility: hidden !important;
         display: none !important;
     }
     @include xs {
+        visibility: visible !important;
         display: block !important;
     }
 }

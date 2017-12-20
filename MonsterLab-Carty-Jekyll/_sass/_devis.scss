@@ -48,10 +48,19 @@
             margin: 0;
             position: relative;
             left: -40px;
+            @include xs {
+                padding: 5px;
+                left: 0;
+                white-space: nowrap;
+                overflow-x: scroll;
+                width: 100%;
+                display: flex;
+            }
             li.devisfc-li {
                 width: calc(100% / 4);
                 @include xs {
                     width: 100%;
+                    display: inline-block;
                 }
                 a {
                     color: $white;
@@ -83,13 +92,8 @@
                             border-radius: 3px;
                             background: #14486e;
                             @include xs {
-                                bottom: inherit;
-                                left: inherit;
-                                margin-left: inherit;
-                                width: 10px;
-                                height: 30px;
-                                right: -23px;
-                                top: 5px;
+                                bottom: -5px;
+                                border-radius: 3px 3px 0 0;
                             }
                         }
                     }
@@ -123,9 +127,10 @@
         background: $light-gray;
         overflow-x: scroll;
         height: calc(100% - 35px);
-        position: absolute;
+        position: relative;
         width: 100%;
         left: 0;
+        box-shadow: none;
     }
     .devis-list-product {
         padding: 10px 0 0 0;
@@ -213,6 +218,9 @@
                 width: 100%;
                 justify-content: center;
                 align-items: center;
+                @include xs {
+                    height: auto;
+                }
                 .clpcc-p {
                     font-size: 1.5rem;
                     font-weight: bold;
