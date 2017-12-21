@@ -12,6 +12,7 @@
         z-index: 0;
         @include xs {
             height: 460px;
+            background-position: center;
         }
         .mb-text {
             align-self: center;

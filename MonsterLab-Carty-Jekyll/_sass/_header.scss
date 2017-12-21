@@ -325,6 +325,7 @@
                                     display: inline-block;
                                     @include xs {
                                         display: block;
+                                        font-size: 18px;
                                     }
                                     a {
                                         color: $blue;
