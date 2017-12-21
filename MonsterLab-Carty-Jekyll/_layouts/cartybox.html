@@ -84,6 +84,7 @@
                 }
 
                 document.getElementById("mon-devi").innerHTML = articles_devi;
+                document.getElementById("mon-devi-mobile").innerHTML = articles_devi;
             }
         }
 
@@ -122,12 +123,12 @@
             localStorage.setItem("devis", JSON.stringify(devis));
 
             document.getElementById("quantite").value = 0;
-            
+
             $("#quantite").notify(
                 "Élément ajouté", {
                     position: "right",
                     className: "success"
-            });
+                });
 
             load();
         }

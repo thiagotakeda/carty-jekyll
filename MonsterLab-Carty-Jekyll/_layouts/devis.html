@@ -27,7 +27,7 @@
             if (localStorage.getItem("devis")) {
                 devis = JSON.parse(localStorage.getItem("devis"))
 
-                devis.forEach(function (element) {
+                devis.forEach(function(element) {
                     text += `${element.quantite}x - ${element.type.toUpperCase()} - ${element.description} \n`
                 });
 
@@ -105,6 +105,7 @@
 
                 document.getElementById("mon-devi").innerHTML = articles_devi;
                 document.getElementById("mon-devi-2").innerHTML = articles_all;
+                document.getElementById("mon-devi-mobile").innerHTML = articles_devi;
             }
         }
 
@@ -154,7 +155,7 @@
                 "Élément ajouté", {
                     position: "right",
                     className: "success"
-            });
+                });
 
             load();
         }

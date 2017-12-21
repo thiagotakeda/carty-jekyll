@@ -23,6 +23,12 @@
                 padding-left: 10px;
             }
         }
+        .devis-container-itens {
+            @include xs {
+                background: $white;
+                padding-bottom: 40px;
+            }
+        }
         .devis-container-form {
             background: $white;
             box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
@@ -30,6 +36,9 @@
             position: relative;
             z-index: 2;
             top: -30px;
+            @include xs {
+                box-shadow: none;
+            }
         }
         .cfc-padding-50 {
             padding: 50px;
@@ -236,5 +245,8 @@
                 }
             }
         }
+    }
+    .dropdown-menu-devis {
+        margin: 0;
     }
 }
