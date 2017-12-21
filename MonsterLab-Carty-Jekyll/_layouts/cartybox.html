@@ -102,8 +102,9 @@
         function ajouterDevis() {
             var quantite = document.getElementById("quantite").value;
             var contenance = document.getElementById("contenance").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
-            var casquette = document.getElementById("casquette").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
-            var casserole = document.getElementById("casserole").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
+            var number = contenance.split(" ");
+            var casquette = document.getElementById(`casquette_${ number[0] }`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
+            var casserole = document.getElementById(`casserole_${ number[0] }`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
             var devis = [];
 
             if (quantite < 1)
