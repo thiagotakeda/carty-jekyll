@@ -786,3 +786,17 @@
         }
     }
 }
+
+#flute_opaque,
+#flute_cristal {
+    .item {
+        .cii-img {
+            @include lg {
+                width: 30% !important;
+            }
+            @include md {
+                width: 30% !important;
+            }
+        }
+    }
+}
