@@ -496,6 +496,7 @@
             }
             @include xs {
                 padding-bottom: 200px;
+                min-height: 760px;
             }
             .carousel {
                 .carousel-control {
