@@ -11,9 +11,19 @@
 
     <link rel="stylesheet" href="{{ " assets/main.css " | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ " assets/style.css " | prepend: site.baseurl }}">
-    <link rel="canonical" href="http://localhost:4000/">
     <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="/feed.xml">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/images/all/favicon.png"/>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102278935-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-102278935-1');
+    </script>
+   
 </head>
 <!-- @end include head -->
