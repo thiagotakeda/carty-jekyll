@@ -214,8 +214,8 @@ keywords: Pots avec fermeture de securité, Pots ronds avec fermeture de securit
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 pspotsb-container">
-                                  <img class="pspotsbc-image" src="{{ site.url }}/assets/images/potscarty-fermeture/carres/365.svg" alt="365">   
-                                  <h3 class="pspotsbc-h3" >365 cl <small>79 x 79 x 92 mm</small> </h3> 
+                                  <img class="pspotsbc-image" src="{{ site.url }}/assets/images/potscarty-fermeture/carres/365.svg" alt="36,5">   
+                                  <h3 class="pspotsbc-h3" >36,5 cl <small>79 x 79 x 92 mm</small> </h3> 
                             </div>
                         </div>
 
