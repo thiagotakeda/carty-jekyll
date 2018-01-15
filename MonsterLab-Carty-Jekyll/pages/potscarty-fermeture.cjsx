@@ -231,7 +231,7 @@ keywords: Pots avec fermeture de securité, Pots ronds avec fermeture de securit
                         {% include potscarty-fermeture-aside.html %}
                     </div>
                     <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
-                        <div id="products-container">
+                        <div id="products-container" class="pc-fermeture">
                             <div id="first-radio-container-boxes">
                                     {% include potscarty-fermeture-21.html %} 
                                     {% include potscarty-fermeture-365.html %} 

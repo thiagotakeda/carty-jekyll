@@ -242,4 +242,16 @@ main.page-content {
         z-index: 5;
         left: 0;
     }
+    @include i7 {
+        position: absolute;
+        bottom: -740px;
+        z-index: 5;
+        left: 0;
+    }
+    @include i7plus {
+        position: absolute;
+        bottom: -760px;
+        z-index: 5;
+        left: 0;
+    }
 }

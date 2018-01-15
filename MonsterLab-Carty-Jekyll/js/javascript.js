@@ -2,6 +2,14 @@ $('.product-cs').carousel({
     interval: false
 });
 
+$(".carousel").swipe({
+    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+            if (direction == 'left') $(this).carousel('next');
+            if (direction == 'right') $(this).carousel('prev');
+        }
+        // allowPageScroll: "vertical"
+});
+
 $('.btn-pcsac').click(function() {
     $('#products-container .ps-slide').hide();
     var target = '#' + $(this).data('target');
@@ -84,6 +92,9 @@ $('input.nav-trigger').change(function() {
         $('body').removeClass("overflow-body");
     }
 });
+
+
+
 
 $().ready(function() {
     CustomSelect();
