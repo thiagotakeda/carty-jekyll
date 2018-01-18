@@ -497,10 +497,11 @@
             }
             @include xs {
                 padding-bottom: 200px;
-                min-height: 760px;
+                min-height: 560px;
+                padding-top: 60px;
             }
             @include i7 {
-                min-height: 740px;
+                min-height: 540px;
             }
             .carousel {
                 .carousel-control {
@@ -518,8 +519,8 @@
                             margin: auto;
                             display: block;
                             width: 50%;
-                            &.cii-img-solo {
-                                width: 50%;
+                            &.img-solo {
+                                width: 60%;
                             }
                         }
                     }

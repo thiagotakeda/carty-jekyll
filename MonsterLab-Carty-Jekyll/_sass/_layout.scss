@@ -244,13 +244,13 @@ main.page-content {
     }
     @include i7 {
         position: absolute;
-        bottom: -740px;
+        bottom: -580px;
         z-index: 5;
         left: 0;
     }
     @include i7plus {
         position: absolute;
-        bottom: -790px;
+        bottom: -590px;
         z-index: 5;
         left: 0;
     }
