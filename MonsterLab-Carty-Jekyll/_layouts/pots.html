@@ -32,44 +32,27 @@
 
                 for (var i = 0; i < devis.length; i++) {
 
-                    article = `
-                    <div class="dlp-card">
-                        <div class="col-lg-3">
-                            <div class="clpc-image">`
+                    article = '<div class="dlp-card"><div class="col-lg-3"><div class="clpc-image">';
 
                     if (devis[i].type == "autres pots")
-                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-seau.svg" alt="Pots">`
+                        article += '<img src="{{ site.url }}/assets/images/all/icon-list-seau.svg" alt="Pots">'
 
                     if (devis[i].type == "cartybox")
-                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-cartybox.svg" alt="Cartybox">`
+                        article += '<img src="{{ site.url }}/assets/images/all/icon-list-cartybox.svg" alt="Cartybox">'
 
                     if (devis[i].type == "pots fermeture de securité")
-                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-potsFermeture.svg" alt="pots fermeture de securité">`
+                        article += '<img src="{{ site.url }}/assets/images/all/icon-list-potsFermeture.svg" alt="pots fermeture de securité">'
 
                     if (devis[i].type == "flûtes carty")
-                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-glass.svg" alt="Glass">`
+                        article += '<img src="{{ site.url }}/assets/images/all/icon-list-glass.svg" alt="Glass">'
 
                     if (devis[i].type == "pots carty")
-                        article += `<img src="{{ site.url }}/assets/images/all/icon-list-pots.svg" alt="Pots">`
+                        article += '<img src="{{ site.url }}/assets/images/all/icon-list-pots.svg" alt="Pots">'
 
-                    article += `</div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="clpc-content">
-                                <div>
-                                    <h3 class="clpc-h3">${ devis[i].type}</h3>
-                                    <p class="clpc-p">${ devis[i].description}</p>
-                                    <span class="clpc-span" onClick="supprimer(${ i})">Supprimer</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="clpc-count">
-                                <p class="clpcc-p">${ devis[i].quantite}<small>unités</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    `
+                    article += '</div></div><div class="col-lg-6"><div class="clpc-content"> <div><h3 class="clpc-h3">' + devis[i].type + '</h3>' +
+                                '<p class="clpc-p">' + devis[i].description + '</p><span class="clpc-span" onClick="supprimer('+ i +')">Supprimer</span>' +
+                                '</div></div></div><div class="col-lg-3"><div class="clpc-count"><p class="clpcc-p">' + devis[i].quantite + '<small>unités</small></p></div></div></div>'
+                    
                     if (i < 4)
                         articles_devi += article
 
@@ -77,7 +60,7 @@
                 }
 
                 if (devis.length > 4) {
-                    document.getElementById("devis-quantite").innerHTML = `Plus ${devis.length - 4} produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">`
+                    document.getElementById("devis-quantite").innerHTML = 'Plus ' + devis.length - 4 + ' produits <img src="{{ site.url }}/assets/images/all/icon-arrow.svg">'
                 }
 
                 if (devis.length <= 4) {
@@ -102,7 +85,7 @@
         }
 
         function ajouterDevis(int) {
-            var quantite = document.getElementById(`quantite_${int}`).value;
+            var quantite = document.getElementById("quantite_" + int).value;
             var aux = "first";
             var letter = "s";
             var gamme = "Pot Standard";
@@ -113,13 +96,13 @@
                 aux = "second";
             }
 
-            var contenance = document.getElementById(`${aux}-radio`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
+            var contenance = document.getElementById(aux + "-radio").getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
 
             var number = contenance.split(" ");
 
-            var casquette = document.getElementById(`casquette_${ letter }_${ number[0] }`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
-            var autocollant = document.getElementById(`autocollant_${ letter }_${ number[0] }`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
-            var casserole = document.getElementById(`casserole_${ letter }_${ number[0] }`).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
+            var casquette = document.getElementById("casquette_" + letter + "_" + number[0]).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
+            var autocollant = document.getElementById("autocollant_" + letter + "_" + number[0]).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
+            var casserole = document.getElementById("casserole_" + letter + "_" + number[0]).getElementsByClassName("active")[0].getElementsByTagName("img")[0].alt;
 
             var devis = [];
 
@@ -137,9 +120,9 @@
 
             localStorage.setItem("devis", JSON.stringify(devis));
 
-            document.getElementById(`quantite_${int}`).value = 0;
+            document.getElementById("quantite_" + int).value = 0;
 
-            $(`#quantite_${int}`).notify(
+            $("quantite_" + int).notify(
                 "Élément ajouté", {
                     position: "right",
                     className: "success"
