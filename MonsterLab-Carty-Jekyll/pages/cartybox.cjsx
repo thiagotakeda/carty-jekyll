@@ -62,7 +62,6 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
            <div class="bigBanner">
                 <div class="bigb-box">
                     <h3 class="bbb-h3">
-                        Carty Box <br> Couleur
                     </h3>
                 </div>
            </div>
