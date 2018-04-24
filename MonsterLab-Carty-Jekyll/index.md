@@ -20,8 +20,20 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                     </p>
                 </div>
             </div>
-            <div class="wrapper relative hc-relative hide-all-xs">
+            <div class="wrapper relative hc-relative-banner">
+                <div class="row home-collumn-banner">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                         <img src="{{ site.url }}/assets/images/potscarty-pots/explanation/potscarty-2-01.jpg" alt="pots carty">
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="wrapper relative  hide-all-xs">
                 <div class="row home-collumn">
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <h3 class="hcl-title">Nos produits</h3>
+                    </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                         <a href="{{ site.url }}/cartybox.html" class="hc-box-content cb-box">
                             <div class="hcbc-text">
