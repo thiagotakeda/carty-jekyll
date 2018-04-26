@@ -8,7 +8,7 @@ keywords: Pot 1L, Seau 21L
 
 
 
-<main class="page-content" aria-label="Content">
+<main id="potscartyautrescjsx" class="page-content" aria-label="Content">
     <div id="product-container">
         <section class="container-fluid no-padding">
             <div class="main-banner banner-potsautres">

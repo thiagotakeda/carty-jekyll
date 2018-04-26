@@ -8,7 +8,7 @@ keywords: Flûtes PS, Flûtes à champagne, Flûtes plastiques, Flûte de couleu
 
 
 
-<main class="page-content" aria-label="Content">
+<main id="flutescjsx" class="page-content" aria-label="Content">
     <div id="product-container">
         <section class="container-fluid no-padding">
             <div class="main-banner banner-flutes-carty">

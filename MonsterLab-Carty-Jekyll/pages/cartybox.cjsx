@@ -7,7 +7,7 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
 ---
 
 
-<main class="page-content" aria-label="Content">
+<main id="cartyboxcjsx" class="page-content" aria-label="Content">
     <div id="product-container">
         <section class="container-fluid no-padding">
             <div class="main-banner banner-cartybox">
@@ -58,13 +58,6 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                     </div>
                 </div>
             </div>
-
-           <div class="bigBanner">
-                <div class="bigb-box">
-                    <h3 class="bbb-h3">
-                    </h3>
-                </div>
-           </div>
 
             <div id="CartyboxSliderProducts"  class="carousel slide show-only-mobile" data-ride="carousel">
                 <!-- Indicators -->
@@ -152,6 +145,21 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                 <span class="sr-only">Next</span>
             </a>-->
             </div>
+
+           <div class="bigBanner">
+                <div class="bigb-box">
+                    <h3 class="bbb-h3">
+                    </h3>
+                </div>
+           </div>
+
+           <section id="product-mini-text">
+            <div class="wrapper">
+                {% include cartybox-mini-text.html %}
+            </div>
+            </section>
+
+            
 
         </section>
         <section id="product-color-simulator">

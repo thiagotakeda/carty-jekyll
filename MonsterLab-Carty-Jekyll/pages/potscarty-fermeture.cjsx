@@ -7,7 +7,7 @@ keywords: Pots avec fermeture de securité, Pots ronds avec fermeture de securit
 ---
 
 
-<main class="page-content" aria-label="Content">
+<main id="potscartyfermeture" class="page-content" aria-label="Content">
     <div id="product-container">
         <section class="container-fluid no-padding">
             <div class="main-banner banner-potsfermeture">
