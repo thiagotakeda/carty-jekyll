@@ -850,6 +850,19 @@
     }
 }
 
+.mid-text-products {
+    text-align: center;
+    color: $soft-gray;
+    font-weight: 100;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    &.mid {
+        margin: 20px 0;
+        color: $mid-blue;
+        font-weight: bold;
+    }
+}
+
 #flute_opaque,
 #flute_cristal {
     .item {
