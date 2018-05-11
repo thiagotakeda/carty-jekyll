@@ -260,7 +260,7 @@ main.page-content {
     .aside-mobile {
         @include xs {
             position: absolute;
-            bottom: -480px;
+            bottom: -580px;
             z-index: 5;
             left: 0;
         }
@@ -271,7 +271,7 @@ main.page-content {
     .aside-mobile {
         @include xs {
             position: absolute;
-            bottom: -600px;
+            bottom: -650px;
             z-index: 5;
             left: 0;
         }
