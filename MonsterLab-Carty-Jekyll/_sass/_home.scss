@@ -43,12 +43,15 @@
         }
     }
     .hc-relative-banner {
-        padding-bottom: 300px;
+        position: relative;
+        top: -150px;
         @include xs {
             padding-bottom: 0;
+            top: 0;
         }
         @include sm {
             padding-bottom: 0;
+            top: 0;
         }
     }
     .home-collumn-banner {
@@ -352,8 +355,8 @@
         width: 90%;
         margin: auto;
         @include xs {
-            top: 150px;
-            margin-bottom: 250px;
+            top: 30px;
+            margin-bottom: 100px;
         }
         .carousel-indicators {
             bottom: -40px;

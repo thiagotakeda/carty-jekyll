@@ -810,6 +810,10 @@
         height: auto;
         margin-top: 0;
     }
+    @include sm {
+        height: auto;
+        margin-top: 0;
+    }
     .bigb-box {
         margin-right: auto;
         margin-left: auto;
@@ -820,6 +824,9 @@
             color: $white;
             padding-top: 150px;
             font-size: 3rem;
+            @include xs {
+                margin-top: 100px;
+            }
         }
     }
 }

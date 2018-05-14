@@ -21,7 +21,7 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                 </div>
             </div>
             <div class="wrapper relative hc-relative-banner">
-                <div class="row home-collumn-banner">
+                <div class="row ">
                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                          <a href="{{ site.url }}/cartybox.html">
                          <img src="{{ site.url }}/assets/images/index/banner-cartybox.jpg" alt="Banner Cartybox">

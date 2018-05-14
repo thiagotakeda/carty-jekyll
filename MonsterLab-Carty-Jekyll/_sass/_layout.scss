@@ -264,6 +264,12 @@ main.page-content {
             z-index: 5;
             left: 0;
         }
+        @include sm {
+            position: absolute;
+            bottom: -1000px;
+            z-index: 5;
+            left: 0;
+        }
     }
 }
 
