@@ -244,7 +244,7 @@ main.page-content {
     }
     @include i7 {
         position: absolute;
-        bottom: -580px;
+        bottom: -630px;
         z-index: 5;
         left: 0;
     }
@@ -260,7 +260,7 @@ main.page-content {
     .aside-mobile {
         @include xs {
             position: absolute;
-            bottom: -580px;
+            bottom: -630px;
             z-index: 5;
             left: 0;
         }
@@ -277,7 +277,7 @@ main.page-content {
     .aside-mobile {
         @include xs {
             position: absolute;
-            bottom: -650px;
+            bottom: -780px;
             z-index: 5;
             left: 0;
         }
@@ -288,7 +288,7 @@ main.page-content {
     .aside-mobile {
         @include xs {
             position: absolute;
-            bottom: -570px;
+            bottom: -700px;
             z-index: 5;
             left: 0;
         }
@@ -299,7 +299,7 @@ main.page-content {
     .aside-mobile {
         @include xs {
             position: absolute;
-            bottom: -500px;
+            bottom: -570px;
             z-index: 5;
             left: 0;
         }
@@ -310,7 +310,7 @@ main.page-content {
     .aside-mobile {
         @include xs {
             position: absolute;
-            bottom: -500px;
+            bottom: -570px;
             z-index: 5;
             left: 0;
         }

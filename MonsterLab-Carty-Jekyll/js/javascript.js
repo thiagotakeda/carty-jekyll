@@ -6,8 +6,8 @@ $(".carousel").swipe({
     swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
             if (direction == 'left') $(this).carousel('next');
             if (direction == 'right') $(this).carousel('prev');
-        }
-        // allowPageScroll: "vertical"
+        },
+        allowPageScroll: "auto"
 });
 
 $('.btn-pcsac').click(function() {
@@ -92,9 +92,6 @@ $('input.nav-trigger').change(function() {
         $('body').removeClass("overflow-body");
     }
 });
-
-
-
 
 $().ready(function() {
     CustomSelect();

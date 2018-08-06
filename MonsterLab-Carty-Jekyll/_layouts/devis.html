@@ -12,7 +12,8 @@
 
     <script src="{{ " js/jquery-3.2.1.min.js " | prepend: site.baseurl }}"></script>
     <script src="{{ " js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
-    <script src="{{ " js/jquery.touchSwipe.min.js " | prepend: site.baseurl }}"></script>
+   <!-- <script src="{{ " js/jquery.touchSwipe.min.js " | prepend: site.baseurl }}"></script> -->
+   <script src="{{ " https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.15/jquery.touchSwipe.min.js " | prepend: site.baseurl }}"></script>
     <script src="{{ " js/javascript.js " | prepend: site.baseurl }}"></script>
     <script src="{{ " js/notify.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA1P4kU_qChojvk54OX6IVL6pySE_vBylo"></script>
@@ -71,7 +72,7 @@
                     article += '</div></div><div class="col-lg-6"><div class="clpc-content"> <div><h3 class="clpc-h3">' + devis[i].type + '</h3>' +
                                 '<p class="clpc-p">' + devis[i].description + '</p><span class="clpc-span" onClick="supprimer('+ i +')">Supprimer</span>' +
                                 '</div></div></div><div class="col-lg-3"><div class="clpc-count"><p class="clpcc-p">' + devis[i].quantite + '<small>unités</small></p></div></div></div>'
-                    
+
                     if (i < 4)
                         articles_devi += article
 
@@ -154,7 +155,7 @@
                 // The latitude and longitude to center the map (always required)
                 center: new google.maps.LatLng(47.3418986, 0.6307628), // New York
 
-                // How you would like to style the map. 
+                // How you would like to style the map.
                 // This is where you would paste any style found on Snazzy Maps.
                 styles: [{
                     "featureType": "all",
@@ -405,7 +406,7 @@
                 }]
             };
 
-            // Get the HTML DOM element that will contain your map 
+            // Get the HTML DOM element that will contain your map
             // We are using a div with id="map" seen below in the <body>
             var mapElement = document.getElementById('cm-google-maps');
 
