@@ -119,7 +119,7 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                 </div>
             </div>
 
-            <!-- Left and right controls 
+            
             <a class="left carousel-control" href="#homeSliderProducts" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
@@ -127,7 +127,7 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
             <a class="right carousel-control" href="#homeSliderProducts" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
-            </a>-->
+            </a>
             </div>
 
         </section>
