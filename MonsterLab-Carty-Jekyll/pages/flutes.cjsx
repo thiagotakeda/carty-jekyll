@@ -43,7 +43,7 @@ keywords: Flûtes PS, Flûtes à champagne, Flûtes plastiques, Flûte de couleu
                         <div class="cc-box-content">
                             <div class="ccbc-text">
                                 <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/flutes-carty/glass-couleurs.svg" alt="glass-couleurs"></div>
-                                <h3 class="ccbct-h3"> 12 couleurs</h3>
+                                <h3 class="ccbct-h3"> 11 couleurs</h3>
                                 <p class="ccbct-p"> Idéal pour toutes vos décorations</p>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ keywords: Flûtes PS, Flûtes à champagne, Flûtes plastiques, Flûte de couleu
                                 <div class="cc-box-content">
                                     <div class="ccbc-text">
                                         <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/flutes-carty/glass-couleurs.svg" alt="glass-couleurs"></div>
-                                        <h3 class="ccbct-h3"> 12 couleurs</h3>
+                                        <h3 class="ccbct-h3"> 11 couleurs</h3>
                                         <p class="ccbct-p"> Idéal pour toutes vos décorations</p>
                                     </div>
                                 </div>
