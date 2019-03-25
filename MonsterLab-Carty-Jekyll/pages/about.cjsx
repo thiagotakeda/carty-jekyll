@@ -16,7 +16,7 @@ layout: default
 
         <section id="about-apresentation">
             <div class="wrapper" style="position:relative; z-index:1;">
-                <p class="abouta-p"> Depuis près de 60 ans, Carty produit en France des emballages alimentaires de qualité et
+                <p class="abouta-p"> Depuis 60 ans, Carty produit en France des emballages alimentaires de qualité et
                 répond aux demandes spécifiques de ses Clients grâce à un service fiable et réactif.</p>
                 <div class="row">
                     
