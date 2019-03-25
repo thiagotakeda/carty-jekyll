@@ -24,12 +24,11 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                 <div class="row ">
                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                          <a href="{{ site.url }}/cartybox.html">
-                         <img src="{{ site.url }}/assets/images/index/banner-cartybox.jpg" alt="Banner Cartybox">
+                         <img src="{{ site.url }}/assets/images/index/3foisOui.jpg" alt="Dites 3 fois Oui à la Cartybox">
                          </a>
-                    </div>
-                   
+                        </div>
+                   </div>
                 </div>
-            </div>
 
             <div class="wrapper relative  hide-all-xs">
                 <div class="row home-collumn">
@@ -154,7 +153,7 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                             <h3 class="hctasb-title">07 <small>lignes de production</small></h3>
                         </div>
                         <div class="hctas-box">
-                            <h3 class="hctasb-title">18 <small>collaborateurs</small></h3>
+                            <h3 class="hctasb-title">20 <small>collaborateurs</small></h3>
                         </div>
                     </div>
                 </div> 
