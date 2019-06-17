@@ -20,24 +20,17 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
             </div>
             <div class="wrapper relative hc-relative  hide-all-xs">
                 <div class="row product-collumn">
-                    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
-                        <div class="cc-box-content">
-                            <div class="ccbc-text">
-                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale"> </div>
-                                <h3 class="ccbct-h3"> Conservation optimale </h3>
-                                <p class="ccbct-p"> Étanche et hermétique, la boite CARTYBOX protège parfaitement les aliments pour une conservation optimale </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+                
+                    <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
                                 <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/congelateur.svg" alt="Micro-ondes et congélateur"></div>
-                                <h3 class="ccbct-h3"> Micro-ondes et congélateur </h3>
-                                <p class="ccbct-p"> Pratique, elle peut aller directement au micro-ondes en sortant du congélateur </p>
+                                <h3 class="ccbct-h3"> Pratique </h3>
+                                <p class="ccbct-p"> Elle peut aller directement au micro-ondes en sortant du congélateur </p>
                             </div>
                         </div>
                     </div>
+                
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
@@ -47,7 +40,29 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                             </div>
                         </div>
                     </div>
+                
+                    <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
+                        <div class="cc-box-content">
+                            <div class="ccbc-text">
+                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/reutilisable.svg" alt="Réutilisable"> </div>
+                                <h3 class="ccbct-h3"> Réutilisable </h3>
+                                <p class="ccbct-p"> 100 cycles de lavage, 40 cycles de congélation et 40 cycles de chauffage micro-ondes. </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+                        <div class="cc-box-content">
+                            <div class="ccbc-text">
+                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale"> </div>
+                                <h3 class="ccbct-h3"> Conservation optimale </h3>
+                                <p class="ccbct-p"> Étanche et hermétique, la boite CARTYBOX protège parfaitement les aliments pour une conservation optimale </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
                                 <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/empilable.svg" alt="Empilable"> </div>
@@ -56,6 +71,7 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
 
