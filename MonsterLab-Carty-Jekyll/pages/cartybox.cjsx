@@ -21,12 +21,22 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
             <div class="wrapper relative hc-relative  hide-all-xs">
                 <div class="row product-collumn">
                 
-                    <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
+                    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+                        <div class="cc-box-content">
+                            <div class="ccbc-text">
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/reutilisable.svg" alt="Réutilisable"></div>
+                                <h3 class="ccbct-h3"> Réutilisable </h3>
+                                <p class="ccbct-p"> + de 100 cycles de lavage, + de 40 cycles de congélation et + de 40 cycles de chauffage au four micro-ondes </p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
                                 <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/congelateur.svg" alt="Micro-ondes et congélateur"></div>
-                                <h3 class="ccbct-h3"> Pratique </h3>
-                                <p class="ccbct-p"> Elle peut aller directement au micro-ondes en sortant du congélateur </p>
+                                <h3 class="ccbct-h3"> Micro-ondes et congélateur </h3>
+                                <p class="ccbct-p"> Pratique, elle peut aller directement au micro-ondes en sortant du congélateur</p>
                             </div>
                         </div>
                     </div>
@@ -34,19 +44,9 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/lave-vaiselle.svg" alt="Lave-vaisselle"></div>
+                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/lave-vaiselle.svg" alt="Lave-vaisselle"> </div>
                                 <h3 class="ccbct-h3"> Lave-vaisselle </h3>
-                                <p class="ccbct-p"> Solide, elle est réutilisable de multiples fois et passe au lave-vaisselle</p>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
-                        <div class="cc-box-content">
-                            <div class="ccbc-text">
-                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/reutilisable.svg" alt="Réutilisable"> </div>
-                                <h3 class="ccbct-h3"> Réutilisable </h3>
-                                <p class="ccbct-p"> 100 cycles de lavage, 40 cycles de congélation et 40 cycles de chauffage micro-ondes. </p>
+                                <p class="ccbct-p"> Solide, elle est réutilisable de multiples fois et passe au lave-vaisselle </p>
                             </div>
                         </div>
                     </div>
@@ -55,19 +55,9 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale"> </div>
-                                <h3 class="ccbct-h3"> Conservation optimale </h3>
-                                <p class="ccbct-p"> Étanche et hermétique, la boite CARTYBOX protège parfaitement les aliments pour une conservation optimale </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
-                        <div class="cc-box-content">
-                            <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/empilable.svg" alt="Empilable"> </div>
-                                <h3 class="ccbct-h3">Empilable </h3>
-                                <p class="ccbct-p">Empilable, elle est facile à ranger</p>
+                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/recyclable.svg" alt="Recyclable"> </div>
+                                <h3 class="ccbct-h3"> Recyclable </h3>
+                                <p class="ccbct-p"> Fabriquée en polypropylène, comme les bouchons de bouteilles, la Cartybox bénéficie d’un traitement valorisé et est 100% recyclable </p>
                             </div>
                         </div>
                     </div>
@@ -82,7 +72,6 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                     <li data-target="#CartyboxSliderProducts" data-slide-to="1"></li>
                     <li data-target="#CartyboxSliderProducts" data-slide-to="2"></li>
                     <li data-target="#CartyboxSliderProducts" data-slide-to="3"></li>
-                    <li data-target="#CartyboxSliderProducts" data-slide-to="4"></li>
                 </ol>
 
             <!-- Wrapper for slides -->
@@ -93,9 +82,9 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                    <div class="cc-box-content">
                                     <div class="ccbc-text">
-                                        <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/congelateur.svg" alt="Micro-ondes et congélateur"> </div>
-                                        <h3 class="ccbct-h3"> Pratique </h3>
-                                        <p class="ccbct-p"> Elle peut aller directement au micro-ondes en sortant du congélateur </p>
+                                        <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/reutilisable.svg" alt="Réutilisable"> </div>
+                                        <h3 class="ccbct-h3"> Réutilisable </h3>
+                                        <p class="ccbct-p"> + de 100 cycles de lavage, + de 40 cycles de congélation et + de 40 cycles de chauffage au four micro-ondes </p>
                                     </div>
                                 </div>
                                 </div>
@@ -109,9 +98,9 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                  <div class="cc-box-content">
                                     <div class="ccbc-text">
-                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/lave-vaiselle.svg" alt="Lave-vaisselle"></div>
-                                        <h3 class="ccbct-h3"> Lave-vaisselle </h3>
-                                        <p class="ccbct-p"> Solide, elle est réutilisable de multiples fois et passe au lave-vaisselle </p>
+                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/congelateur.svg" alt="Micro-ondes et congélateur"></div>
+                                        <h3 class="ccbct-h3"> Micro-ondes et congélateur </h3>
+                                        <p class="ccbct-p"> Pratique, elle peut aller directement au micro-ondes en sortant du congélateur </p>
                                     </div>
                                 </div>
                             </div>
@@ -125,9 +114,9 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                 <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/reutilisable.svg" alt="Réutilisable"></div>
-                                <h3 class="ccbct-h3"> Réutilisable </h3>
-                                <p class="ccbct-p"> 100 cycles de lavage, 40 cycles de congélation et 40 cycles de chauffage micro-ondes </p>
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/lave-vaiselle.svg" alt="Lave-vaisselle"></div>
+                                <h3 class="ccbct-h3"> Lave-vaisselle </h3>
+                                <p class="ccbct-p"> Solide, elle est réutilisable de multiples fois et passe au lave-vaisselle </p>
                             </div>
                         </div>
                             </div>
@@ -141,32 +130,15 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                 <div class="cc-box-content">
                                     <div class="ccbc-text">
-                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/cartybox.svg" alt="Conservation optimale"> </div>
-                                        <h3 class="ccbct-h3">Conservation optimale </h3>
-                                        <p class="ccbct-p">Étanche et hermétique, la boite CARTYBOX protège parfaitement les aliments pour une conservation optimale</p>
+                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/recyclable.svg" alt="Recyclable"> </div>
+                                        <h3 class="ccbct-h3">Recyclable </h3>
+                                        <p class="ccbct-p">Fabriquée en polypropylène, comme les bouchons de bouteilles, la Cartybox bénéficie d’un traitement valorisé et est 100% recyclable</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-               <div class="item">
-                    <div class="wrapper relative hc-relative">
-                        <div class="row product-collumn">
-                            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                                <div class="cc-box-content">
-                                    <div class="ccbc-text">
-                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/empilable.svg" alt="Empilable"> </div>
-                                        <h3 class="ccbct-h3">Empilable </h3>
-                                        <p class="ccbct-p">Empilable, elle est facile à ranger </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 
                 
             </div>
@@ -181,23 +153,18 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                 <span class="sr-only">Next</span>
             </a>-->
             </div>
-
+            
+            
+            
            <div class="bigBanner">
                 <div class="bigb-box">
                     <h3 class="bbb-h3">
                     </h3>
                 </div>
-           </div>
-
-           <section id="product-mini-text">
-            <div class="wrapper">
-                {% include cartybox-mini-text.html %}
-            </div>
-            </section>
-
-            
+           </div>   
 
         </section>
+        
         <section id="product-color-simulator">
             <div class="wrapper">
                 <div class="row">

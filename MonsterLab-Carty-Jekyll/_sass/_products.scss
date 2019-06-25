@@ -803,7 +803,7 @@
 }
 
 .bigBanner {
-    background: url("images/cartybox/banner_cartyboxcouleur.jpg");
+    background: url("images/cartybox/banner_3foisoui.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -833,6 +833,40 @@
         }
     }
 }
+
+.bigBannerPots {
+    background: url("images/potscarty-pots/potscarty_bigbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 420px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    @include xs {
+        height: auto;
+        margin-top: 0;
+    }
+    @include sm {
+        height: auto;
+        margin-top: 0;
+    }
+    .bigb-box {
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 30px;
+        padding-left: 30px;
+        max-width: calc(1190px - (30px * 2));
+        h3.bbb-h3 {
+            color: $white;
+            padding-top: 150px;
+            font-size: 3rem;
+            @include xs {
+                margin-top: 100px;
+            }
+        }
+    }
+}
+
 
 #CartyboxSliderProducts {
     margin: auto;
