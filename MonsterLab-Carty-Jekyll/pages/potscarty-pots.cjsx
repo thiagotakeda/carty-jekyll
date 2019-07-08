@@ -23,7 +23,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/potscarty-pots/pots.svg" alt="pots"> </div>
+                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/potscarty-pots/pots.svg" alt="Standard ou Tradition"> </div>
                                 <h3 class="ccbct-h3"> Standard ou Tradition </h3>
                                 <p class="ccbct-p"> 2 gammes pour 2 finitions différentes </p>
                             </div>
@@ -32,7 +32,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsHot.svg" alt="potsHot"></div>
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsHot.svg" alt="Résistants à la chaleur"></div>
                                 <h3 class="ccbct-h3"> Résistants à la chaleur </h3>
                                 <p class="ccbct-p"> Parfait pour vos rillettes toutes chaudes ! </p>
                             </div>
@@ -41,7 +41,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsPersonnalisable.svg" alt="potsPersonnalisable"></div>
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsPersonnalisable.svg" alt="Impression personnalisée"></div>
                                 <h3 class="ccbct-h3"> Impression personnalisée </h3>
                                 <p class="ccbct-p"> Un choix de motifs à imprimer ou votre création</p>
                             </div>
@@ -50,7 +50,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
                     <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsSize.svg" alt="potsSize"> </div>
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsSize.svg" alt="3 contenances"> </div>
                                 <h3 class="ccbct-h3">3 contenances </h3>
                                 <p class="ccbct-p">12,5 cl, 25 cl et 50 cl</p>
                             </div>
@@ -76,7 +76,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                     <div class="cc-box-content">
                                         <div class="ccbc-text">
-                                            <div class="ccbct-img"><img src="{{ site.url }}/assets/images/potscarty-pots/pots.svg" alt="pots"> </div>
+                                            <div class="ccbct-img"><img src="{{ site.url }}/assets/images/potscarty-pots/pots.svg" alt="Standard ou Tradition"> </div>
                                             <h3 class="ccbct-h3"> Standard ou Tradition </h3>
                                             <p class="ccbct-p"> 2 gammes pour 2 finitions différentes </p>
                                         </div>
@@ -92,7 +92,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                     <div class="cc-box-content">
                                         <div class="ccbc-text">
-                                            <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsHot.svg" alt="potsHot"></div>
+                                            <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsHot.svg" alt="Résistants à la chaleur"></div>
                                             <h3 class="ccbct-h3"> Résistants à la chaleur </h3>
                                             <p class="ccbct-p"> Parfait pour vos rillettes toutes chaudes ! </p>
                                         </div>
@@ -108,7 +108,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
                             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                 <div class="cc-box-content">
                                     <div class="ccbc-text">
-                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsPersonnalisable.svg" alt="potsPersonnalisable"></div>
+                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsPersonnalisable.svg" alt="Impression personnalisée"></div>
                                         <h3 class="ccbct-h3"> Impression personnalisée </h3>
                                         <p class="ccbct-p"> Un choix de motifs à imprimer ou votre création</p>
                                     </div>
@@ -124,7 +124,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
                             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                 <div class="cc-box-content">
                                     <div class="ccbc-text">
-                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsSize.svg" alt="potsSize"> </div>
+                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/potscarty-pots/potsSize.svg" alt="3 contenances"> </div>
                                         <h3 class="ccbct-h3">3 contenances </h3>
                                         <p class="ccbct-p">12,5 cl, 25 cl et 50 cl</p>
                                     </div>
@@ -145,16 +145,19 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
                 <span class="sr-only">Next</span>
             </a>-->
             </div>
-
-        </section>
+       
         
         <div class="bigBannerPots">
+                <a href="..//assets/documents/potscarty/fr/potscarty_plaquette_new.pdf" target="_blank">
                 <div class="bigb-box">
-                    <a href="..//assets/documents/potscarty/fr/potscarty_plaquette_new.pdf" target="_blank">
-                    <h3 class="bbb-h3">
-                    </h3>
+                <h3 class="bbb-h3">
+                </h3>
+                </a>
                 </div>
            </div>
+           
+           
+        </section>   
 
         <section id="product-show-pots">
             <div class="wrapper">

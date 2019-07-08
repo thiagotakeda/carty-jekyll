@@ -23,8 +23,8 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
             <div class="wrapper relative hc-relative-banner">
                 <div class="row ">
                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                         <a href="{{ site.url }}/cartybox.html">
-                         <img src="{{ site.url }}/assets/images/index/3foisOui.jpg" alt="Dites 3 fois Oui à la Cartybox">
+                         <a href="{{ site.url }}/pots-carty.html">
+                         <img src="{{ site.url }}/assets/images/index/potscarty.jpg" alt="Découvrez les nouveaux pots carty !">
                          </a>
                         </div>
                    </div>
