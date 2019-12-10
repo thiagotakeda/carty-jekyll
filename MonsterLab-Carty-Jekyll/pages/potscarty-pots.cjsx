@@ -148,7 +148,7 @@ keywords: Pots plastiques, Pots à rillettes, Pots à miel, Pots à crème fraî
        
         
         <div class="bigBannerPots">
-                <a href="..//assets/documents/potscarty/fr/potscarty_plaquette_new.pdf" target="_blank">
+                <a href="{{ site.url }}/assets/documents/potscarty/fr/potscarty_plaquette_new.pdf" target="_blank">
                 <div class="bigb-box">
                 <h3 class="bbb-h3">
                 </h3>

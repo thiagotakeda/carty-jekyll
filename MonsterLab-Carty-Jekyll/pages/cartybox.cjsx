@@ -19,9 +19,20 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                 </div>
             </div>
             <div class="wrapper relative hc-relative  hide-all-xs">
-                <div class="row product-collumn">
+                <div class="row product-collumn">   
                 
-                    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                        <div class="cc-box-content">
+                            <div class="ccbc-text">
+                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/micro-congelateur.svg" alt="Micro-ondes et congélateur"></div>
+                                <h3 class="ccbct-h3"> Solide et Pratique </h3>
+                                <p class="ccbct-p"> Elle peut aller directement au micro-ondes en sortant du congélateur, avant lavage et nouvelle utilisation.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
                                 <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/reutilisable.svg" alt="Réutilisable"></div>
@@ -30,29 +41,9 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                             </div>
                         </div>
                     </div>
-                
-                    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
-                        <div class="cc-box-content">
-                            <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/congelateur.svg" alt="Micro-ondes et congélateur"></div>
-                                <h3 class="ccbct-h3"> Micro-ondes et congélateur </h3>
-                                <p class="ccbct-p"> Pratique, elle peut aller directement au micro-ondes en sortant du congélateur</p>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
-                        <div class="cc-box-content">
-                            <div class="ccbc-text">
-                                <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/lave-vaiselle.svg" alt="Lave-vaisselle"> </div>
-                                <h3 class="ccbct-h3"> Lave-vaisselle </h3>
-                                <p class="ccbct-p"> Solide, elle est réutilisable de multiples fois et passe au lave-vaisselle </p>
-                            </div>
-                        </div>
-                    </div>
                     
                     
-                    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                         <div class="cc-box-content">
                             <div class="ccbc-text">
                                 <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/recyclable.svg" alt="Recyclable"> </div>
@@ -71,58 +62,43 @@ keywords: Cartybox, Barquette, Barquette avec couvercle, Barquette micro-ondable
                     <li data-target="#CartyboxSliderProducts" data-slide-to="0" class="active"></li>
                     <li data-target="#CartyboxSliderProducts" data-slide-to="1"></li>
                     <li data-target="#CartyboxSliderProducts" data-slide-to="2"></li>
-                    <li data-target="#CartyboxSliderProducts" data-slide-to="3"></li>
                 </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
+
                 <div class="item active">
                     <div class="wrapper relative hc-relative">
                             <div class="row product-collumn">
                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                 <div class="cc-box-content">
+                                    <div class="ccbc-text">
+                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/micro-congelateur.svg" alt="Micro-ondes et congélateur"></div>
+                                        <h3 class="ccbct-h3"> Solide et Pratique </h3>
+                                        <p class="ccbct-p"> Elle peut aller directement au micro-ondes en sortant du congélateur, avant lavage et nouvelle utilisation. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                 <div class="item">
+                    <div class="wrapper relative hc-relative">
+                            <div class="row product-collumn">
+                            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                                    <div class="cc-box-content">
                                     <div class="ccbc-text">
                                         <div class="ccbct-img"><img src="{{ site.url }}/assets/images/cartybox/reutilisable.svg" alt="Réutilisable"> </div>
                                         <h3 class="ccbct-h3"> Réutilisable </h3>
                                         <p class="ccbct-p"> + de 100 cycles de lavage, + de 40 cycles de congélation et + de 40 cycles de chauffage au four micro-ondes </p>
                                     </div>
-                                </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="wrapper relative hc-relative">
-                            <div class="row product-collumn">
-                                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                                 <div class="cc-box-content">
-                                    <div class="ccbc-text">
-                                        <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/congelateur.svg" alt="Micro-ondes et congélateur"></div>
-                                        <h3 class="ccbct-h3"> Micro-ondes et congélateur </h3>
-                                        <p class="ccbct-p"> Pratique, elle peut aller directement au micro-ondes en sortant du congélateur </p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
-
-                <div class="item">
-                    <div class="wrapper relative hc-relative">
-                        <div class="row product-collumn">
-                            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                                <div class="cc-box-content">
-                            <div class="ccbc-text">
-                                <div class="ccbct-img"> <img src="{{ site.url }}/assets/images/cartybox/lave-vaiselle.svg" alt="Lave-vaisselle"></div>
-                                <h3 class="ccbct-h3"> Lave-vaisselle </h3>
-                                <p class="ccbct-p"> Solide, elle est réutilisable de multiples fois et passe au lave-vaisselle </p>
-                            </div>
-                        </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
 
                  <div class="item">
                     <div class="wrapper relative hc-relative">
