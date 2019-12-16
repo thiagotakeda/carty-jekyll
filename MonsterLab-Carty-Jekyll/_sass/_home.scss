@@ -96,9 +96,10 @@
             margin-left: -15px;
         }
         @include sm {
-            top: 200px;
-            margin-bottom: 250px;
+            top: 50px;
+            margin-bottom: 50px;
             position: relative;
+            margin-left: -15px;
         }
         .hcl-title {
             font-size: 2rem;
@@ -372,6 +373,30 @@
             height: 250px !important;
         }
     }
+
+    #homeSliderMainProducts {
+        position: relative;
+        top: -50px;
+        width: 90%;
+        margin: auto;
+        @include xs {
+            top: 30px;
+            margin-bottom: 100px;
+        }
+        .carousel-indicators {
+            bottom: -40px;
+            li {
+                border: 1px solid #fff;
+                background: lighten($soft-gray, 20%);
+                &.active {
+                    background: $blue;
+                }
+            }
+        }
+       
+    }
+
+    
     #homeSliderClients {
         margin: auto;
         .carousel-indicators {
