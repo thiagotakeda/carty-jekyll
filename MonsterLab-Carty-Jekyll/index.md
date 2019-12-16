@@ -29,7 +29,6 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                                 <ol class="carousel-indicators">
                                     <li data-target="#homeSliderMainProducts" data-slide-to="0" class="active"></li>
                                     <li data-target="#homeSliderMainProducts" data-slide-to="1"></li>
-                                    <li data-target="#homeSliderMainProducts" data-slide-to="2"></li>
                                 </ol>
 
                                 <!-- Wrapper for slides -->
@@ -38,8 +37,8 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                                         <div class="wrapper relative">
                                                 <div class="row">
                                                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                                                       <a href="{{ site.url }}/pots-carty.html">
-                                                        <img src="{{ site.url }}/assets/images/index/potscarty.jpg" alt="Découvrez les nouveaux pots carty !">
+                                                       <a href="{{ site.url }}/cartybox.html">
+                                                        <img src="{{ site.url }}/assets/images/index/carty3l.jpg" alt="Découvrez la nouvelle Cartybox 3 litres !">
                                                        </a>
                                                     </div>
                                                 </div>
@@ -58,18 +57,7 @@ keywords: Carty, Cartybox, Barquette, Barquette avec couvercle, Barquette micro-
                                         </div>
                                     </div>
 
-                                    <div class="item">
-                                        <div class="wrapper relative">
-                                            <div class="row">
-                                                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-                                                        <a href="{{ site.url }}/pots-carty.html">
-                                                             <img src="{{ site.url }}/assets/images/index/potscarty.jpg" alt="Découvrez les nouveaux pots carty !">
-                                                        </a>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
-                                </div>
 
                             
                                 <a class="left carousel-control" href="#homeSliderMainProducts" data-slide="prev">
