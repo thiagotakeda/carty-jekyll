@@ -73,7 +73,7 @@ layout: default
                         <p class="atc-p"> Son usine, situé à Joué les Tours, emploi 21 personnes et compte 7 lignes d'injection, un atelier de décoration et une ligne dédiée au conditionnement personnalisé, totalisant une <b> capacité de production de 30 M d'emballages par an.</b></p>
 
 
-                         <a style="display: block; height: 50px; width: 280px; background: #347CB1; color: #ffffff; text-align: center; font-weight: bold; font-size: 140%; line-height: 50px; font-family: Nunito; border-radius: 0px; margin-left:30px ;text-decoration:noe;" href="http://carty.fr/assets/documents/catalogue_carty-fr.pdf" > Accéder le Catalogue >> </a>
+                         <a style="display: block; height: 50px; width: 280px; background: #347CB1; color: #ffffff; text-align: center; font-weight: bold; font-size: 140%; line-height: 50px; font-family: Nunito; border-radius: 0px; margin-left:30px ;text-decoration:noe;" href="http://carty.fr/assets/documents/catalogue_carty-fr.pdf" target="blank_"> Accéder le Catalogue >> </a>
                         
                     </div>  
                     
